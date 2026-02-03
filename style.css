@@ -2361,11 +2361,14 @@ html {
         padding: 8px;
         border-radius: 16px;
         margin-bottom: 22px;
+        scroll-snap-type: x mandatory;
     }
 
     .section-nav-link {
         padding: 8px 12px;
         font-size: 13px;
+        scroll-snap-align: center;
+        scroll-snap-stop: always;
     }
 }
 

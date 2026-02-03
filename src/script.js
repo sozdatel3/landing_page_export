@@ -516,6 +516,8 @@ function initSectionNav() {
   if (!nav) return;
 
   const links = Array.from(nav.querySelectorAll('a.section-nav-link[href^="#"]'));
+  let activeId = '';
+  const getLinkById = (id) => links.find((link) => link.getAttribute('href') === `#${id}`) ?? null;
 
   const items = links
     .map((link) => {
@@ -528,10 +530,44 @@ function initSectionNav() {
 
   if (items.length === 0) return;
 
-  function setActive(id) {
+  function isMobileNav() {
+    return window.matchMedia && window.matchMedia('(max-width: 768px)').matches;
+  }
+
+  function ensureNavLinkVisible(link) {
+    if (!link || !(link instanceof HTMLElement)) return;
+    if (!isMobileNav()) return;
+    if (nav.scrollWidth <= nav.clientWidth) return;
+    if (link.hidden) return;
+
+    const navRect = nav.getBoundingClientRect();
+    const linkRect = link.getBoundingClientRect();
+    const padding = 10;
+
+    const isFullyVisible =
+      linkRect.left >= navRect.left + padding && linkRect.right <= navRect.right - padding;
+    if (isFullyVisible) return;
+
+    link.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+  }
+
+  function setActive(id, { scrollNav = true } = {}) {
+    if (!id) return;
+    if (activeId === id) {
+      if (scrollNav) {
+        ensureNavLinkVisible(getLinkById(id));
+      }
+      return;
+    }
+
+    activeId = id;
     links.forEach((link) => {
       link.classList.toggle('active', link.getAttribute('href') === `#${id}`);
     });
+
+    if (scrollNav) {
+      ensureNavLinkVisible(getLinkById(id));
+    }
   }
 
   const observer = new IntersectionObserver(
@@ -559,7 +595,7 @@ function initSectionNav() {
     if (!link) return;
     const href = link.getAttribute('href') || '';
     if (!href.startsWith('#')) return;
-    setActive(href.slice(1));
+    setActive(href.slice(1), { scrollNav: true });
   });
 }
 
