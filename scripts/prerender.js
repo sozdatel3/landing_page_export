@@ -247,4 +247,29 @@ async function main() {
   await copyCnameToDist();
 }
 
+async function addCacheBustingToSimplePage() {
+  const simplePath = path.join(DIST_DIR, 'simple', 'index.html');
+  try {
+    let html = await fs.readFile(simplePath, 'utf8');
+    
+    // Генерируем уникальный хэш на основе времени сборки
+    const buildHash = Date.now().toString(36);
+    
+    // Заменяем статичную версию CSS на динамический хэш
+    html = html.replace(/style\.css\?v=[^"']*/g, `style.css?v=${buildHash}`);
+    
+    // Добавляем мета-тег с временем сборки для отладки
+    html = html.replace(
+      '</head>',
+      `    <meta name="build-time" content="${new Date().toISOString()}">\n</head>`
+    );
+    
+    await fs.writeFile(simplePath, html, 'utf8');
+    console.log(`✅ Updated simple/index.html with cache-busting hash: ${buildHash}`);
+  } catch (err) {
+    console.log('ℹ️ simple/index.html not found, skipping cache-busting');
+  }
+}
+
 await main();
+await addCacheBustingToSimplePage();
