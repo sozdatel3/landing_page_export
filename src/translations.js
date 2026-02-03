@@ -29,6 +29,23 @@ Our main requirement is immediate or near-immediate access to major services, wh
     plansIntro: "Choosing dental insurance through this site depends on your immigration status, location, and treatment needs. Below are carefully selected plans from different sources (associations), each suited for specific situations.<br>👉 Please read attentively and choose the option that best fits you and enroll.",
     coverage: "Coverage:",
 
+    // Navigation
+    navPlans: "Plans",
+    navSource1: "Source 1",
+    navSource2: "Source 2",
+    navSource3: "Source 3",
+    navCompare: "Compare",
+    navEnroll: "Enroll",
+    navContact: "Contact",
+
+    // Source 1 eligibility gate
+    source1EligibilityTitle: "Source 1 eligibility",
+    source1EligibilityQuestion: "Are you a U.S. citizen or permanent resident (Green Card holder)?",
+    eligibilityYes: "Yes",
+    eligibilityNo: "No",
+    source1BadgeAnswerRequired: "Answer required",
+    source1BadgeNotEligible: "Not eligible",
+
     // Source 1
     source1Title: "✅ SOURCE 1 Elevate Wellness Association/Corenroll Site",
     source1Subtitle: "(For U.S. Citizens & Permanent Residents)",
@@ -459,11 +476,28 @@ Our main requirement is immediate or near-immediate access to major services, wh
                 "Принимается широкой сетью (<a href='https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife' target='_blank' rel='noopener noreferrer'>MetLife PPO Dental – PDP Network</a>)",
                 "Детская ортодонтия до $2,000 lifetime (до 19 лет)"
             ],
-            metlifeWaitingPeriod: "Период ожидания 12 месяцев применяется к имплантам, коронкам, лечению каналов и другим крупным процедурам",
-            coverage: "Покрытие:",
-            metlifeCoverage: [
-                "✅ 100% – Профилактика (чистка, рентген, осмотр, фтор)",
-                "✅ 80% – Базовые процедуры (пломбы, удаление, лечение дёсен)",
+	            metlifeWaitingPeriod: "Период ожидания 12 месяцев применяется к имплантам, коронкам, лечению каналов и другим крупным процедурам",
+	            coverage: "Покрытие:",
+	
+	            // Navigation
+	            navPlans: "Планы",
+	            navSource1: "Источник 1",
+	            navSource2: "Источник 2",
+	            navSource3: "Источник 3",
+	            navCompare: "Сравнение",
+	            navEnroll: "Регистрация",
+	            navContact: "Контакты",
+	
+	            // Source 1 eligibility gate
+	            source1EligibilityTitle: "Проверка права (Источник 1)",
+	            source1EligibilityQuestion: "Вы гражданин США или постоянный резидент (Green Card)?",
+	            eligibilityYes: "Да",
+	            eligibilityNo: "Нет",
+	            source1BadgeAnswerRequired: "Нужен ответ",
+	            source1BadgeNotEligible: "Не подходит",
+	            metlifeCoverage: [
+	                "✅ 100% – Профилактика (чистка, рентген, осмотр, фтор)",
+	                "✅ 80% – Базовые процедуры (пломбы, удаление, лечение дёсен)",
                 "✅ 50% – Крупные процедуры (импланты, коронки, каналы, мосты, протезы, хирургия)"
             ],
             monthlyPremiumsMetlife: "💰 Примерные ежемесячные стоимости, в зависимости от ZIP-кода (включая $5 членский взнос):",
@@ -884,11 +918,28 @@ Our main requirement is immediate or near-immediate access to major services, wh
                   "Широко приймається (<a href='https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife' target='_blank' rel='noopener noreferrer'>пошук MetLife PPO Dental Providers – PDP Network</a>)",
                   "Дитяча ортодонтія включена (до $2,000 за життя, до 19 років на батьківському плані)"
               ],
-              metlifeWaitingPeriod: "Період очікування 12 місяців застосовується до імплантів, коронок, лікування каналів та інших складних процедур",
-              coverage: "Покриття:",
-              metlifeCoverage: [
-                  "✅ 100% – Профілактика (чищення, рентген, огляди, фтор)",
-                  "✅ 80% – Базові процедури (пломби, видалення, лікування ясен)",
+	              metlifeWaitingPeriod: "Період очікування 12 місяців застосовується до імплантів, коронок, лікування каналів та інших складних процедур",
+	              coverage: "Покриття:",
+	
+	              // Navigation
+	              navPlans: "Плани",
+	              navSource1: "Джерело 1",
+	              navSource2: "Джерело 2",
+	              navSource3: "Джерело 3",
+	              navCompare: "Порівняння",
+	              navEnroll: "Реєстрація",
+	              navContact: "Контакти",
+	
+	              // Source 1 eligibility gate
+	              source1EligibilityTitle: "Перевірка права (Джерело 1)",
+	              source1EligibilityQuestion: "Ви громадянин США або постійний резидент (Green Card)?",
+	              eligibilityYes: "Так",
+	              eligibilityNo: "Ні",
+	              source1BadgeAnswerRequired: "Потрібна відповідь",
+	              source1BadgeNotEligible: "Не підходить",
+	              metlifeCoverage: [
+	                  "✅ 100% – Профілактика (чищення, рентген, огляди, фтор)",
+	                  "✅ 80% – Базові процедури (пломби, видалення, лікування ясен)",
                   "✅ 50% – Складні процедури (імпланти, коронки, лікування каналів, мости, протези, оральна хірургія)"
               ],
               monthlyPremiumsMetlife: "💰 Щомісячні внески для окремої особи (приблизні тарифи в залежності від ZIP-коду, включаючи $5 членський внесок*):",
@@ -1181,11 +1232,28 @@ Our main requirement is immediate or near-immediate access to major services, wh
       "ფართოდ მიღებული (<a href='https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife' target='_blank' rel='noopener noreferrer'>მოძებნე MetLife PPO სტომატოლოგ მომწოდებლები – PDP Network</a>)",
       "ბავშვის ორთოდონტია შედის (ცხოვრების განმავლობაში $2,000-მდე, 19 წლამდე ასაკში მშობლის გეგმაზე)"
   ],
-  metlifeWaitingPeriod: "12 თვიანი ლოდინის პერიოდი ვრცელდება იმპლანტებზე, კრონებზე, ფესვის არხებსა და სხვა მთავარ პროცედურებზე",
-  coverage: "დაფარვა:",
-  metlifeCoverage: [
-      "✅ 100% – პრევენციული (გაწმენდა, რენტგენი, გამოკვლევები, ფტორი)",
-      "✅ 80% – ძირითადი (ამოღება, ღრძილის მკურნალობა)",
+	  metlifeWaitingPeriod: "12 თვიანი ლოდინის პერიოდი ვრცელდება იმპლანტებზე, კრონებზე, ფესვის არხებსა და სხვა მთავარ პროცედურებზე",
+	  coverage: "დაფარვა:",
+	
+	  // Navigation
+	  navPlans: "პლანები",
+	  navSource1: "წყარო 1",
+	  navSource2: "წყარო 2",
+	  navSource3: "წყარო 3",
+	  navCompare: "შედარება",
+	  navEnroll: "რეგისტრაცია",
+	  navContact: "კონტაქტები",
+	
+	  // Source 1 eligibility gate
+	  source1EligibilityTitle: "უფლების შემოწმება (წყარო 1)",
+	  source1EligibilityQuestion: "ხართ აშშ-ის მოქალაქე ან მუდმივი რეზიდენტი (Green Card)?",
+	  eligibilityYes: "დიახ",
+	  eligibilityNo: "არა",
+	  source1BadgeAnswerRequired: "პასუხი საჭიროა",
+	  source1BadgeNotEligible: "არ აკმაყოფილებს",
+	  metlifeCoverage: [
+	      "✅ 100% – პრევენციული (გაწმენდა, რენტგენი, გამოკვლევები, ფტორი)",
+	      "✅ 80% – ძირითადი (ამოღება, ღრძილის მკურნალობა)",
       "✅ 50% – მთავარი (კრონები, ფესვის არხები, ხიდები, საშნელები, პირის ოპერაცია)"
   ],
   monthlyPremiumsMetlife: "💰 ყოველთვიური პრემიები ინდივიდუალისთვის (ნიმუში ტარიფები ZIP კოდის მიხედვით, შედის $5 ასოციაციის წევრობა*):",
@@ -1475,11 +1543,28 @@ Bizning asosiy talabimiz — mavjud bo‘lsa, major xizmatlarga darhol yoki deya
       "Keng qabul qilingan (<a href='https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife' target='_blank' rel='noopener noreferrer'>MetLife PPO tish davolash provayderlarini qidiring – PDP Network</a>)",
       "Bolalar ortodontiyasi qo'shilgan (umr bo'yi $2,000 gacha, ota-onaning rejasida 19 yoshgacha)"
   ],
-  metlifeWaitingPeriod: "Implantlar, tojlar, ildiz kanallari va boshqa asosiy protseduralar uchun 12 oylik kutish davri qo'llaniladi",
-  coverage: "Qoplash:",
-  metlifeCoverage: [
-      "✅ 100% – Profilaktika (tozalash, rentgen, tekshiruvlar, ftorid)",
-      "✅ 80% – Asosiy (olib tashlash, mil'k davolash)",
+	  metlifeWaitingPeriod: "Implantlar, tojlar, ildiz kanallari va boshqa asosiy protseduralar uchun 12 oylik kutish davri qo'llaniladi",
+	  coverage: "Qoplash:",
+	
+	  // Navigation
+	  navPlans: "Rejalar",
+	  navSource1: "Manba 1",
+	  navSource2: "Manba 2",
+	  navSource3: "Manba 3",
+	  navCompare: "Taqqoslash",
+	  navEnroll: "Ro‘yxatdan o‘tish",
+	  navContact: "Aloqa",
+	
+	  // Source 1 eligibility gate
+	  source1EligibilityTitle: "Moslikni tekshirish (Manba 1)",
+	  source1EligibilityQuestion: "Siz AQSh fuqarosisizmi yoki doimiy rezidentmisiz (Green Card)?",
+	  eligibilityYes: "Ha",
+	  eligibilityNo: "Yo‘q",
+	  source1BadgeAnswerRequired: "Javob kerak",
+	  source1BadgeNotEligible: "Mos emas",
+	  metlifeCoverage: [
+	      "✅ 100% – Profilaktika (tozalash, rentgen, tekshiruvlar, ftorid)",
+	      "✅ 80% – Asosiy (olib tashlash, mil'k davolash)",
       "✅ 50% – Asosiy (tojlar, ildiz kanallari, ko'priklar, tish protezlari, og'iz operatsiyasi)"
   ],
   monthlyPremiumsMetlife: "💰 Shaxs uchun oylik premiyalar (ZIP kodiga asoslangan namuna tariflar, $5 assotsiatsiya a'zoligi kiradi*):",
@@ -1768,11 +1853,28 @@ Nuestro requisito principal es acceso inmediato o casi inmediato a servicios May
       "Ampliamente aceptado (<a href='https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife' target='_blank' rel='noopener noreferrer'>buscar Proveedores Dentales MetLife PPO – PDP Network</a>)",
       "Ortodoncia infantil incluida (hasta $2,000 de por vida, menores de 19 años en el plan de los padres)"
   ],
-  metlifeWaitingPeriod: "Período de espera de 12 meses aplica para implantes, coronas, endodoncias y otros procedimientos mayores",
-  coverage: "Cobertura:",
-  metlifeCoverage: [
-      "✅ 100% – Preventiva (limpiezas, rayos X, exámenes, flúor)",
-      "✅ 80% – Básica (extracciones, tratamiento de encías)",
+	  metlifeWaitingPeriod: "Período de espera de 12 meses aplica para implantes, coronas, endodoncias y otros procedimientos mayores",
+	  coverage: "Cobertura:",
+	
+	  // Navigation
+	  navPlans: "Planes",
+	  navSource1: "Fuente 1",
+	  navSource2: "Fuente 2",
+	  navSource3: "Fuente 3",
+	  navCompare: "Comparar",
+	  navEnroll: "Inscripción",
+	  navContact: "Contacto",
+	
+	  // Source 1 eligibility gate
+	  source1EligibilityTitle: "Elegibilidad (Fuente 1)",
+	  source1EligibilityQuestion: "¿Eres ciudadano/a de EE. UU. o residente permanente (Green Card)?",
+	  eligibilityYes: "Sí",
+	  eligibilityNo: "No",
+	  source1BadgeAnswerRequired: "Respuesta requerida",
+	  source1BadgeNotEligible: "No elegible",
+	  metlifeCoverage: [
+	      "✅ 100% – Preventiva (limpiezas, rayos X, exámenes, flúor)",
+	      "✅ 80% – Básica (extracciones, tratamiento de encías)",
       "✅ 50% – Mayor (coronas, endodoncias, puentes, dentaduras, cirugía oral)"
   ],
   monthlyPremiumsMetlife: "💰 Primas Mensuales para un Individuo (tarifas de ejemplo basadas en código ZIP, incluye membresía de asociación de $5*):",

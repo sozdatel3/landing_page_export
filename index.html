@@ -79,6 +79,16 @@
         <button class="lang-btn" type="button" data-lang="es">ES</button>
       </div>
 
+      <nav class="section-nav" aria-label="On-page navigation">
+        <a class="section-nav-link" href="#plans" data-translate="navPlans"></a>
+        <a class="section-nav-link" href="#source1EligibilityGate" data-nav-item="source1" data-translate="navSource1"></a>
+        <a class="section-nav-link" href="#source2" data-translate="navSource2"></a>
+        <a class="section-nav-link" href="#source3" data-translate="navSource3"></a>
+        <a class="section-nav-link" href="#compare" data-translate="navCompare"></a>
+        <a class="section-nav-link" href="#enroll" data-translate="navEnroll"></a>
+        <a class="section-nav-link" href="#contact" data-translate="navContact"></a>
+      </nav>
+
       <!-- Hero Section -->
       <!-- src="/images/promo.webp" -->
       <div class="hero-section content-section">
@@ -152,76 +162,98 @@
                   allowfullscreen></iframe>
         </div> -->
         
-        <h2 data-translate="plansTitle"></h2>
-        <p><strong data-translate-html="plansIntro"></strong></p>
+	        <h2 id="plans" class="section-anchor" data-translate="plansTitle"></h2>
+	        <p><strong data-translate-html="plansIntro"></strong></p>
 
-        <!-- Source 1 -->
-        <h2 data-translate="source1Title"></h2>
-        <p><i data-translate="source1Subtitle"></i></p>
-        <p data-translate-html="source1Desc"></p>
-
-        <!-- Delta Dental PPO 1500 (Source 1) -->
-        <h2 data-translate="deltaTitle"></h2>
-        <h4 data-translate="deltaSubTitle" style="color: #0178d3; margin-bottom: 10px;"></h4>
-
-        <div class="sales-highlight">
-          <!-- <p><strong data-translate="whyClientsLove"></strong></p> -->
-          <ul data-translate="deltaFeatures"></ul>
-        </div>
-
-        <h3 data-translate="coverage"></h3>
-        <ul data-translate="deltaCoverage"></ul>
-        <div class="highlight-box">
-             <ul data-translate="deltaBenefit"></ul>
-        </div>
-
-        <div class="price-box">
-          <ul data-translate="deltaPricing"></ul>
-        </div>
-
-        <p><strong data-translate-html="juliaRecommendationDelta"></strong></p>
-
-	        <div class="center-button">
-	          <div class="cta-block">
-	            <a href="https://brokers.insuranceforeveryone.com/?portal=4778189" target="_blank" class="cta-button" data-translate="cta"></a>
-	            <div class="cta-note" data-translate-html="ctaPaymentNote"></div>
+	        <div id="source1EligibilityGate" class="eligibility-gate section-anchor">
+	          <h3 data-translate="source1EligibilityTitle"></h3>
+	          <p data-translate="source1EligibilityQuestion"></p>
+	          <div class="eligibility-actions">
+	            <button type="button" class="eligibility-btn" data-eligibility="yes" data-translate="eligibilityYes"></button>
+	            <button type="button" class="eligibility-btn secondary" data-eligibility="no" data-translate="eligibilityNo"></button>
 	          </div>
 	        </div>
 
-        <!-- MetLife PPO Platinum (Source 1) -->
-        <h2 data-translate="metlifeTitle"></h2>
-        <!-- <a href="https://go.juliabarinova.com/smile" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
-          <div class="warning-banner" data-translate-html="metlifeWarning"></div>
-        </a> -->
-        <p><em data-translate="metlifeNotAvailable"></em></p>
+	        <details id="source1Details" class="source-details is-locked" data-source="1">
+	          <summary class="source-summary">
+	            <div class="source-summary-text">
+	              <div class="source-summary-title" data-translate="source1Title"></div>
+	              <div class="source-summary-subtitle" data-translate="source1Subtitle"></div>
+	            </div>
+	            <div class="source-summary-meta">
+	              <span class="source-badge source-badge--warning" data-badge="answer" data-translate="source1BadgeAnswerRequired"></span>
+	              <span class="source-badge source-badge--danger" data-badge="ineligible" data-translate="source1BadgeNotEligible"></span>
+	              <span class="source-summary-chevron" aria-hidden="true">▾</span>
+	            </div>
+	          </summary>
 
-        <div class="sales-highlight">
-          <!-- <p><strong data-translate="whyClientsLove"></strong></p> -->
-          <ul data-translate="metlifeFeatures"></ul>
-        </div>
+	          <div class="source-details-body">
+	            <p data-translate-html="source1Desc"></p>
 
-        <!-- <div class="red-checkmark-item" data-translate="metlifeWaitingPeriod"></div> -->
+	            <!-- Delta Dental PPO 1500 (Source 1) -->
+	            <h2 data-translate="deltaTitle"></h2>
+	            <h4 data-translate="deltaSubTitle" style="color: #0178d3; margin-bottom: 10px;"></h4>
 
-        <h3 data-translate="coverage"></h3>
-        <ul data-translate="metlifeCoverage"></ul>
+	            <div class="sales-highlight">
+	              <!-- <p><strong data-translate="whyClientsLove"></strong></p> -->
+	              <ul data-translate="deltaFeatures"></ul>
+	            </div>
 
-        <div class="price-box">
-          <ul data-translate="metlifePricing"></ul>
-        </div>
+	            <h3 data-translate="coverage"></h3>
+	            <ul data-translate="deltaCoverage"></ul>
+	            <div class="highlight-box">
+	                 <ul data-translate="deltaBenefit"></ul>
+	            </div>
 
-        <p><strong data-translate-html="juliaRecommendationMetlife"></strong></p>
+	            <div class="price-box">
+	              <ul data-translate="deltaPricing"></ul>
+	            </div>
 
-        <div class="center-button">
-          <div class="cta-block">
-            <a href="https://go.juliabarinova.com/smile" target="_blank" class="cta-button" data-translate="cta"></a>
-            <div class="cta-note" data-translate-html="ctaPaymentNote"></div>
-          </div>
-        </div>
+	            <p><strong data-translate-html="juliaRecommendationDelta"></strong></p>
 
-        <!-- Source 2 -->
+				        <div class="center-button">
+				          <div class="cta-block">
+				            <a href="https://brokers.insuranceforeveryone.com/?portal=4778189" target="_blank" class="cta-button" data-translate="cta"></a>
+				            <div class="cta-note" data-translate-html="ctaPaymentNote"></div>
+				          </div>
+				        </div>
+
+	            <!-- MetLife PPO Platinum (Source 1) -->
+	            <h2 data-translate="metlifeTitle"></h2>
+	            <!-- <a href="https://go.juliabarinova.com/smile" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+	              <div class="warning-banner" data-translate-html="metlifeWarning"></div>
+	            </a> -->
+	            <p><em data-translate="metlifeNotAvailable"></em></p>
+
+	            <div class="sales-highlight">
+	              <!-- <p><strong data-translate="whyClientsLove"></strong></p> -->
+	              <ul data-translate="metlifeFeatures"></ul>
+	            </div>
+
+	            <!-- <div class="red-checkmark-item" data-translate="metlifeWaitingPeriod"></div> -->
+
+	            <h3 data-translate="coverage"></h3>
+	            <ul data-translate="metlifeCoverage"></ul>
+
+	            <div class="price-box">
+	              <ul data-translate="metlifePricing"></ul>
+	            </div>
+
+	            <p><strong data-translate-html="juliaRecommendationMetlife"></strong></p>
+
+	            <div class="center-button">
+	              <div class="cta-block">
+	                <a href="https://go.juliabarinova.com/smile" target="_blank" class="cta-button" data-translate="cta"></a>
+	                <div class="cta-note" data-translate-html="ctaPaymentNote"></div>
+	              </div>
+	            </div>
+	          </div>
+	        </details>
+
+	        <!-- Source 2 -->
         <hr style="margin: 40px 0; border-top: 2px solid #ddd;">
-        <h2 data-translate="source2Title"></h2>
-        <p data-translate-html="source2Desc"></p>
+	        <h2 id="source2" class="section-anchor" data-translate="source2Title"></h2>
+	        <p data-translate-html="source2Desc"></p>
 
         <!-- Delta Dental PPO / Premier (Source 2) -->
         <h2 data-translate="deltaPremierTitle"></h2>
@@ -285,8 +317,8 @@
 
 	        <!-- Source 3 -->
 	        <hr style="margin: 40px 0; border-top: 2px solid #ddd;">
-	        <h2 data-translate="source3Title"></h2>
-	        <p data-translate-html="source3Desc"></p>
+		        <h2 id="source3" class="section-anchor" data-translate="source3Title"></h2>
+		        <p data-translate-html="source3Desc"></p>
 
 	        <!-- Guardian Dental Plans (Source 3) -->
 	        <h2 data-translate="guardianTitle"></h2>
@@ -362,8 +394,8 @@
 	        <p><strong data-translate-html="finalNote"></strong></p>
 
 	        <hr style="margin: 40px 0; border-top: 2px solid #ddd;">
-	        <h2 data-translate="compareTitle"></h2>
-	        <p data-translate-html="compareIntro"></p>
+		        <h2 id="compare" class="section-anchor" data-translate="compareTitle"></h2>
+		        <p data-translate-html="compareIntro"></p>
 
 	        <div class="highlight-box">
 	          <ul data-translate="compareList"></ul>
@@ -372,8 +404,8 @@
 	        <h2 data-translate="coverageWorksTitle"></h2>
 	        <div id="coverageExplanation" data-translate-paragraphs="coverageExplanation"></div>
 
-        <h2 data-translate="enrollmentTitle"></h2>
-        <ol>
+	        <h2 id="enroll" class="section-anchor" data-translate="enrollmentTitle"></h2>
+	        <ol>
           <li data-translate-html="enrollmentSteps.0"></li>
           <li data-translate-html="enrollmentSteps.1"></li>
           <li data-translate-html="enrollmentSteps.2"></li>
@@ -421,8 +453,8 @@
 
 
       <!-- Contact Section -->
-      <div class="full-width-content content-section">
-        <h3 data-translate="contactTitle"></h3>
+	      <div id="contact" class="full-width-content content-section section-anchor">
+	        <h3 data-translate="contactTitle"></h3>
 
         <p data-translate="contactIntro"></p>
 

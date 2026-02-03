@@ -2,6 +2,7 @@ import { DEFAULT_LANGUAGE, translations } from './translations';
 import { partnersData } from './partners-data';
 
 const STORAGE_KEY = 'preferredLanguage';
+const SOURCE1_ELIGIBILITY_KEY = 'source1Eligibility';
 const TOOTH_EMOJI = '🦷';
 
 let currentLanguage = DEFAULT_LANGUAGE;
@@ -372,6 +373,133 @@ function initModals() {
   });
 }
 
+function normalizeEligibility(value) {
+  const normalized = String(value || '')
+    .trim()
+    .toLowerCase();
+  if (normalized === 'yes' || normalized === 'no') return normalized;
+  return 'unknown';
+}
+
+function scrollToElement(element) {
+  if (!element) return;
+  element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function initSource1EligibilityGate() {
+  const gate = document.getElementById('source1EligibilityGate');
+  const details = document.getElementById('source1Details');
+  const summary = details?.querySelector('summary');
+  const source2 = document.getElementById('source2');
+  const navSource1 = document.querySelector('.section-nav [data-nav-item="source1"]');
+
+  if (!gate || !(details instanceof HTMLDetailsElement)) return;
+
+  function applyEligibility(value, { persist = true, scroll = false } = {}) {
+    const normalized = normalizeEligibility(value);
+
+    if (persist) {
+      if (normalized === 'yes' || normalized === 'no') {
+        sessionStorage.setItem(SOURCE1_ELIGIBILITY_KEY, normalized);
+      } else {
+        sessionStorage.removeItem(SOURCE1_ELIGIBILITY_KEY);
+      }
+    }
+
+    details.dataset.eligibility = normalized;
+
+    if (normalized === 'yes') {
+      details.classList.remove('is-locked', 'is-ineligible');
+      details.open = true;
+      if (navSource1) navSource1.hidden = false;
+      if (scroll) scrollToElement(details);
+      return;
+    }
+
+    details.open = false;
+    details.classList.add('is-locked');
+
+    if (normalized === 'no') {
+      details.classList.add('is-ineligible');
+      if (navSource1) navSource1.hidden = true;
+      if (scroll) scrollToElement(source2);
+      return;
+    }
+
+    details.classList.remove('is-ineligible');
+    if (navSource1) navSource1.hidden = false;
+  }
+
+  gate.addEventListener('click', (e) => {
+    const button = e.target instanceof Element ? e.target.closest('button[data-eligibility]') : null;
+    if (!button) return;
+
+    const value = normalizeEligibility(button.getAttribute('data-eligibility'));
+    applyEligibility(value, { scroll: true });
+  });
+
+  summary?.addEventListener('click', (e) => {
+    if (!details.classList.contains('is-locked')) return;
+    e.preventDefault();
+    scrollToElement(gate);
+  });
+
+  const saved = normalizeEligibility(sessionStorage.getItem(SOURCE1_ELIGIBILITY_KEY));
+  applyEligibility(saved, { persist: false, scroll: false });
+}
+
+function initSectionNav() {
+  const nav = document.querySelector('.section-nav');
+  if (!nav) return;
+
+  const links = Array.from(nav.querySelectorAll('a.section-nav-link[href^="#"]'));
+
+  const items = links
+    .map((link) => {
+      const href = link.getAttribute('href') || '';
+      const id = href.startsWith('#') ? href.slice(1) : '';
+      const target = id ? document.getElementById(id) : null;
+      return target ? { link, target, id } : null;
+    })
+    .filter(Boolean);
+
+  if (items.length === 0) return;
+
+  function setActive(id) {
+    links.forEach((link) => {
+      link.classList.toggle('active', link.getAttribute('href') === `#${id}`);
+    });
+  }
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      const visible = entries
+        .filter((entry) => entry.isIntersecting && entry.target instanceof HTMLElement)
+        .sort((a, b) => (b.intersectionRatio ?? 0) - (a.intersectionRatio ?? 0));
+
+      if (visible.length === 0) return;
+      const best = visible[0];
+      const id = best.target.id;
+      if (id) setActive(id);
+    },
+    {
+      root: null,
+      threshold: [0.15, 0.25, 0.35, 0.45, 0.55],
+      rootMargin: '-20% 0px -65% 0px'
+    }
+  );
+
+  items.forEach(({ target }) => observer.observe(target));
+
+  nav.addEventListener('click', (e) => {
+    const link = e.target instanceof Element ? e.target.closest('a.section-nav-link[href^="#"]') : null;
+    if (!link) return;
+    const href = link.getAttribute('href') || '';
+    if (!href.startsWith('#')) return;
+    setActive(href.slice(1));
+  });
+}
+
 function init() {
   initLanguageSwitcher();
   initPartnersSection();
@@ -385,6 +513,9 @@ function init() {
   const initialLang = restoreLanguage();
   setLanguage(initialLang, { persist: false });
   updateUrlForLanguage(initialLang, { replace: true });
+
+  initSource1EligibilityGate();
+  initSectionNav();
 }
 
 if (document.readyState === 'loading') {
