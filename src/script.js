@@ -3,6 +3,7 @@ import { partnersData } from './partners-data';
 
 const STORAGE_KEY = 'preferredLanguage';
 const SOURCE1_ELIGIBILITY_KEY = 'source1Eligibility';
+const SOURCE2_ELIGIBILITY_KEY = 'source2Eligibility';
 const TOOTH_EMOJI = '🦷';
 
 let currentLanguage = DEFAULT_LANGUAGE;
@@ -390,7 +391,7 @@ function initSource1EligibilityGate() {
   const gate = document.getElementById('source1EligibilityGate');
   const details = document.getElementById('source1Details');
   const summary = details?.querySelector('summary');
-  const source2 = document.getElementById('source2');
+  const source2Gate = document.getElementById('source2EligibilityGate');
   const navSource1 = document.querySelector('.section-nav [data-nav-item="source1"]');
 
   if (!gate || !(details instanceof HTMLDetailsElement)) return;
@@ -422,7 +423,7 @@ function initSource1EligibilityGate() {
     if (normalized === 'no') {
       details.classList.add('is-ineligible');
       if (navSource1) navSource1.hidden = true;
-      if (scroll) scrollToElement(source2);
+      if (scroll) scrollToElement(source2Gate);
       return;
     }
 
@@ -445,6 +446,68 @@ function initSource1EligibilityGate() {
   });
 
   const saved = normalizeEligibility(sessionStorage.getItem(SOURCE1_ELIGIBILITY_KEY));
+  applyEligibility(saved, { persist: false, scroll: false });
+}
+
+function initSource2EligibilityGate() {
+  const gate = document.getElementById('source2EligibilityGate');
+  const details = document.getElementById('source2Details');
+  const summary = details?.querySelector('summary');
+  const source3 = document.getElementById('source3');
+  const navSource2 = document.querySelector('.section-nav [data-nav-item="source2"]');
+
+  if (!gate || !(details instanceof HTMLDetailsElement)) return;
+
+  function applyEligibility(value, { persist = true, scroll = false } = {}) {
+    const normalized = normalizeEligibility(value);
+
+    if (persist) {
+      if (normalized === 'yes' || normalized === 'no') {
+        sessionStorage.setItem(SOURCE2_ELIGIBILITY_KEY, normalized);
+      } else {
+        sessionStorage.removeItem(SOURCE2_ELIGIBILITY_KEY);
+      }
+    }
+
+    details.dataset.eligibility = normalized;
+
+    if (normalized === 'yes') {
+      details.classList.remove('is-locked', 'is-ineligible');
+      details.open = true;
+      if (navSource2) navSource2.hidden = false;
+      if (scroll) scrollToElement(details);
+      return;
+    }
+
+    details.open = false;
+    details.classList.add('is-locked');
+
+    if (normalized === 'no') {
+      details.classList.add('is-ineligible');
+      if (navSource2) navSource2.hidden = true;
+      if (scroll) scrollToElement(source3);
+      return;
+    }
+
+    details.classList.remove('is-ineligible');
+    if (navSource2) navSource2.hidden = false;
+  }
+
+  gate.addEventListener('click', (e) => {
+    const button = e.target instanceof Element ? e.target.closest('button[data-eligibility]') : null;
+    if (!button) return;
+
+    const value = normalizeEligibility(button.getAttribute('data-eligibility'));
+    applyEligibility(value, { scroll: true });
+  });
+
+  summary?.addEventListener('click', (e) => {
+    if (!details.classList.contains('is-locked')) return;
+    e.preventDefault();
+    scrollToElement(gate);
+  });
+
+  const saved = normalizeEligibility(sessionStorage.getItem(SOURCE2_ELIGIBILITY_KEY));
   applyEligibility(saved, { persist: false, scroll: false });
 }
 
@@ -515,6 +578,7 @@ function init() {
   updateUrlForLanguage(initialLang, { replace: true });
 
   initSource1EligibilityGate();
+  initSource2EligibilityGate();
   initSectionNav();
 }
 

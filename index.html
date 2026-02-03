@@ -82,8 +82,11 @@
       <nav class="section-nav" aria-label="On-page navigation">
         <a class="section-nav-link" href="#plans" data-translate="navPlans"></a>
         <a class="section-nav-link" href="#source1EligibilityGate" data-nav-item="source1" data-translate="navSource1"></a>
-        <a class="section-nav-link" href="#source2" data-translate="navSource2"></a>
+        <a class="section-nav-link" href="#source2EligibilityGate" data-nav-item="source2" data-translate="navSource2"></a>
         <a class="section-nav-link" href="#source3" data-translate="navSource3"></a>
+        <a class="section-nav-link" href="#reviews" data-translate="navReviews"></a>
+        <a class="section-nav-link" href="#partners-section" data-translate="navPartners"></a>
+        <a class="section-nav-link" href="#education" data-translate="navEducation"></a>
         <a class="section-nav-link" href="#compare" data-translate="navCompare"></a>
         <a class="section-nav-link" href="#enroll" data-translate="navEnroll"></a>
         <a class="section-nav-link" href="#contact" data-translate="navContact"></a>
@@ -250,72 +253,95 @@
 	          </div>
 	        </details>
 
-	        <!-- Source 2 -->
-        <hr style="margin: 40px 0; border-top: 2px solid #ddd;">
-	        <h2 id="source2" class="section-anchor" data-translate="source2Title"></h2>
-	        <p data-translate-html="source2Desc"></p>
-
-        <!-- Delta Dental PPO / Premier (Source 2) -->
-        <h2 data-translate="deltaPremierTitle"></h2>
-
-        <div class="sales-highlight">
-            <ul data-translate="deltaPremierFeatures"></ul>
-        </div>
-
-        <h3 data-translate="coverage"></h3>
-        <ul data-translate="deltaPremierCoverage"></ul>
-        
-        <div class="highlight-box">
-             <ul data-translate="deltaPremierLimitations"></ul>
-        </div>
-
-        <div class="price-box">
-             <ul data-translate="deltaPremierPricing"></ul>
-        </div>
-
-        <p><strong data-translate-html="juliaRecommendationDeltaPremier"></strong></p>
-        
-        <div class="center-button">
-          <div class="cta-block">
-            <a href="https://go.juliabarinova.com/smile" target="_blank" class="cta-button" data-translate="cta"></a>
-            <div class="cta-note" data-translate-html="ctaPaymentNote"></div>
-          </div>
-        </div>
-
-        <!-- Delta Dental PPO No Wait (Source 2) -->
-        <h2 data-translate="deltaNoWaitTitle"></h2>
-        <h4 data-translate="deltaNoWaitSubTitle" style="color: #0178d3; margin-bottom: 10px;"></h4>
-
-        <div class="sales-highlight">
-            <ul data-translate="deltaNoWaitFeatures"></ul>
-        </div>
-
-        <div class="highlight-box">
-            <ul data-translate="deltaNoWaitLimits"></ul>
-        </div>
-
-        <h3 data-translate="coverage"></h3>
-        <ul data-translate="deltaNoWaitCoverage"></ul>
-        
-        <div class="price-box">
-             <ul data-translate="deltaNoWaitPricing"></ul>
-             <ul data-translate="deltaNoWaitEligibility"></ul>
-        </div>
-        
-        <div class="highlight-box">
-             <ul data-translate="deltaNoWaitNotes"></ul>
-        </div>
-
-        <p><strong data-translate-html="deltaNoWaitBestFor"></strong></p>
-        
-	        <div class="center-button">
-	          <div class="cta-block">
-	            <a href="https://brokers.insuranceforeveryone.com/?portal=4778189" target="_blank" class="cta-button" data-translate="cta"></a>
-	            <div class="cta-note" data-translate-html="ctaPaymentNote"></div>
+		        <!-- Source 2 -->
+	        <hr style="margin: 40px 0; border-top: 2px solid #ddd;">
+	        <div id="source2EligibilityGate" class="eligibility-gate section-anchor">
+	          <h3 data-translate="source2EligibilityTitle"></h3>
+	          <p data-translate="source2EligibilityQuestion"></p>
+	          <div class="eligibility-actions">
+	            <button type="button" class="eligibility-btn" data-eligibility="yes" data-translate="eligibilityYes"></button>
+	            <button type="button" class="eligibility-btn secondary" data-eligibility="no" data-translate="eligibilityNo"></button>
 	          </div>
 	        </div>
 
-	        <!-- Source 3 -->
+	        <details id="source2Details" class="source-details is-locked" data-source="2">
+	          <summary class="source-summary">
+	            <div class="source-summary-text">
+	              <div class="source-summary-title" data-translate="source2Title"></div>
+	            </div>
+	            <div class="source-summary-meta">
+	              <span class="source-badge source-badge--warning" data-badge="answer" data-translate="source2BadgeAnswerRequired"></span>
+	              <span class="source-badge source-badge--danger" data-badge="ineligible" data-translate="source2BadgeNotEligible"></span>
+	              <span class="source-summary-chevron" aria-hidden="true">▾</span>
+	            </div>
+	          </summary>
+
+	          <div class="source-details-body">
+	            <p data-translate-html="source2Desc"></p>
+
+	            <!-- Delta Dental PPO / Premier (Source 2) -->
+	            <h2 data-translate="deltaPremierTitle"></h2>
+
+	            <div class="sales-highlight">
+	                <ul data-translate="deltaPremierFeatures"></ul>
+	            </div>
+
+	            <h3 data-translate="coverage"></h3>
+	            <ul data-translate="deltaPremierCoverage"></ul>
+	            
+	            <div class="highlight-box">
+	                 <ul data-translate="deltaPremierLimitations"></ul>
+	            </div>
+
+	            <div class="price-box">
+	                 <ul data-translate="deltaPremierPricing"></ul>
+	            </div>
+
+	            <p><strong data-translate-html="juliaRecommendationDeltaPremier"></strong></p>
+	            
+	            <div class="center-button">
+	              <div class="cta-block">
+	                <a href="https://go.juliabarinova.com/smile" target="_blank" class="cta-button" data-translate="cta"></a>
+	                <div class="cta-note" data-translate-html="ctaPaymentNote"></div>
+	              </div>
+	            </div>
+
+	            <!-- Delta Dental PPO No Wait (Source 2) -->
+	            <h2 data-translate="deltaNoWaitTitle"></h2>
+	            <h4 data-translate="deltaNoWaitSubTitle" style="color: #0178d3; margin-bottom: 10px;"></h4>
+
+	            <div class="sales-highlight">
+	                <ul data-translate="deltaNoWaitFeatures"></ul>
+	            </div>
+
+	            <div class="highlight-box">
+	                <ul data-translate="deltaNoWaitLimits"></ul>
+	            </div>
+
+	            <h3 data-translate="coverage"></h3>
+	            <ul data-translate="deltaNoWaitCoverage"></ul>
+	            
+	            <div class="price-box">
+	                 <ul data-translate="deltaNoWaitPricing"></ul>
+	                 <ul data-translate="deltaNoWaitEligibility"></ul>
+	            </div>
+	            
+	            <div class="highlight-box">
+	                 <ul data-translate="deltaNoWaitNotes"></ul>
+	            </div>
+
+	            <p><strong data-translate-html="deltaNoWaitBestFor"></strong></p>
+	            
+			        <div class="center-button">
+			          <div class="cta-block">
+			            <a href="https://brokers.insuranceforeveryone.com/?portal=4778189" target="_blank" class="cta-button" data-translate="cta"></a>
+			            <div class="cta-note" data-translate-html="ctaPaymentNote"></div>
+			          </div>
+			        </div>
+	          </div>
+	        </details>
+
+		        <!-- Source 3 -->
 	        <hr style="margin: 40px 0; border-top: 2px solid #ddd;">
 		        <h2 id="source3" class="section-anchor" data-translate="source3Title"></h2>
 		        <p data-translate-html="source3Desc"></p>
@@ -518,7 +544,7 @@
 
       <!-- Testimonials Section -->
       <div class="testimonials-section content-section">
-        <h2 class="testimonials-title" data-translate="testimonialsTitle"></h2>
+        <h2 id="reviews" class="testimonials-title section-anchor" data-translate="testimonialsTitle"></h2>
         <div class="testimonials-grid">
           <div class="testimonial-card">
             <div class="testimonial-header">
@@ -1677,7 +1703,7 @@
       </div>
       
       <!-- Partners Section -->
-      <div id="partners-section" class="content-section full-width-content">
+      <div id="partners-section" class="content-section full-width-content section-anchor">
         <h2 class="partners-title" data-translate="partnersTitle"></h2>
         <div class="partners-pagination">
           <!-- Pagination buttons will be generated by JS -->
@@ -1987,7 +2013,7 @@
 
       <!-- Educational Resources Section -->
       <div class="educational-resources content-section full-width-content">
-        <h2 class="educational-resources-title" data-translate="educationalResourcesTitle"></h2>
+        <h2 id="education" class="educational-resources-title section-anchor" data-translate="educationalResourcesTitle"></h2>
         <div class="educational-resources-items">
           <div>📥&nbsp;<a href="/THE SMILE YOU DESERVE A PRACTICAL GUIDE TO YOUR DREAM SMILE.pdf" data-translate="educationalResourcesBookGromov" target="_blank" rel="noopener noreferrer" class="pdf-download-link"></a></div>
           <div>📥&nbsp;<a href="/УЛЫБКА КОТОРОЙ ВЫ ДОСТОНЫ.pdf" data-translate="educationalResourcesBookGromov_ru" target="_blank" rel="noopener noreferrer" class="pdf-download-link"></a></div>

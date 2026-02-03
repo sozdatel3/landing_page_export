@@ -34,6 +34,9 @@ Our main requirement is immediate or near-immediate access to major services, wh
     navSource1: "Source 1",
     navSource2: "Source 2",
     navSource3: "Source 3",
+    navReviews: "Reviews",
+    navPartners: "Partners",
+    navEducation: "Education",
     navCompare: "Compare",
     navEnroll: "Enroll",
     navContact: "Contact",
@@ -45,6 +48,12 @@ Our main requirement is immediate or near-immediate access to major services, wh
     eligibilityNo: "No",
     source1BadgeAnswerRequired: "Answer required",
     source1BadgeNotEligible: "Not eligible",
+
+    // Source 2 eligibility gate
+    source2EligibilityTitle: "Source 2 availability",
+    source2EligibilityQuestion: "Is your location in: AL, CA, DC, DE, FL, GA, NV, PA, TX?",
+    source2BadgeAnswerRequired: "Answer required",
+    source2BadgeNotEligible: "Not available",
 
     // Source 1
     source1Title: "✅ SOURCE 1 Elevate Wellness Association/Corenroll Site",
@@ -482,20 +491,29 @@ Our main requirement is immediate or near-immediate access to major services, wh
 	            // Navigation
 	            navPlans: "Планы",
 	            navSource1: "Источник 1",
-	            navSource2: "Источник 2",
-	            navSource3: "Источник 3",
-	            navCompare: "Сравнение",
-	            navEnroll: "Регистрация",
-	            navContact: "Контакты",
+		            navSource2: "Источник 2",
+		            navSource3: "Источник 3",
+		            navReviews: "Отзывы",
+		            navPartners: "Партнёры",
+		            navEducation: "Обучение",
+		            navCompare: "Сравнение",
+		            navEnroll: "Регистрация",
+		            navContact: "Контакты",
 	
 	            // Source 1 eligibility gate
 	            source1EligibilityTitle: "Проверка права (Источник 1)",
 	            source1EligibilityQuestion: "Вы гражданин США или постоянный резидент (Green Card)?",
 	            eligibilityYes: "Да",
 	            eligibilityNo: "Нет",
-	            source1BadgeAnswerRequired: "Нужен ответ",
-	            source1BadgeNotEligible: "Не подходит",
-	            metlifeCoverage: [
+		            source1BadgeAnswerRequired: "Нужен ответ",
+		            source1BadgeNotEligible: "Не подходит",
+		
+		            // Source 2 eligibility gate
+		            source2EligibilityTitle: "Проверка штата (Источник 2)",
+		            source2EligibilityQuestion: "Ваш штат: AL, CA, DC, DE, FL, GA, NV, PA, TX?",
+		            source2BadgeAnswerRequired: "Нужен ответ",
+		            source2BadgeNotEligible: "Недоступно",
+		            metlifeCoverage: [
 	                "✅ 100% – Профилактика (чистка, рентген, осмотр, фтор)",
 	                "✅ 80% – Базовые процедуры (пломбы, удаление, лечение дёсен)",
                 "✅ 50% – Крупные процедуры (импланты, коронки, каналы, мосты, протезы, хирургия)"
@@ -924,20 +942,29 @@ Our main requirement is immediate or near-immediate access to major services, wh
 	              // Navigation
 	              navPlans: "Плани",
 	              navSource1: "Джерело 1",
-	              navSource2: "Джерело 2",
-	              navSource3: "Джерело 3",
-	              navCompare: "Порівняння",
-	              navEnroll: "Реєстрація",
-	              navContact: "Контакти",
+		              navSource2: "Джерело 2",
+		              navSource3: "Джерело 3",
+		              navReviews: "Відгуки",
+		              navPartners: "Партнери",
+		              navEducation: "Навчання",
+		              navCompare: "Порівняння",
+		              navEnroll: "Реєстрація",
+		              navContact: "Контакти",
 	
 	              // Source 1 eligibility gate
 	              source1EligibilityTitle: "Перевірка права (Джерело 1)",
 	              source1EligibilityQuestion: "Ви громадянин США або постійний резидент (Green Card)?",
 	              eligibilityYes: "Так",
 	              eligibilityNo: "Ні",
-	              source1BadgeAnswerRequired: "Потрібна відповідь",
-	              source1BadgeNotEligible: "Не підходить",
-	              metlifeCoverage: [
+		              source1BadgeAnswerRequired: "Потрібна відповідь",
+		              source1BadgeNotEligible: "Не підходить",
+		
+		              // Source 2 eligibility gate
+		              source2EligibilityTitle: "Перевірка штату (Джерело 2)",
+		              source2EligibilityQuestion: "Ваш штат: AL, CA, DC, DE, FL, GA, NV, PA, TX?",
+		              source2BadgeAnswerRequired: "Потрібна відповідь",
+		              source2BadgeNotEligible: "Недоступно",
+		              metlifeCoverage: [
 	                  "✅ 100% – Профілактика (чищення, рентген, огляди, фтор)",
 	                  "✅ 80% – Базові процедури (пломби, видалення, лікування ясен)",
                   "✅ 50% – Складні процедури (імпланти, коронки, лікування каналів, мости, протези, оральна хірургія)"
@@ -1240,6 +1267,9 @@ Our main requirement is immediate or near-immediate access to major services, wh
 	  navSource1: "წყარო 1",
 	  navSource2: "წყარო 2",
 	  navSource3: "წყარო 3",
+	  navReviews: "მიმოხილვები",
+	  navPartners: "პარტნიორები",
+	  navEducation: "განათლება",
 	  navCompare: "შედარება",
 	  navEnroll: "რეგისტრაცია",
 	  navContact: "კონტაქტები",
@@ -1251,6 +1281,12 @@ Our main requirement is immediate or near-immediate access to major services, wh
 	  eligibilityNo: "არა",
 	  source1BadgeAnswerRequired: "პასუხი საჭიროა",
 	  source1BadgeNotEligible: "არ აკმაყოფილებს",
+	
+	  // Source 2 eligibility gate
+	  source2EligibilityTitle: "ხელმისაწვდომობა (წყარო 2)",
+	  source2EligibilityQuestion: "თქვენი შტატია: AL, CA, DC, DE, FL, GA, NV, PA, TX?",
+	  source2BadgeAnswerRequired: "პასუხი საჭიროა",
+	  source2BadgeNotEligible: "მიუწვდომელია",
 	  metlifeCoverage: [
 	      "✅ 100% – პრევენციული (გაწმენდა, რენტგენი, გამოკვლევები, ფტორი)",
 	      "✅ 80% – ძირითადი (ამოღება, ღრძილის მკურნალობა)",
@@ -1551,6 +1587,9 @@ Bizning asosiy talabimiz — mavjud bo‘lsa, major xizmatlarga darhol yoki deya
 	  navSource1: "Manba 1",
 	  navSource2: "Manba 2",
 	  navSource3: "Manba 3",
+	  navReviews: "Sharhlar",
+	  navPartners: "Hamkorlar",
+	  navEducation: "Taʼlim",
 	  navCompare: "Taqqoslash",
 	  navEnroll: "Ro‘yxatdan o‘tish",
 	  navContact: "Aloqa",
@@ -1562,6 +1601,12 @@ Bizning asosiy talabimiz — mavjud bo‘lsa, major xizmatlarga darhol yoki deya
 	  eligibilityNo: "Yo‘q",
 	  source1BadgeAnswerRequired: "Javob kerak",
 	  source1BadgeNotEligible: "Mos emas",
+	
+	  // Source 2 eligibility gate
+	  source2EligibilityTitle: "Moslikni tekshirish (Manba 2)",
+	  source2EligibilityQuestion: "Siz quyidagi shtatlardan biridasizmi: AL, CA, DC, DE, FL, GA, NV, PA, TX?",
+	  source2BadgeAnswerRequired: "Javob kerak",
+	  source2BadgeNotEligible: "Mavjud emas",
 	  metlifeCoverage: [
 	      "✅ 100% – Profilaktika (tozalash, rentgen, tekshiruvlar, ftorid)",
 	      "✅ 80% – Asosiy (olib tashlash, mil'k davolash)",
@@ -1861,6 +1906,9 @@ Nuestro requisito principal es acceso inmediato o casi inmediato a servicios May
 	  navSource1: "Fuente 1",
 	  navSource2: "Fuente 2",
 	  navSource3: "Fuente 3",
+	  navReviews: "Reseñas",
+	  navPartners: "Socios",
+	  navEducation: "Educación",
 	  navCompare: "Comparar",
 	  navEnroll: "Inscripción",
 	  navContact: "Contacto",
@@ -1872,6 +1920,12 @@ Nuestro requisito principal es acceso inmediato o casi inmediato a servicios May
 	  eligibilityNo: "No",
 	  source1BadgeAnswerRequired: "Respuesta requerida",
 	  source1BadgeNotEligible: "No elegible",
+	
+	  // Source 2 eligibility gate
+	  source2EligibilityTitle: "Disponibilidad (Fuente 2)",
+	  source2EligibilityQuestion: "¿Tu estado es: AL, CA, DC, DE, FL, GA, NV, PA, TX?",
+	  source2BadgeAnswerRequired: "Respuesta requerida",
+	  source2BadgeNotEligible: "No disponible",
 	  metlifeCoverage: [
 	      "✅ 100% – Preventiva (limpiezas, rayos X, exámenes, flúor)",
 	      "✅ 80% – Básica (extracciones, tratamiento de encías)",
