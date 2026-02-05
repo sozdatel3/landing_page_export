@@ -25,8 +25,22 @@ Our main requirement is immediate or near-immediate access to major services, wh
 
     // Plans section
     planDiscussionTitle: "💬 Your Trusted Dentists & Surgeons Discuss Why They Love Our Smart Dental Insurance Plans",
-    plansTitle: "🦷 PLEASE REVIEW YOUR OPTIONS",
-    plansIntro: "Choosing dental insurance through this site depends on your immigration status, location, and treatment needs. Below are carefully selected plans from different sources (associations), each suited for specific situations.<br>👉 Please read attentively and choose the option that best fits you and enroll.",
+    plansTitle: "Morgan White Benefits Association",
+    plansIntro: "TWO DELTA DENTAL PLANS",
+    plansKeyFacts: [
+      "✔ No U.S. citizenship or residency requirement",
+      "📍 Available States: AL, CA, DC, DE, FL, GA, NV, PA, TX",
+      "⏱ No waiting periods (coverage starts first day of enrolled month)",
+      "💳 Pay by bank account or credit card",
+      "📆 Monthly · Quarterly · Annual billing"
+    ],
+    considerationsTitle: "Considerations:",
+    costEstTitle: "Cost (est.):",
+    bestForTitle: "Best for you if:",
+    planLinkNote: "👉 Follow the plan link for exact quotes and full explanations of benefits and plan limitations.",
+    guardianDocsTitle: "Guardian PDF Documents",
+    guardianFaqPdf: "📄 Guardian_FAQ (PDF)",
+    guardianSelectAchieverPdf: "📄 Guardian_Select_Achiever (PDF)",
     coverage: "Coverage:",
 
     // Navigation
@@ -119,7 +133,11 @@ Our main requirement is immediate or near-immediate access to major services, wh
     source2Desc: "📍 Available ONLY in: AL, CA, DC, DE, FL, GA, NV, PA, TX<br>🚫 No U.S. Citizenship or Green Card required<br>Credit cards accepted",
 
     // Delta Dental PPO / Premier (Source 2)
-    deltaPremierTitle: "🔹 Delta Dental PPO / Premier — Immediate Coverage",
+    deltaPremierTitle: "🥈 Delta dental immidiate coveraje",
+    deltaPremierAnnualMax: "Annual Max: up to $3,000 / person",
+    deltaPremierNetworks: "PPO + Premier networks",
+    deltaPremierCoverageLine: "Covers crowns, root canals, surgery, bridges, dentures",
+    deltaPremierOrtho: "Children’s orthodontia included (with waiting period)",
     deltaPremierFeatures: [
         "Highly respected Delta Dental PPO plus Premier networks (many dentists Favor Premier Network over PPO network)",
         "Annual max up to $3,000",
@@ -141,17 +159,24 @@ Our main requirement is immediate or near-immediate access to major services, wh
         "One-time Morgan White enrollment fee: $35",
         "Dentist reimbursement is based on Delta Dental PPO/Premier/non-network contracted fees"
     ],
-    deltaPremierPricing: [
-        "Sample Monthly Pricing (varies by ZIP code; as of 03/01/2026):",
-        "TX: $50.98 Individual • $96.34 Couple • $147.00 Family",
-        "PA: $86.54 Individual • $108.75 Couple • $246.00 Family",
-        "CA: $121.42 Individual • $236.76 Couple • $346.04 Family",
-        "👉 Follow the plan link to view current pricing for your ZIP code at enrollment."
+    deltaPremierConsiderations: [
+      "$100 deductible per person / year · $35 one-time association fee",
+      "Implants not covered · availability varies by state"
     ],
+    deltaPremierPricing: [
+      "Individual ~$55–130",
+      "Couple ~$100–260",
+      "Family ~$155–380 / month"
+    ],
+    deltaPremierBestFor: "You want a higher annual maximum and Premier-level dentists, and do not need implant coverage. May be combined with the implant plan if appropriate.",
     juliaRecommendationDeltaPremier: `💙 Julia’s Recommendation<br>Best if you:<br>live in a covered state<br>are not a U.S. citizen or Green Card holder<br>need dental care other than implants<br><a href="#" class="plan-summary-link">👉 Full Plan Description 📄</a>`,
 
     // Delta Dental PPO — No Wait Plan (Source 2)
-    deltaNoWaitTitle: "🦷 Delta Dental PPO — No Wait Plan",
+    deltaNoWaitTitle: "🥇 Delta dental no wait",
+    deltaNoWaitAnnualMax: "Annual Max: up to $2,000 / person",
+    deltaNoWaitImplants: "Implants included",
+    deltaNoWaitCoverageLine: "Covers root canals, crowns, surgery, bridges",
+    deltaNoWaitNetwork: "Delta Dental PPO network",
     deltaNoWaitSubTitle: "Immediate Coverage | No Waiting Periods",
     deltaNoWaitFeatures: [
         "Delta Dental PPO",
@@ -165,18 +190,19 @@ Our main requirement is immediate or near-immediate access to major services, wh
         "Deductible: $100 per person / year",
         "Orthodontia: ❌ Not covered"
     ],
+    deltaNoWaitConsiderations: [
+      "$100 deductible per person / year · $35 one-time association fee",
+      "Missing tooth clause applies to implants (except CA)"
+    ],
     deltaNoWaitCoverage: [
         "✅ Diagnostic & Preventive (Year 1: 80% -> Year 2: 90% -> Year 3: 100%)",
         "🟡 Basic Services (fluoride treatment, bitewing X-rays, sealants, emergency palliative care, space maintainers) (Year 1: 50% -> Year 2: 60% -> Year 3: 80%)",
         "🔴 Major Services — Covered from Day One (50% in Years 1, 2, and 3) - Includes: Root canals, Periodontal treatment, Oral surgery, Crowns, Implants, Bridges"
     ],
     deltaNoWaitPricing: [
-        "Sample Monthly Pricing (varies by ZIP code):",
-        "TX: $50.98 Individual • $96.34 Couple • $147.80 Family",
-        "PA: $61.49 Individual • $116.00 Couple • $178.05 Family",
-        "CA: $121.42 Individual • $236.76 Couple • $346.04 Family",
-        "One-time enrollment fee: $35 (non-refundable)",
-        "👉 Follow the plan link to view current pricing for your ZIP code at enrollment."
+      "Individual ~$40–85",
+      "Couple ~$75–165",
+      "Family ~$110–260 / month"
     ],
     deltaNoWaitEligibility: [
         "Adults 18+",
@@ -188,7 +214,7 @@ Our main requirement is immediate or near-immediate access to major services, wh
         "Out-of-network dentists may result in higher out-of-pocket costs",
         "Plan auto-renews unless cancelled"
     ],
-    deltaNoWaitBestFor: "💙 Best For<br>Those who need treatment immediately<br>Root canals, crowns, implants with no waiting period<br>Clients wanting a simple PPO plan at a moderate cost<br>Anyone not needing orthodontia<br>📄 Source: The No Wait Plan – Delta Dental PPO (Summary EN)",
+    deltaNoWaitBestFor: "You need to start treatment immediately (including implants), do not qualify for Delta PPO 1500 (Elevate Wellness), or want to add this plan on top of another dental plan.",
 
     // Source 3
     source3Title: "✅ SOURCE 3 NCD Plans (Guardian & MetLife)",
@@ -457,8 +483,8 @@ Our main requirement is immediate or near-immediate access to major services, wh
 💙 Наша цель — помочь вам получить необходимое стоматологическое лечение без долгих ожиданий, лишних сложностей и с экономией денег.`,
             // Plans section
             planDiscussionTitle: "💬 Ваши проверенные стоматологи и хирурги рассказывают, почему они любят наши умные планы стоматологического страхования",
-            plansTitle: "🦷 ПОЖАЛУЙСТА, ИЗУЧИТЕ ВАШИ ВАРИАНТЫ",
-            plansIntro: "Выбор стоматологического плана через этот сайт зависит от вашего иммиграционного статуса, штата и потребностей в лечении. Ниже — тщательно отобранные варианты из разных источников (ассоциаций), каждый подходит под конкретные ситуации.<br>👉 Пожалуйста, внимательно прочитайте и выберите вариант, который лучше всего подходит именно вам, и зарегистрируйтесь.",
+            plansTitle: "Morgan White Benefits Association",
+            plansIntro: "TWO DELTA DENTAL PLANS",
             source1Title: "✅ ИСТОЧНИК 1 Elevate Wellness Association / Corenroll",
             source1Subtitle: "(Для граждан США и владельцев Green Card)",
             source1Desc: "Если вы гражданин США или обладатель Green Card, рекомендуем начать с наших проверенных планов через Elevate Wellness Association на платформе Corenroll.<br>Эти планы принимаются и рекомендуются сетью наших стоматологов в:<br>Нью-Йорке • Филадельфии • Майами • Сан-Франциско • Чикаго • и других городах<br>(Спросите нас о направлении к врачу в вашем регионе)",
@@ -560,7 +586,7 @@ Our main requirement is immediate or near-immediate access to major services, wh
             source2Title: "✅ ИСТОЧНИК 2 Delta Dental планы — Morgan White / Benefits Association",
             source2Desc: "📍 Доступно ТОЛЬКО в: AL, CA, DC, DE, FL, GA, NV, PA, TX<br>🚫 Гражданство США или Green Card не требуется<br>✅ Оплата картой принимается",
 
-            deltaPremierTitle: "🔹 Delta Dental PPO / Premier — немедленное покрытие",
+            deltaPremierTitle: "🥈 Delta dental immidiate coveraje",
             deltaPremierFeatures: [
                 "Сети Delta Dental PPO + Premier (многие врачи предпочитают Premier)",
                 "Годовой максимум до $3,000",
@@ -582,16 +608,14 @@ Our main requirement is immediate or near-immediate access to major services, wh
                 "Компенсация зависит от тарифов PPO / Premier / вне сети"
             ],
             deltaPremierPricing: [
-                "Примерная стоимость (зависит от ZIP; актуально на 03/01/2026):",
-                "TX: $50.98 Индивидуально • $96.34 Пара • $147.00 Семья",
-                "PA: $86.54 Индивидуально • $108.75 Пара • $246.00 Семья",
-                "CA: $121.42 Индивидуально • $236.76 Пара • $346.04 Семья",
-                "👉 Точную цену смотрите по вашему ZIP при регистрации."
+                "Индивидуально ~$55–130",
+                "Пара ~$100–260",
+                "Семья ~$155–380 / месяц"
             ],
             juliaRecommendationDeltaPremier:
                 "💙 Рекомендация Юлии<br>Лучше всего, если вы:<br>живёте в доступном штате<br>не являетесь гражданином США/владельцем Green Card<br>вам нужно лечение, кроме имплантов",
 
-            deltaNoWaitTitle: "🦷 Delta Dental PPO — NO WAIT PLAN",
+            deltaNoWaitTitle: "🥇 Delta dental no wait",
             deltaNoWaitSubTitle: "Немедленное покрытие | Без периода ожидания",
             deltaNoWaitFeatures: [
                 "Delta Dental PPO",
@@ -611,12 +635,9 @@ Our main requirement is immediate or near-immediate access to major services, wh
                 "🔴 Major услуги с первого дня (50% в годах 1–3): лечение каналов, пародонтология, хирургия/удаления, коронки, импланты, мосты/протезы и ремонт"
             ],
             deltaNoWaitPricing: [
-                "Примерная стоимость (зависит от ZIP):",
-                "TX: $50.98 Индивидуально • $96.34 Пара • $147.80 Семья",
-                "PA: $61.49 Индивидуально • $116.00 Пара • $178.05 Семья",
-                "CA: $121.42 Индивидуально • $236.76 Пара • $346.04 Семья",
-                "Единовременный сбор: $35 (невозвратный)",
-                "👉 Точную цену смотрите по вашему ZIP при регистрации."
+                "Индивидуально ~$40–85",
+                "Пара ~$75–165",
+                "Семья ~$110–260 / месяц"
             ],
             deltaNoWaitEligibility: [
                 "Взрослые 18+",
@@ -629,7 +650,7 @@ Our main requirement is immediate or near-immediate access to major services, wh
                 "План продлевается автоматически, если не отменить"
             ],
             deltaNoWaitBestFor:
-                "💙 Кому подходит<br>Тем, кому нужно лечение сразу<br>Каналы, коронки, импланты без ожидания<br>Тем, кому нужен простой PPO-план без ортодонтии",
+                "Вам нужно начать лечение сразу (включая импланты), вы не подходите под Delta PPO 1500 (Elevate Wellness), или хотите добавить этот план поверх другого стоматологического плана.",
 
             source3Title: "✅ ИСТОЧНИК 3 NCD планы (Guardian & MetLife)",
             source3Desc:
@@ -911,8 +932,8 @@ Our main requirement is immediate or near-immediate access to major services, wh
 💙 Наша мета — допомогти вам отримати потрібну стоматологічну допомогу без довгих очікувань, зайвих складнощів та з економією коштів.`,
             // Plans section
             planDiscussionTitle: "💬 Ваші перевірені стоматологи та хірурги розповідають, чому вони люблять наші розумні плани стоматологічного страхування",
-            plansTitle: "🦷 БУДЬ ЛАСКА, ПЕРЕГЛЯНЬТЕ ВАШІ ВАРІАНТИ",
-            plansIntro: "Вибір стоматологічного страхування через цей сайт залежить від вашого імміграційного статусу, місця проживання та потреб у лікуванні. Нижче — ретельно відібрані плани з різних джерел (асоціацій), кожен підходить для конкретних ситуацій.<br>👉 Будь ласка, уважно прочитайте та оберіть варіант, який найкраще підходить вам, і зареєструйтеся.",
+            plansTitle: "Morgan White Benefits Association",
+            plansIntro: "TWO DELTA DENTAL PLANS",
             sharedAdvantages: "🔹 Спільні переваги обох планів",
             sharedList: [
                 "✔️ Приймаються більшістю стоматологів по всій країні",
@@ -1234,8 +1255,8 @@ Our main requirement is immediate or near-immediate access to major services, wh
 💙 ჩვენი მიზანია დაგეხმაროთ საჭირო სტომატოლოგიური დახმარების მიღებაში ეფექტურად — ხანგრძლივი ლოდინის გარეშე, ზედმეტი უსიამოვნებების გარეშე და თანხის დაზოგვით.`,
   // Plans section
   planDiscussionTitle: "💬 თქვენი სანდო სტომატოლოგები და ქირურგები განიხილავენ, რატომ უყვართ ჩვენი ჭკვიანი სტომატოლოგიური სადაზღვევო გეგმები",
-  plansTitle: "🦷 გთხოვთ გაეცნოთ ვარიანტებს",
-  plansIntro: "სტომატოლოგიური დაზღვევის არჩევა ამ საიტის მეშვეობით დამოკიდებულია თქვენს იმიგრაციის სტატუსზე, მდებარეობაზე და მკურნალობის საჭიროებაზე. ქვემოთ მოცემულია სხვადასხვა წყაროდან (ასოციაციებიდან) შერჩეული გეგმები, რომლებიც სხვადასხვა სიტუაციას შეეფერება.<br>👉 გთხოვთ ყურადღებით წაიკითხოთ, აირჩიოთ თქვენთვის ყველაზე შესაფერისი ვარიანტი და დარეგისტრირდეთ.",
+  plansTitle: "Morgan White Benefits Association",
+  plansIntro: "TWO DELTA DENTAL PLANS",
   sharedAdvantages: "🔹 ორივე გეგმის საერთო უპირატესობები",
   sharedList: [
       "✔️ მიღებული მის უმეტეს სტომატოლოგთა მიერ ქვეყნის მასშტაბით",
@@ -1554,8 +1575,8 @@ Bizning asosiy talabimiz — mavjud bo‘lsa, major xizmatlarga darhol yoki deya
 💙 Maqsadimiz — sizga kerakli dental yordamni uzoq kutishlarsiz, ortiqcha ovora bo‘lmasdan va pul tejagan holda olishga yordam berish.`,
   // Plans section
   planDiscussionTitle: "💬 Sizning ishonchli stomatologlaringiz va jarrohlari bizning aqlli stomatologik sug'urta rejalarimizni nima uchun yoqtirishlarini muhokama qilishadi",
-  plansTitle: "🦷 ILTIMOS, VARIANTLARINGIZNI KO‘RIB CHIQING",
-  plansIntro: "Ushbu sayt orqali dental sug‘urta tanlash sizning immigratsiya maqomingiz, joylashuvingiz va davolanish ehtiyojlaringizga bog‘liq. Quyida turli manbalar (assotsiatsiyalar) orqali tanlangan rejalar keltirilgan — har biri ma’lum vaziyatlar uchun mos.<br>👉 Iltimos, diqqat bilan o‘qing, sizga eng mos variantni tanlang va ro‘yxatdan o‘ting.",
+  plansTitle: "Morgan White Benefits Association",
+  plansIntro: "TWO DELTA DENTAL PLANS",
   sharedAdvantages: "🔹 Ikkala rejaning umumiy afzalliklari",
   sharedList: [
       "✔️ Butun mamlakat bo'ylab ko'pchilik stomatologlar tomonidan qabul qilinadi",
@@ -1873,8 +1894,8 @@ Nuestro requisito principal es acceso inmediato o casi inmediato a servicios May
 💙 Nuestro objetivo es ayudarte a obtener la atención dental que necesitas de forma eficiente—sin largas esperas, sin complicaciones innecesarias y ahorrando dinero.`,
   // Plans section
   planDiscussionTitle: "💬 Sus dentistas y cirujanos de confianza discuten por qué aman nuestros Planes Inteligentes de Seguro Dental",
-  plansTitle: "🦷 POR FAVOR REVISA TUS OPCIONES",
-  plansIntro: "Elegir seguro dental a través de este sitio depende de tu estatus migratorio, ubicación y necesidades de tratamiento. Abajo encontrarás planes cuidadosamente seleccionados de diferentes fuentes (asociaciones), cada uno para situaciones específicas.<br>👉 Por favor lee atentamente, elige la opción que mejor se adapte a ti y completa tu inscripción.",
+  plansTitle: "Morgan White Benefits Association",
+  plansIntro: "TWO DELTA DENTAL PLANS",
   sharedAdvantages: "🔹 Ventajas Compartidas de Ambos Planes",
   sharedList: [
       "✔️ Aceptado por la mayoría de dentistas a nivel nacional",
