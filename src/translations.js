@@ -25,29 +25,77 @@ Our main requirement is immediate or near-immediate access to major services, wh
 
     // Plans section
     planDiscussionTitle: "💬 Your Trusted Dentists & Surgeons Discuss Why They Love Our Smart Dental Insurance Plans",
-    plansTitle: "🦷 3 Organizations Available",
-    plansIntro: "Please review all three organizations and choose the option that best matches your eligibility and treatment needs.",
-    source1OverviewTitle: "👉🏻 Elevate Wellness Association (For U.S. Citizens & Permanent Residents)",
-    source1OverviewPlans: [
-      "Delta Dental PPO 1500",
-      "MetLife PPO Platinum"
-    ],
-    source2OverviewTitle: "👉🏻 Morgan White Plans",
-    source2OverviewItems: [
-      "Delta: For non-citizens and residents. 2 offers available (PPO / Premier).",
-      "No Wait: Immediate coverage (including implants). 2 offers available.",
-      "Guardian: For ages 50+."
-    ],
-    source3OverviewTitle: "👉🏻 NCD Plans",
-    source3OverviewDesc: "Alternative association-based options with state-based availability and variable pricing.",
-    compareShortTitle: "🔍 Compare (Short)",
+    plansTitle: "🦷 PLEASE REVIEW YOUR OPTIONS",
+    plansIntro: "Choosing dental insurance today depends on your status, location, and treatment needs. Below are carefully selected plans from different associations, each suited for specific situations.",
+    compareShortTitle: "🔍 Compare",
     compareShortList: [
-      "Elevate Wellness: for U.S. citizens/permanent residents; includes Delta PPO 1500 and MetLife PPO Platinum.",
-      "Morgan White: for broader eligibility; includes Delta PPO/Premier and No Wait options.",
-      "NCD Plans: additional options depending on state, age, and ZIP."
+      "Source 1 (EWA/Corenroll): for U.S. citizens and permanent residents; Delta PPO 1500 + MetLife PPO Platinum.",
+      "Source 2 (Morgan White): no U.S. citizenship requirement; Delta No Wait + Delta Immediate Coverage (PPO/Premier).",
+      "Source 3 (NCD): two plan options, Elite and Complete, with broad state availability."
     ],
-    morganSectionTitle: "Morgan White Benefits Association",
-    morganSectionIntro: "TWO DELTA DENTAL PLANS",
+    planSelectionTitle: "How These Plans Were Selected",
+    planSelectionNote: "These are the plans that made the most sense for most of our clients and dentists over years of real-world interactions. You are welcome to browse other available plans if they better fit your needs.",
+
+    source1BlockTitle: "✅ SOURCE 1",
+    source1BlockSubtitle: "Elevate Wellness Association (For U.S. Citizens & Permanent Residents)",
+    source1BlockIntro: "If you are a U.S. Citizen or Green Card holder, this is usually the best place to start. This source includes Delta PPO options with broad nationwide access, plus MetLife PPO Platinum (with a major-services waiting period).",
+    source1BlockCities: [
+      "Trusted dentist network locations: New York • Philadelphia • Miami • San Francisco • Chicago • and more",
+      "Ask us if you need a referral in your area"
+    ],
+    source1DeltaTitle: "🔹 Delta Dental PPO 1500",
+    source1MetlifeTitle: "🔹 MetLife PPO Platinum (PDP Network)",
+    source1GetPlanNote: "Source 1 enrollment link (EWA / Corenroll): brokerexchanges.com/jbarinova",
+
+    source2BlockTitle: "✅ SOURCE 2",
+    source2BlockIntro: "Delta Dental plans via Morgan White / Benefits Association.<br>📍 Available ONLY in: AL, CA, DC, DE, FL, GA, NV, PA, TX<br>🚫 No U.S. citizenship or Green Card required",
+    source2NoWaitTitle: "🔹 Delta Dental No Wait",
+    source2PremierTitle: "🔹 Delta Dental Immediate Coverage (PPO / Premier)",
+    source2GetPlanNote: "Source 2 enrollment link (Morgan White): brokers.insuranceforeveryone.com",
+
+    source3BlockTitle: "✅ SOURCE 3",
+    source3BlockIntro: "NCD Plans (MetLife association options): two plan tracks for straightforward self-service enrollment.",
+    source3BlockAvailability: [
+      "Available in most states (state restrictions apply)",
+      "Two options: Elite and Complete",
+      "Exact benefits and pricing depend on ZIP, age, and state"
+    ],
+    source3EliteTitle: "🔹 NCD Elite",
+    source3EliteHighlights: [
+      "Higher annual maximum compared to Complete",
+      "Designed for clients expecting broader major-service usage",
+      "Strong option when you want fuller protection beyond preventive-only needs"
+    ],
+    source3EliteCoverage: [
+      "✅ Preventive services included",
+      "✅ Basic services included",
+      "✅ Major services included (per plan terms)"
+    ],
+    source3ElitePricing: [
+      "Pricing starts around ~$62/month (individual)",
+      "Couple pricing typically starts around ~$124/month",
+      "Final premium is ZIP- and age-based"
+    ],
+    source3EliteBestFor: "Best for clients who expect larger treatment plans and want stronger overall annual protection.",
+    source3CompleteTitle: "🔹 NCD Complete",
+    source3CompleteHighlights: [
+      "Lower monthly premium than Elite",
+      "Balanced option for preventive + routine treatment needs",
+      "Good entry-level option for clients who still want major-service access"
+    ],
+    source3CompleteCoverage: [
+      "✅ Preventive services included",
+      "✅ Basic services included",
+      "✅ Major services included (per plan terms)"
+    ],
+    source3CompletePricing: [
+      "Pricing starts around ~$46.70/month (individual)",
+      "Couple pricing typically starts around ~$93.40/month",
+      "Final premium is ZIP- and age-based"
+    ],
+    source3CompleteBestFor: "Best for clients who want broader coverage at a lower starting premium than Elite.",
+    source3GetPlanNote: "Source 3 enrollment link (NCD): enrollment.ncd.com/939946",
+
     plansKeyFacts: [
       "✔ No U.S. citizenship or residency requirement",
       "📍 Available States: AL, CA, DC, DE, FL, GA, NV, PA, TX",
@@ -62,6 +110,13 @@ Our main requirement is immediate or near-immediate access to major services, wh
     guardianDocsTitle: "Guardian PDF Documents",
     guardianFaqPdf: "📄 Guardian_FAQ (PDF)",
     guardianSelectAchieverPdf: "📄 Guardian_Select_Achiever (PDF)",
+    supportRoutingTitle: "📞 SUPPORT, ADMINISTRATION, AND SELF-SERVICE",
+    supportRoutingList: [
+      "Source 1 (EWA/Corenroll): enrollment, plan administration, and account questions go through the EWA/Corenroll platform.",
+      "Source 2 (Morgan White): billing and eligibility updates go through Morgan White; claims and benefits processing go through the carrier.",
+      "Source 3 (NCD): plan administration and support go through NCD and the plan portal."
+    ],
+    selfServiceNote: "This page is structured for self-service. Please enroll through the matching source link and contact the same entity directly for administrative questions.",
     coverage: "Coverage:",
 
     // Navigation
@@ -307,7 +362,7 @@ Our main requirement is immediate or near-immediate access to major services, wh
     enrollmentSupportContent:
         "🔹 Source 1 (EWA / Corenroll): <a href=\"https://go.juliabarinova.com/smile\" target=\"_blank\" rel=\"noopener noreferrer\">go.juliabarinova.com/smile</a><br>🔹 Source 2 (Morgan White): <a href=\"https://brokers.insuranceforeveryone.com/?portal=4778189\" target=\"_blank\" rel=\"noopener noreferrer\">brokers.insuranceforeveryone.com</a><br>🔹 Source 3 (NCD plans): use the plan link above and manage your plan through the NCD member portal<br>📞 Support numbers, eligibility details, and claims/billing contacts are listed inside each plan link.",
     
-    finalNote: "💙 Final Note<br>This page is designed to help you compare options and enroll independently, with minimal broker involvement.<br>👉 Please review carefully and choose the option that best fits your situation.<br>— Julia Barinova",
+    finalNote: "💙 Final Note<br>We selected these plans because they consistently made the most sense for the majority of our clients and dentists over many years. You are always welcome to browse additional plan options if another fit serves you better.<br>👉 Please review carefully, use the source-specific enrollment links, and choose the option that best matches your needs.<br>— Julia Barinova",
 
     compareTitle: "🔍 Compare Plans (Quick Guide)",
     compareIntro:
@@ -504,8 +559,8 @@ Our main requirement is immediate or near-immediate access to major services, wh
 💙 Наша цель — помочь вам получить необходимое стоматологическое лечение без долгих ожиданий, лишних сложностей и с экономией денег.`,
             // Plans section
             planDiscussionTitle: "💬 Ваши проверенные стоматологи и хирурги рассказывают, почему они любят наши умные планы стоматологического страхования",
-            plansTitle: "🦷 3 Organizations Available",
-            plansIntro: "Please review all three organizations and choose the option that best matches your eligibility and treatment needs.",
+            plansTitle: "🦷 PLEASE REVIEW YOUR OPTIONS",
+            plansIntro: "Choosing dental insurance today depends on your status, location, and treatment needs. Below are carefully selected plans from different associations, each suited for specific situations.",
             source1Title: "✅ ИСТОЧНИК 1 Elevate Wellness Association / Corenroll",
             source1Subtitle: "(Для граждан США и владельцев Green Card)",
             source1Desc: "Если вы гражданин США или обладатель Green Card, рекомендуем начать с наших проверенных планов через Elevate Wellness Association на платформе Corenroll.<br>Эти планы принимаются и рекомендуются сетью наших стоматологов в:<br>Нью-Йорке • Филадельфии • Майами • Сан-Франциско • Чикаго • и других городах<br>(Спросите нас о направлении к врачу в вашем регионе)",
@@ -953,8 +1008,8 @@ Our main requirement is immediate or near-immediate access to major services, wh
 💙 Наша мета — допомогти вам отримати потрібну стоматологічну допомогу без довгих очікувань, зайвих складнощів та з економією коштів.`,
             // Plans section
             planDiscussionTitle: "💬 Ваші перевірені стоматологи та хірурги розповідають, чому вони люблять наші розумні плани стоматологічного страхування",
-            plansTitle: "🦷 3 Organizations Available",
-            plansIntro: "Please review all three organizations and choose the option that best matches your eligibility and treatment needs.",
+            plansTitle: "🦷 PLEASE REVIEW YOUR OPTIONS",
+            plansIntro: "Choosing dental insurance today depends on your status, location, and treatment needs. Below are carefully selected plans from different associations, each suited for specific situations.",
             sharedAdvantages: "🔹 Спільні переваги обох планів",
             sharedList: [
                 "✔️ Приймаються більшістю стоматологів по всій країні",
@@ -1276,8 +1331,8 @@ Our main requirement is immediate or near-immediate access to major services, wh
 💙 ჩვენი მიზანია დაგეხმაროთ საჭირო სტომატოლოგიური დახმარების მიღებაში ეფექტურად — ხანგრძლივი ლოდინის გარეშე, ზედმეტი უსიამოვნებების გარეშე და თანხის დაზოგვით.`,
   // Plans section
   planDiscussionTitle: "💬 თქვენი სანდო სტომატოლოგები და ქირურგები განიხილავენ, რატომ უყვართ ჩვენი ჭკვიანი სტომატოლოგიური სადაზღვევო გეგმები",
-  plansTitle: "🦷 3 Organizations Available",
-  plansIntro: "Please review all three organizations and choose the option that best matches your eligibility and treatment needs.",
+  plansTitle: "🦷 PLEASE REVIEW YOUR OPTIONS",
+  plansIntro: "Choosing dental insurance today depends on your status, location, and treatment needs. Below are carefully selected plans from different associations, each suited for specific situations.",
   sharedAdvantages: "🔹 ორივე გეგმის საერთო უპირატესობები",
   sharedList: [
       "✔️ მიღებული მის უმეტეს სტომატოლოგთა მიერ ქვეყნის მასშტაბით",
@@ -1596,8 +1651,8 @@ Bizning asosiy talabimiz — mavjud bo‘lsa, major xizmatlarga darhol yoki deya
 💙 Maqsadimiz — sizga kerakli dental yordamni uzoq kutishlarsiz, ortiqcha ovora bo‘lmasdan va pul tejagan holda olishga yordam berish.`,
   // Plans section
   planDiscussionTitle: "💬 Sizning ishonchli stomatologlaringiz va jarrohlari bizning aqlli stomatologik sug'urta rejalarimizni nima uchun yoqtirishlarini muhokama qilishadi",
-  plansTitle: "🦷 3 Organizations Available",
-  plansIntro: "Please review all three organizations and choose the option that best matches your eligibility and treatment needs.",
+  plansTitle: "🦷 PLEASE REVIEW YOUR OPTIONS",
+  plansIntro: "Choosing dental insurance today depends on your status, location, and treatment needs. Below are carefully selected plans from different associations, each suited for specific situations.",
   sharedAdvantages: "🔹 Ikkala rejaning umumiy afzalliklari",
   sharedList: [
       "✔️ Butun mamlakat bo'ylab ko'pchilik stomatologlar tomonidan qabul qilinadi",
@@ -1915,8 +1970,8 @@ Nuestro requisito principal es acceso inmediato o casi inmediato a servicios May
 💙 Nuestro objetivo es ayudarte a obtener la atención dental que necesitas de forma eficiente—sin largas esperas, sin complicaciones innecesarias y ahorrando dinero.`,
   // Plans section
   planDiscussionTitle: "💬 Sus dentistas y cirujanos de confianza discuten por qué aman nuestros Planes Inteligentes de Seguro Dental",
-  plansTitle: "🦷 3 Organizations Available",
-  plansIntro: "Please review all three organizations and choose the option that best matches your eligibility and treatment needs.",
+  plansTitle: "🦷 PLEASE REVIEW YOUR OPTIONS",
+  plansIntro: "Choosing dental insurance today depends on your status, location, and treatment needs. Below are carefully selected plans from different associations, each suited for specific situations.",
   sharedAdvantages: "🔹 Ventajas Compartidas de Ambos Planes",
   sharedList: [
       "✔️ Aceptado por la mayoría de dentistas a nivel nacional",
