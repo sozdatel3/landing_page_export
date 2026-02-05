@@ -25,8 +25,29 @@ Our main requirement is immediate or near-immediate access to major services, wh
 
     // Plans section
     planDiscussionTitle: "💬 Your Trusted Dentists & Surgeons Discuss Why They Love Our Smart Dental Insurance Plans",
-    plansTitle: "Morgan White Benefits Association",
-    plansIntro: "TWO DELTA DENTAL PLANS",
+    plansTitle: "🦷 3 Organizations Available",
+    plansIntro: "Please review all three organizations and choose the option that best matches your eligibility and treatment needs.",
+    source1OverviewTitle: "👉🏻 Elevate Wellness Association (For U.S. Citizens & Permanent Residents)",
+    source1OverviewPlans: [
+      "Delta Dental PPO 1500",
+      "MetLife PPO Platinum"
+    ],
+    source2OverviewTitle: "👉🏻 Morgan White Plans",
+    source2OverviewItems: [
+      "Delta: For non-citizens and residents. 2 offers available (PPO / Premier).",
+      "No Wait: Immediate coverage (including implants). 2 offers available.",
+      "Guardian: For ages 50+."
+    ],
+    source3OverviewTitle: "👉🏻 NCD Plans",
+    source3OverviewDesc: "Alternative association-based options with state-based availability and variable pricing.",
+    compareShortTitle: "🔍 Compare (Short)",
+    compareShortList: [
+      "Elevate Wellness: for U.S. citizens/permanent residents; includes Delta PPO 1500 and MetLife PPO Platinum.",
+      "Morgan White: for broader eligibility; includes Delta PPO/Premier and No Wait options.",
+      "NCD Plans: additional options depending on state, age, and ZIP."
+    ],
+    morganSectionTitle: "Morgan White Benefits Association",
+    morganSectionIntro: "TWO DELTA DENTAL PLANS",
     plansKeyFacts: [
       "✔ No U.S. citizenship or residency requirement",
       "📍 Available States: AL, CA, DC, DE, FL, GA, NV, PA, TX",
@@ -483,8 +504,8 @@ Our main requirement is immediate or near-immediate access to major services, wh
 💙 Наша цель — помочь вам получить необходимое стоматологическое лечение без долгих ожиданий, лишних сложностей и с экономией денег.`,
             // Plans section
             planDiscussionTitle: "💬 Ваши проверенные стоматологи и хирурги рассказывают, почему они любят наши умные планы стоматологического страхования",
-            plansTitle: "Morgan White Benefits Association",
-            plansIntro: "TWO DELTA DENTAL PLANS",
+            plansTitle: "🦷 3 Organizations Available",
+            plansIntro: "Please review all three organizations and choose the option that best matches your eligibility and treatment needs.",
             source1Title: "✅ ИСТОЧНИК 1 Elevate Wellness Association / Corenroll",
             source1Subtitle: "(Для граждан США и владельцев Green Card)",
             source1Desc: "Если вы гражданин США или обладатель Green Card, рекомендуем начать с наших проверенных планов через Elevate Wellness Association на платформе Corenroll.<br>Эти планы принимаются и рекомендуются сетью наших стоматологов в:<br>Нью-Йорке • Филадельфии • Майами • Сан-Франциско • Чикаго • и других городах<br>(Спросите нас о направлении к врачу в вашем регионе)",
@@ -932,8 +953,8 @@ Our main requirement is immediate or near-immediate access to major services, wh
 💙 Наша мета — допомогти вам отримати потрібну стоматологічну допомогу без довгих очікувань, зайвих складнощів та з економією коштів.`,
             // Plans section
             planDiscussionTitle: "💬 Ваші перевірені стоматологи та хірурги розповідають, чому вони люблять наші розумні плани стоматологічного страхування",
-            plansTitle: "Morgan White Benefits Association",
-            plansIntro: "TWO DELTA DENTAL PLANS",
+            plansTitle: "🦷 3 Organizations Available",
+            plansIntro: "Please review all three organizations and choose the option that best matches your eligibility and treatment needs.",
             sharedAdvantages: "🔹 Спільні переваги обох планів",
             sharedList: [
                 "✔️ Приймаються більшістю стоматологів по всій країні",
@@ -1255,8 +1276,8 @@ Our main requirement is immediate or near-immediate access to major services, wh
 💙 ჩვენი მიზანია დაგეხმაროთ საჭირო სტომატოლოგიური დახმარების მიღებაში ეფექტურად — ხანგრძლივი ლოდინის გარეშე, ზედმეტი უსიამოვნებების გარეშე და თანხის დაზოგვით.`,
   // Plans section
   planDiscussionTitle: "💬 თქვენი სანდო სტომატოლოგები და ქირურგები განიხილავენ, რატომ უყვართ ჩვენი ჭკვიანი სტომატოლოგიური სადაზღვევო გეგმები",
-  plansTitle: "Morgan White Benefits Association",
-  plansIntro: "TWO DELTA DENTAL PLANS",
+  plansTitle: "🦷 3 Organizations Available",
+  plansIntro: "Please review all three organizations and choose the option that best matches your eligibility and treatment needs.",
   sharedAdvantages: "🔹 ორივე გეგმის საერთო უპირატესობები",
   sharedList: [
       "✔️ მიღებული მის უმეტეს სტომატოლოგთა მიერ ქვეყნის მასშტაბით",
@@ -1575,8 +1596,8 @@ Bizning asosiy talabimiz — mavjud bo‘lsa, major xizmatlarga darhol yoki deya
 💙 Maqsadimiz — sizga kerakli dental yordamni uzoq kutishlarsiz, ortiqcha ovora bo‘lmasdan va pul tejagan holda olishga yordam berish.`,
   // Plans section
   planDiscussionTitle: "💬 Sizning ishonchli stomatologlaringiz va jarrohlari bizning aqlli stomatologik sug'urta rejalarimizni nima uchun yoqtirishlarini muhokama qilishadi",
-  plansTitle: "Morgan White Benefits Association",
-  plansIntro: "TWO DELTA DENTAL PLANS",
+  plansTitle: "🦷 3 Organizations Available",
+  plansIntro: "Please review all three organizations and choose the option that best matches your eligibility and treatment needs.",
   sharedAdvantages: "🔹 Ikkala rejaning umumiy afzalliklari",
   sharedList: [
       "✔️ Butun mamlakat bo'ylab ko'pchilik stomatologlar tomonidan qabul qilinadi",
@@ -1894,8 +1915,8 @@ Nuestro requisito principal es acceso inmediato o casi inmediato a servicios May
 💙 Nuestro objetivo es ayudarte a obtener la atención dental que necesitas de forma eficiente—sin largas esperas, sin complicaciones innecesarias y ahorrando dinero.`,
   // Plans section
   planDiscussionTitle: "💬 Sus dentistas y cirujanos de confianza discuten por qué aman nuestros Planes Inteligentes de Seguro Dental",
-  plansTitle: "Morgan White Benefits Association",
-  plansIntro: "TWO DELTA DENTAL PLANS",
+  plansTitle: "🦷 3 Organizations Available",
+  plansIntro: "Please review all three organizations and choose the option that best matches your eligibility and treatment needs.",
   sharedAdvantages: "🔹 Ventajas Compartidas de Ambos Planes",
   sharedList: [
       "✔️ Aceptado por la mayoría de dentistas a nivel nacional",
