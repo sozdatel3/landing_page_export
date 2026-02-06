@@ -88,6 +88,20 @@ ul[data-translate="sharedList"] {
     padding: 40px;
 }
 
+.full-width-intro {
+    padding: 30px 40px;
+    margin-top: 0;
+    border-radius: 20px;
+}
+
+.full-width-intro p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #444;
+    font-weight: 500;
+    text-align: left;
+}
+
 /* Enhanced hero content styling */
 /* .hero-content h1 {
     /* font-size: clamp(28px, 4vw, 42px); */
