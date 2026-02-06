@@ -29,15 +29,15 @@ Our main requirement is immediate or near-immediate access to major services, wh
     plansIntro: "Choosing dental insurance today depends on your status, location, and treatment needs. Below are carefully selected plans from different associations, each suited for specific situations.",
     compareShortTitle: "🔍 Compare",
     compareShortList: [
-      "Source 1 (EWA/Corenroll): for U.S. citizens and permanent residents; Delta PPO 1500 + MetLife PPO Platinum.",
-      "Source 2 (Morgan White): no U.S. citizenship requirement; Delta No Wait + Delta Immediate Coverage (PPO/Premier).",
-      "Source 3 (NCD): two plan options, Elite and Complete, with broad state availability."
+      "EWA/Corenroll: for U.S. citizens and permanent residents; Delta PPO 1500 + MetLife PPO Platinum.",
+      "Morgan White: no U.S. citizenship requirement; Delta No Wait + Delta Immediate Coverage (PPO/Premier).",
+      "NCD: two plan options, Elite and Complete, with broad state availability."
     ],
     planSelectionTitle: "How These Plans Were Selected",
     planSelectionNote: "These are the plans that made the most sense for most of our clients and dentists over years of real-world interactions. You are welcome to browse other available plans if they better fit your needs.",
 
-    source1BlockTitle: "✅ SOURCE 1",
-    source1BlockSubtitle: "Elevate Wellness Association (For U.S. Citizens & Permanent Residents)",
+    source1BlockTitle: "✅ Elevate Wellness Association",
+    source1BlockSubtitle: "For U.S. Citizens & Permanent Residents",
     source1BlockIntro: "If you are a U.S. Citizen or Green Card holder, this is usually the best place to start. This source includes Delta PPO options with broad nationwide access, plus MetLife PPO Platinum (with a major-services waiting period).",
     source1BlockCities: [
       "Trusted dentist network locations: New York • Philadelphia • Miami • San Francisco • Chicago • and more",
@@ -47,13 +47,13 @@ Our main requirement is immediate or near-immediate access to major services, wh
     source1MetlifeTitle: "🔹 MetLife PPO Platinum (PDP Network)",
     source1GetPlanNote: "Source 1 enrollment link (EWA / Corenroll): brokerexchanges.com/jbarinova",
 
-    source2BlockTitle: "✅ SOURCE 2",
+    source2BlockTitle: "✅ Morgan White",
     source2BlockIntro: "Delta Dental plans via Morgan White / Benefits Association.<br>📍 Available ONLY in: AL, CA, DC, DE, FL, GA, NV, PA, TX<br>🚫 No U.S. citizenship or Green Card required",
     source2NoWaitTitle: "🔹 Delta Dental No Wait",
     source2PremierTitle: "🔹 Delta Dental Immediate Coverage (PPO / Premier)",
     source2GetPlanNote: "Source 2 enrollment link (Morgan White): brokers.insuranceforeveryone.com",
 
-    source3BlockTitle: "✅ SOURCE 3",
+    source3BlockTitle: "✅ NCD Plans",
     source3BlockIntro: "NCD Plans (MetLife association options): two plan tracks for straightforward self-service enrollment.",
     source3BlockAvailability: [
       "Available in most states (state restrictions apply)",
