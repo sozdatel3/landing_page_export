@@ -112,9 +112,9 @@ Our main requirement is immediate or near-immediate access to major services, wh
     guardianSelectAchieverPdf: "📄 Guardian_Select_Achiever (PDF)",
     supportRoutingTitle: "📞 SUPPORT, ADMINISTRATION, AND SELF-SERVICE",
     supportRoutingList: [
-      "Source 1 (EWA/Corenroll): enrollment, plan administration, and account questions go through the EWA/Corenroll platform.",
-      "Source 2 (Morgan White): billing and eligibility updates go through Morgan White; claims and benefits processing go through the carrier.",
-      "Source 3 (NCD): plan administration and support go through NCD and the plan portal."
+      "EWA/Corenroll: enrollment, plan administration, and account questions go through the EWA/Corenroll platform.",
+      "Morgan White: billing and eligibility updates go through Morgan White; claims and benefits processing go through the carrier.",
+      "NCD: plan administration and support go through NCD and the plan portal."
     ],
     selfServiceNote: "This page is structured for self-service. Please enroll through the matching source link and contact the same entity directly for administrative questions.",
     coverage: "Coverage:",
@@ -146,7 +146,7 @@ Our main requirement is immediate or near-immediate access to major services, wh
     source2BadgeNotEligible: "Not available",
 
     // Source 1
-    source1Title: "✅ SOURCE 1 Elevate Wellness Association/Corenroll Site",
+    source1Title: "✅ Elevate Wellness Association/Corenroll Site",
     source1Subtitle: "(For U.S. Citizens & Permanent Residents)",
     source1Desc: "If you are a U.S. Citizen or Green Card holder, we recommend starting with our long-time, traditional plans from Elevate Wellness Association on the Corenroll platform.<br>These plans are accepted and recommended by our trusted network of dentists in:<br>New York • Philadelphia • Miami • San Francisco • Chicago • and more<br>(Ask us if you need a referral in your area)",
 
@@ -368,11 +368,11 @@ Our main requirement is immediate or near-immediate access to major services, wh
     compareIntro:
         "Use this as a shortcut to choose the option that fits your eligibility, timeline, and treatment needs.",
     compareList: [
-        "<strong>Delta Dental PPO 1500 (Source 1)</strong> — implants included, no waiting period, all 50 states; requires U.S. citizenship or permanent residency.",
-        "<strong>MetLife PPO Platinum (Source 1)</strong> — 12-month wait on major services (crowns/implants/root canals); requires U.S. citizenship or permanent residency; not available in listed states.",
-        "<strong>Delta Dental PPO NO WAIT (Source 2)</strong> — major services covered from day one (including implants); available only in AL, CA, DC, DE, FL, GA, NV, PA, TX; missing tooth clause (except CA).",
-        "<strong>Delta Dental PPO + Premier (Source 2)</strong> — higher annual max (up to $3,000), no implants; available only in AL, CA, DC, DE, FL, GA, NV, PA, TX; missing tooth clause applies.",
-        "<strong>Guardian (Source 3, ages 50+)</strong> — individual plans for 50+; state availability varies; Achiever includes implants (lifetime max applies).",
+        "<strong>Delta Dental PPO 1500 </strong> — implants included, no waiting period, all 50 states; requires U.S. citizenship or permanent residency.",
+        "<strong>MetLife PPO Platinum </strong> — 12-month wait on major services (crowns/implants/root canals); requires U.S. citizenship or permanent residency; not available in listed states.",
+        "<strong>Delta Dental PPO NO WAIT </strong> — major services covered from day one (including implants); available only in AL, CA, DC, DE, FL, GA, NV, PA, TX; missing tooth clause (except CA).",
+        "<strong>Delta Dental PPO + Premier </strong> — higher annual max (up to $3,000), no implants; available only in AL, CA, DC, DE, FL, GA, NV, PA, TX; missing tooth clause applies.",
+        "<strong>Guardian (ages 50+)</strong> — individual plans for 50+; state availability varies; Achiever includes implants (lifetime max applies).",
         "👉 Before enrolling, review the plan with your dentist or use the plan’s provider search link to confirm an in-network provider."
     ],
 
