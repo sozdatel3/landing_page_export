@@ -67,7 +67,17 @@ function setElementHtml(element, value, iconHeight) {
 
 function renderList(element, items, iconHeight) {
   element.innerHTML = items
-    .map((item) => `<li>${replaceToothEmoji(String(item ?? ''), iconHeight)}</li>`)
+    .map((item) => {
+      if (item && typeof item === 'object' && !Array.isArray(item) && item.text) {
+        const mainText = replaceToothEmoji(String(item.text ?? ''), iconHeight);
+        const subItems = Array.isArray(item.sub) ? item.sub : [];
+        const subHtml = subItems.length
+          ? `<ul class="sub-list">${subItems.map((s) => `<li>${replaceToothEmoji(String(s ?? ''), iconHeight)}</li>`).join('')}</ul>`
+          : '';
+        return `<li>${mainText}${subHtml}</li>`;
+      }
+      return `<li>${replaceToothEmoji(String(item ?? ''), iconHeight)}</li>`;
+    })
     .join('');
 }
 

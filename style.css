@@ -48,6 +48,13 @@ body {
     font-weight: 600;
 }
 
+.content-section h4 {
+    font-size: 17px;
+    color: #0178d3;
+    margin: 15px 0 10px 0;
+    font-weight: 600;
+}
+
 .content-section p {
     margin-bottom: 15px;
     color: #333;
@@ -97,7 +104,7 @@ ul[data-translate="sharedList"] {
 .full-width-intro p {
     font-size: 18px;
     line-height: 1.6;
-    color: #444;
+    color: #333;
     font-weight: 500;
     text-align: left;
 }
@@ -141,8 +148,8 @@ ul[data-translate="sharedList"] {
 .hero-content p:not(:first-of-type) {
     font-size: 18px;
     line-height: 1.3;
-    color: #444;
-    font-weight: 550;
+    color: #333;
+    font-weight: 500;
     /* margin-bottom: 18px; */
     /* max-width: 500px; */
     /* margin-left: auto; */
@@ -394,6 +401,44 @@ ul[data-translate="sharedList"] {
 .sales-highlight:hover {
     transform: translateY(-2px);
     box-shadow: 0 12px 35px rgba(1, 120, 211, 0.2);
+}
+
+/* Nested sub-items inside sales-highlight */
+.sales-highlight .sub-list {
+    list-style: none;
+    margin: 10px 0 4px 10px;
+    padding: 8px 0 0 16px;
+    border-left: 3px solid rgba(1, 120, 211, 0.25);
+}
+
+.sales-highlight .sub-list li {
+    font-size: 15px;
+    font-weight: 500;
+    color: #3a5a7c;
+    margin-bottom: 8px;
+    padding-left: 22px;
+    line-height: 1.5;
+}
+
+.sales-highlight .sub-list li::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: linear-gradient(135deg, #0178d3, #4CAF50);
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgba(1, 120, 211, 0.25);
+    top: 6px;
+    left: 0;
+    font-size: 0;
+}
+
+.sales-highlight .sub-list li:hover {
+    color: #0e4f87;
+    transform: translateX(2px);
+}
+
+.sales-highlight .sub-list li:hover::before {
+    transform: scale(1.15);
 }
 
 .red-checkmark-item {
@@ -2326,7 +2371,8 @@ html {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     border: 1px solid rgba(1, 120, 211, 0.25);
-    scrollbar-width: none; /* Firefox */
+    scrollbar-width: none;
+    /* Firefox */
 }
 
 .section-nav::-webkit-scrollbar {

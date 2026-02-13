@@ -10,106 +10,58 @@ export const translations = {
     go1: "👇 TO REVIEW and REGISTER:",
     go2: "👆 GO",
     advisorName: "Presented by Julia Barinova, MBA – Licensed Insurance Consultant & Broker",
-    meetJulia: "Hello, I'm Julia Barinova — an independent insurance advisor and broker focused on practical financial protection.",
-    juliaIntro: "I am physically based in New York City and work with clients in over 30 U.S. states, subject to state availability and licensing.\n\nWith over twenty years of experience in financial services, I passionately specialize in life insurance, disability coverage, critical and chronic illness protection, and long-term care planning. One additional area of particular interest to me is practical dental insurance solutions—helping people access important dental treatments while saving money.\n\nBased on both professional work and personal experience, I have seen how traditional dental insurance often creates frustration due to waiting periods, exclusions, complex conditions, and reduced coverage percentages at the time care is actually needed.\n\nOver the past three years, we have assisted 1,000+ clients in identifying dental insurance options that may support preventive, basic, and major dental services, including complex procedures, depending on plan design and individual eligibility.",
+    meetJulia: "Greetings! I am Julia - a New York City-based independent insurance adviser and broker, focusing on client's financial protection.",
+    juliaIntro: "With over 20 years of experience in the financial services industry, I am specializing in lilife insurance, disability coverage, critical and chronic illness protection, and long-term care planning. One additional area of particular interest to me is practical dental insurance solutions—helping people access important dental treatments without any waiting, while saving money.\n\nBased on countless interactions with clients, dentists and my personal experience, I clearly see how traditional dental insurance often creates frustration due to waiting periods, exclusions, complex conditions, and reduced coverage percentages at the time care is actually needed.\n\nOver the past three years, we have assisted 1,000+ clients in identifying dental insurance options that may support preventive, basic, and major dental services, including complex procedures, depending on plan design and individual eligibility.",
     juliaPassion: "The majority of dental plans presented on this site are available only through licensed brokers and are offered via group or association memberships. Below, you will find solutions from several independent providers. Each group of products requires separate registration and enrollment through its individual link.\n\nIn certain situations, combining more than one dental insurance plan may be appropriate, particularly when recommended by your dental provider. Coverage coordination and eligibility vary by carrier and plan terms.\n\nWe strongly encourage you to confirm your dentist's participation in the applicable network prior to enrollment, as network status may significantly affect coverage levels and out-of-pocket costs.\n\nWhile we make every effort to provide clear, accurate, and transparent information regarding benefits and limitations of each plan, as brokers we cannot guarantee that a specific dental procedure will be covered for an individual client. Final coverage determinations are made by the insurance carrier, in accordance with plan terms, and by the treating dental provider, based on diagnosis, medical necessity, and claim review.\n\nThis website is designed to help you review, compare, and enroll in dental coverage independently, with minimal involvement from our team. Each section includes a general summary, key considerations, and direct links to carrier materials, where you can review benefits, limitations, eligibility requirements, and enroll if appropriate.\n\nIf you need clarification or assistance at any stage, we are always happy to help.\n\nBon Voyage — to a healthier, more confident smile.",
-    clientStats: `Recently, our trusted association partner, Elevate Wellness, updated its plan structure: MetLife now includes a 12-month waiting period for major services, and enrollment requires U.S. citizenship or permanent residency. (Delta Dental PPO remains unchanged.)<br><br>Due to those changes, unfortunately, there are no longer uniform solutions that fit everyone.<br><br>
-<strong>🔹 How We Help Now</strong><br>
-We’ve adapted by identifying alternative, association-based dental options that work in a similar way. Today, we offer plans from three different sources (including Elevate Wellness). Each option is designed for different needs, timing, and eligibility—and while we do our best, not every situation can be helped.<br><br>
-<strong>🔹 How We Operate (Please Read)</strong><br>
-We are not traditional dental brokers offering dozens of plans from various states and carriers. Our primary work is in life, disability, and long-term care insurance planning, and we approach dental coverage with the same care—focusing only on solutions that clients and dentist partners consistently find practical and effective. Clean, simple, comprehensive and affordable!<br><br>
-Our main requirement is immediate or near-immediate access to major services, when available: root canals • crowns • implants. This site is designed to let you review options and enroll at your own pace, with minimal broker involvement. Registration is very click and easy with the links, and you receive immediate confirmations.<br><br>
-👉 Before enrolling, we strongly recommend reviewing the plan with your dentist, or using the plan’s provider search link to find an in-network provider.<br>
-⚠️ Important: As brokers, we can’t guarantee that a specific procedure will be covered or paid. Final coverage decisions are made by the insurance carrier. Please ask your dental office to contact the insurer directly to confirm benefits before treatment and insure billing is done correctly to avoid delays in benefit payments. All eligibility details and support contacts are available inside each plan link.<br><br>
-💙 Our goal is to help you get the dental care you need efficiently—without long waits, unnecessary hassle, and while saving money.`,
-
     // Plans section
     planDiscussionTitle: "💬 Your Trusted Dentists & Surgeons Discuss Why They Love Our Smart Dental Insurance Plans",
     plansTitle: "🦷 PLEASE REVIEW YOUR OPTIONS",
-    plansIntro: "Choosing dental insurance today depends on your status, location, and treatment needs. Below are carefully selected plans from different associations, each suited for specific situations.",
-    compareShortTitle: "🔍 Compare",
+    plansIntro: "Your choice of dental solution will depend on immigration status, location and treatment needs. We carefully searched and selected several distinct plans for you which are suited for specific situations. Please review carefully and make an educated choice.",
+    compareShortTitle: "🔍 Options availible on this site",
     compareShortList: [
-      "EWA/Corenroll: for U.S. citizens and permanent residents; Delta PPO 1500 + MetLife PPO Platinum.",
-      "Morgan White: no U.S. citizenship requirement; Delta No Wait + Delta Immediate Coverage (PPO/Premier).",
-      "NCD: two plan options, Elite and Complete, with broad state availability."
+      "EWA/Corenroll: for U.S. citizens and permanent residents only; Delta Dental PPO 1500 + MetLife PPO Platinum.",
+      "Morgan White: no U.S. citizenship requirement; Delta Dental PPO no wait plan (covers implants) + Delta Dental immediate coverage PPO plus premier network + Guardian PPO (ages 50+). State restrictions applied - see below.",
+    //   "NCD: two plan options, Elite and Complete, with broad state availability."
     ],
     planSelectionTitle: "How These Plans Were Selected",
-    planSelectionNote: "These are the plans that made the most sense for most of our clients and dentists over years of real-world interactions. You are welcome to browse other available plans if they better fit your needs.",
 
-    source1BlockTitle: "✅ Elevate Wellness Association",
-    source1BlockSubtitle: "For U.S. Citizens & Permanent Residents",
-    source1BlockIntro: "If you are a U.S. Citizen or Green Card holder, this is usually the best place to start. This source includes Delta PPO options with broad nationwide access, plus MetLife PPO Platinum (with a major-services waiting period).",
+    planSelectionNote: "We specialize in choosing plans with no waiting period only. These are the plans that made the most sense for most of our clients and dentists over years of real-world interactions. You are welcome to browse other available plans if they better fit your needs.",
+
+    source1BlockTitle: "✅ Option 1: Elevate Wellness Association",
+    source1BlockSubtitle: "Availible For U.S. Citizens & Permanent Residents only",
+    source1BlockIntro: "If you are a U.S. Citizen or Green Card holder, this is usually the best place to start. This source includes Delta Dental PPO options with broad nationwide access, plus MetLife PPO Platinum (with a major-services waiting period).",
     source1BlockCities: [
-      "Trusted dentist network locations: New York • Philadelphia • Miami • San Francisco • Chicago • and more",
-      "Ask us if you need a referral in your area"
+    
     ],
     source1DeltaTitle: "🔹 Delta Dental PPO 1500",
     source1MetlifeTitle: "🔹 MetLife PPO Platinum (PDP Network)",
     source1GetPlanNote: "Source 1 enrollment link (EWA / Corenroll): brokerexchanges.com/jbarinova",
 
-    source2BlockTitle: "✅ Morgan White",
-    source2BlockIntro: "Delta Dental plans via Morgan White / Benefits Association.<br>📍 Available ONLY in: AL, CA, DC, DE, FL, GA, NV, PA, TX<br>🚫 No U.S. citizenship or Green Card required",
+    source2BlockTitle: "✅ Morgan White Group plans",
+    source2BlockIntro: "Morgan White 2 Delta dental plans availible",
     source2NoWaitTitle: "🔹 Delta Dental No Wait",
     source2PremierTitle: "🔹 Delta Dental Immediate Coverage (PPO / Premier)",
     source2GetPlanNote: "Source 2 enrollment link (Morgan White): brokers.insuranceforeveryone.com",
 
-    source3BlockTitle: "✅ NCD Plans",
-    source3BlockIntro: "NCD Plans (MetLife association options): two plan tracks for straightforward self-service enrollment.",
-    source3BlockAvailability: [
-      "Available in most states (state restrictions apply)",
-      "Two options: Elite and Complete",
-      "Exact benefits and pricing depend on ZIP, age, and state"
-    ],
-    source3EliteTitle: "🔹 NCD Elite",
-    source3EliteHighlights: [
-      "Higher annual maximum compared to Complete",
-      "Designed for clients expecting broader major-service usage",
-      "Strong option when you want fuller protection beyond preventive-only needs"
-    ],
-    source3EliteCoverage: [
-      "✅ Preventive services included",
-      "✅ Basic services included",
-      "✅ Major services included (per plan terms)"
-    ],
-    source3ElitePricing: [
-      "Pricing starts around ~$62/month (individual)",
-      "Couple pricing typically starts around ~$124/month",
-      "Final premium is ZIP- and age-based"
-    ],
-    source3EliteBestFor: "Best for clients who expect larger treatment plans and want stronger overall annual protection.",
-    source3CompleteTitle: "🔹 NCD Complete",
-    source3CompleteHighlights: [
-      "Lower monthly premium than Elite",
-      "Balanced option for preventive + routine treatment needs",
-      "Good entry-level option for clients who still want major-service access"
-    ],
-    source3CompleteCoverage: [
-      "✅ Preventive services included",
-      "✅ Basic services included",
-      "✅ Major services included (per plan terms)"
-    ],
-    source3CompletePricing: [
-      "Pricing starts around ~$46.70/month (individual)",
-      "Couple pricing typically starts around ~$93.40/month",
-      "Final premium is ZIP- and age-based"
-    ],
-    source3CompleteBestFor: "Best for clients who want broader coverage at a lower starting premium than Elite.",
-    source3GetPlanNote: "Source 3 enrollment link (NCD): enrollment.ncd.com/939946",
 
     plansKeyFacts: [
-      "✔ No U.S. citizenship or residency requirement",
+      "✔ No U.S. citizenship or residency requirement, no SSN number",
       "📍 Available States: AL, CA, DC, DE, FL, GA, NV, PA, TX",
       "⏱ No waiting periods (coverage starts first day of enrolled month)",
-      "💳 Pay by bank account or credit card",
-      "📆 Monthly · Quarterly · Annual billing"
+    //   "💳 Pay by bank account or credit card",
+    //   "📆 Monthly · Quarterly · Annual billing"
     ],
-    considerationsTitle: "Considerations:",
-    costEstTitle: "Cost (est.):",
-    bestForTitle: "Best for you if:",
-    planLinkNote: "👉 Follow the plan link for exact quotes and full explanations of benefits and plan limitations.",
-    guardianDocsTitle: "Guardian PDF Documents",
-    guardianFaqPdf: "📄 Guardian_FAQ (PDF)",
-    guardianSelectAchieverPdf: "📄 Guardian_Select_Achiever (PDF)",
+    guardianDocsTitle: "Guardian Documents",
+    guardianFaqPdf: "📄 Guardian FAQ ",
+    guardianSelectAchieverPdf: "📄 Guardian Select Achiever",
+    noWaitDocsTitle: "No Wait Plan Documents",
+    noWaitSideBySidePdf: "📄 No Wait Plan — Side by Side (EN/RU)",
+    noWaitPpoLimitationEnPdf: "📄 No Wait Plan — PPO Limitations (EN)",
+    noWaitPpoLimitationRuPdf: "📄 No Wait Plan — PPO Limitations (RU)",
+    deltaDentalDocsTitle: "Delta Dental Documents",
+    deltaDentalFaqPdf: "📄 Delta Dental Morgan White FAQ (EN/RU)",
+    deltaDentalPpoLimitationsPdf: "📄 Delta Dental PPO Plus Premier — Plan Limitations (EN/RU)",
+    deltaDentalFaqColorPdf: "📄 Delta Dental FAQ (EN/RU)",
     supportRoutingTitle: "📞 SUPPORT, ADMINISTRATION, AND SELF-SERVICE",
     supportRoutingList: [
       "EWA/Corenroll: enrollment, plan administration, and account questions go through the EWA/Corenroll platform.",
@@ -117,7 +69,6 @@ Our main requirement is immediate or near-immediate access to major services, wh
       "NCD: plan administration and support go through NCD and the plan portal."
     ],
     selfServiceNote: "This page is structured for self-service. Please enroll through the matching source link and contact the same entity directly for administrative questions.",
-    coverage: "Coverage:",
 
     // Navigation
     navPlans: "Plans",
@@ -152,199 +103,138 @@ Our main requirement is immediate or near-immediate access to major services, wh
 
     // Delta Dental PPO 1500 (Source 1)
     deltaTitle: "🔹 Delta Dental PPO 1500",
-    deltaSubTitle: "⭐ NO WAITING PERIOD — IMPLANTS INCLUDED",
+    deltaSubTitle: "⭐ $1500 ANNUAL MAXIMUM — AVAILABLE IN ALL 50 STATES — NO WAITING PERIOD — IMPLANTS INCLUDED",
     deltaFeatures: [
-        "Immediate coverage for Preventive, Basic & Major services",
-        "Implants covered",
-        "Available in all 50 states",
-        "No waiting periods",
-        "No missing tooth exclusion",
+        { text: "Immediate coverage for 100% Preventive, 80% Basic & 50% Major services", sub: [
+            "100% Preventive – cleanings, exams, X-rays, fluoride",
+            "80% Basic – fillings, extractions, root canals (📌 Root canals are covered under Basic at 80% (in-network))",
+            "50% Major – crowns, implants, bridges, oral surgery"
+        ]},
+        "Implants covered: no waiting periods, no missing tooth exclusion",
+        "Prices from $59.50 - Individual to $161.25 - Full Family",
         "Large national Delta Dental PPO network"
     ],
-    deltaCoverage: [
-        "✅ 100% Preventive – cleanings, exams, X-rays, fluoride",
-        "✅ 80% Basic – fillings, extractions, root canals (📌 Root canals are covered under Basic at 80% (in-network))",
-        "✅ 50% Major – crowns, implants, bridges, oral surgery"
-    ],
-    deltaBenefit: [
-      "Annual Benefit: $1,500 per calendar year",
-      "Carryover benefit – part of unused funds may roll over"
-    ],
-    deltaPricing: [
-        "Monthly Premiums (includes $5 association fee):",
-        "$59.50 – Individual",
-        "$108.25 – Adult + Spouse",
-        "$100.75 – Adult + Children",
-        "$161.25 – Full Family"
-    ],
-    juliaRecommendationDelta: `⚠️ Things to Know: Not every dentist participates in the Delta PPO network. Out-of-network care may cost more.<br><br>💙 Julia’s Recommendation<br>A reliable, budget-friendly plan covering most dental needs — from cleanings to implants.<br>Excellent choice for individuals and families.<br><a href="/Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">👉 Full Plan Description 📄</a>`,
+    
+    juliaRecommendationDelta: `⚠️ Things to Know: Not every dentist participates in the Delta PPO network. Out-of-network care may cost more.<br><br>💙 Julia’s Recommendation<br>A reliable, budget-friendly plan covering most essential dental needs — from cleanings to implants.<br>Excellent choice for individuals and families.<br><a href="/Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">👉 Full Plan Description 📄</a>`,
 
     // MetLife PPO Platinum (Source 1)
     metlifeTitle: "🔹 MetLife PPO Platinum (PDP Network)",
-    metlifeWarning: "⚠️ IMPORTANT UPDATE: Starting January 1, 2026, this plan has a 12-month waiting period for Major services.<br>🚫 Not available in: AK, ID, LA, ME, MD, MT, NH, NM, OR, SD, WA",
-    metlifeNotAvailable: "🚫 Not available in: AK, ID, LA, ME, MD, MT, NH, NM, OR, SD, WA",
+    metlifeSubTitle: "⚠️ 12-MONTH WAITING PERIOD FOR MAJOR SERVICES — UP TO $3,000 ANNUAL MAX — NO MISSING TOOTH CLAUSE<br>🚫 Not available in: AK, ID, LA, ME, MD, MT, NH, NM, OR, SD, WA",
     metlifeFeatures: [
+        { text: "Coverage: 100% Preventive, 80% Basic & 50% Major (after waiting period)", sub: [
+            "100% Preventive – cleanings, exams, X-rays",
+            "80% Basic – fillings, extractions, deep cleaning, gum treatment",
+            "⏳ 50% Major – crowns, root canals, implants, bridges (after 12-month waiting period)"
+        ]},
         "High annual maximum – up to $3,000",
         "Low deductible – $25/person (ZIP-based)",
         "No missing tooth clause",
+        "No waiting period for: deep cleanings, simple & surgical extractions, basic services",
         "Widely accepted MetLife PDP network",
-        "No waiting period for: deep cleanings (periodontal), simple & surgical extractions, basic services"
+        "Prices from $96 (PA/OH) to $133 (San Francisco) / month"
     ],
-    metlifeCoverage: [
-        "✅ 100% Preventive",
-        "✅ 80% Basic – fillings, extractions, deep cleaning, gum treatment",
-        "⏳ 50% Major – crowns, root canals, implants, bridges (after 12-month waiting period)"
-    ],
-    metlifePricing: [
-        "Monthly Premiums (sample, ZIP-based):",
-        "$96 – PA / OH",
-        "$110 – NJ / Staten Island",
-        "$123 – NY / Chicago / Miami",
-        "$133 – San Francisco"
-    ],
-    juliaRecommendationMetlife: `⚠️ Things to Know: 12-month waiting period on implants & crowns. Implant approvals can be more complex.<br><br>💙 Julia’s Recommendation<br>Best if you:<br>need major work and plan to keep coverage long-term<br>need cleanings, deep cleanings, extractions now<br>your dentist accepts MetLife only (being in this plan will save you money)<br><a href="/MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">👉 Full Plan Description 📄</a>`,
+    juliaRecommendationMetlife: `⚠️ Things to Know: 12-month waiting period on implants & crowns. Implant approvals can be more complex.<br><br>💙 Julia's Recommendation<br>Best if you:<br>need major work and plan to keep coverage long-term<br>need cleanings, deep cleanings, extractions now<br>your dentist accepts MetLife only (being in this plan will save you money)<br><a href="/MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">👉 Full Plan Description 📄</a>`,
 
     // Source 2
     source2Title: "✅ SOURCE 2 Delta Dental Plans — Morgan White / Benefits Association",
     source2Desc: "📍 Available ONLY in: AL, CA, DC, DE, FL, GA, NV, PA, TX<br>🚫 No U.S. Citizenship or Green Card required<br>Credit cards accepted",
 
     // Delta Dental PPO / Premier (Source 2)
-    deltaPremierTitle: "🥈 Delta dental immidiate coveraje",
-    deltaPremierAnnualMax: "Annual Max: up to $3,000 / person",
-    deltaPremierNetworks: "PPO + Premier networks",
-    deltaPremierCoverageLine: "Covers crowns, root canals, surgery, bridges, dentures",
-    deltaPremierOrtho: "Children’s orthodontia included (with waiting period)",
+    deltaPremierSubTitle: "⭐ $3,000 ANNUAL MAX — PPO plus PREMIER NETWORKS — NO WAITING ON MAJOR — ❌ NO IMPLANTS",
     deltaPremierFeatures: [
-        "Highly respected Delta Dental PPO plus Premier networks (many dentists Favor Premier Network over PPO network)",
+        { text: "Coverage increases over time", sub: [
+            "Preventive: Year 1: 80% → Year 2: 90% → Year 3: 100%",
+            "Basic: Year 1: 60% → Year 2: 70% → Year 3: 80%",
+            "Major: 50% – crowns, root canals, oral surgery, bridges, dentures",
+            "🦷 Orthodontia (children only): 12-month wait, $1,500 lifetime max"
+        ]},
+        "PPO + Premier networks (many dentists prefer Premier network)",
         "Annual max up to $3,000",
         "Benefits increase over time",
         "No waiting period on: root canals, crowns, oral surgery, bridges & dentures",
-        "Children’s orthodontia included (to age 26, as a dependent)"
+        "Children's orthodontia included (to age 26, as a dependent)",
+        "❌ No implant coverage · Missing tooth clause applies",
+        "$100 deductible / person / year · $35 one-time enrollment fee",
+        "Prices from ~$55 (Individual) to ~$380 (Family) / month"
     ],
-    deltaPremierCoverage: [
-        "✅ Preventive: Routine exams, cleanings (Year 1: 80% → Year 2: 90% → Year 3: 100%)",
-        "✅ Basic: amalgam fillings, space maintainers, recementation of crowns (Year 1: 60% → Year 2: 70% → Year 3: 80%)",
-        "✅ Major: 50% (extractions and other oral surgery, crowns, root canals, bridges, dentures, their repairs)",
-        "🦷 Orthodontia (children): 12-month wait, $1,500 lifetime max, $500 annual max"
-    ],
-    deltaPremierLimitations: [
-        "❌ No implant coverage",
-        "⚠️ Missing tooth clause applies",
-        "Not available in all states",
-        "$100 deductible / person / year",
-        "One-time Morgan White enrollment fee: $35",
-        "Dentist reimbursement is based on Delta Dental PPO/Premier/non-network contracted fees"
-    ],
-    deltaPremierConsiderations: [
-      "$100 deductible per person / year · $35 one-time association fee",
-      "Implants not covered · availability varies by state"
-    ],
-    deltaPremierPricing: [
-      "Individual ~$55–130",
-      "Couple ~$100–260",
-      "Family ~$155–380 / month"
-    ],
-    deltaPremierBestFor: "You want a higher annual maximum and Premier-level dentists, and do not need implant coverage. May be combined with the implant plan if appropriate.",
-    juliaRecommendationDeltaPremier: `💙 Julia’s Recommendation<br>Best if you:<br>live in a covered state<br>are not a U.S. citizen or Green Card holder<br>need dental care other than implants<br><a href="#" class="plan-summary-link">👉 Full Plan Description 📄</a>`,
+    juliaRecommendationDeltaPremier: `💙 Julia's Recommendation<br>Best if you:<br>live in a covered state<br>are not a U.S. citizen or Green Card holder<br>need dental care other than implants<br><a href="#" class="plan-summary-link">👉 Full Plan Description 📄</a>`,
 
     // Delta Dental PPO — No Wait Plan (Source 2)
-    deltaNoWaitTitle: "🥇 Delta dental no wait",
-    deltaNoWaitAnnualMax: "Annual Max: up to $2,000 / person",
-    deltaNoWaitImplants: "Implants included",
-    deltaNoWaitCoverageLine: "Covers root canals, crowns, surgery, bridges",
-    deltaNoWaitNetwork: "Delta Dental PPO network",
-    deltaNoWaitSubTitle: "Immediate Coverage | No Waiting Periods",
+    deltaNoWaitSubTitle: "⭐ $2,000 ANNUAL MAX — IMPLANTS INCLUDED — NO WAITING PERIOD — DELTA DENTAL PPO",
     deltaNoWaitFeatures: [
-        "Delta Dental PPO",
+        { text: "Immediate coverage from Day One", sub: [
+            "Diagnostic & Preventive: Year 1: 80% → Year 2: 90% → Year 3: 100%",
+            "Basic: Year 1: 50% → Year 2: 60% → Year 3: 80%",
+            "Major (50%): root canals, periodontal, oral surgery, crowns, implants, bridges"
+        ]},
         "No waiting periods — coverage starts right away",
-        "Implants Covered",
-        "Missing Tooth Clause, except CA",
-        "Group plan through Benefits Association, Inc."
+        "Implants covered from Day One",
+        "Delta Dental PPO network",
+        "Missing tooth clause applies (except CA)",
+        "$100 deductible / person / year · $35 one-time enrollment fee",
+        "Prices from ~$40 (Individual) to ~$260 (Family) / month"
     ],
-    deltaNoWaitLimits: [
-        "Annual Maximum: $2,000 per person / calendar year",
-        "Deductible: $100 per person / year",
-        "Orthodontia: ❌ Not covered"
-    ],
-    deltaNoWaitConsiderations: [
-      "$100 deductible per person / year · $35 one-time association fee",
-      "Missing tooth clause applies to implants (except CA)"
-    ],
-    deltaNoWaitCoverage: [
-        "✅ Diagnostic & Preventive (Year 1: 80% -> Year 2: 90% -> Year 3: 100%)",
-        "🟡 Basic Services (fluoride treatment, bitewing X-rays, sealants, emergency palliative care, space maintainers) (Year 1: 50% -> Year 2: 60% -> Year 3: 80%)",
-        "🔴 Major Services — Covered from Day One (50% in Years 1, 2, and 3) - Includes: Root canals, Periodontal treatment, Oral surgery, Crowns, Implants, Bridges"
-    ],
-    deltaNoWaitPricing: [
-      "Individual ~$40–85",
-      "Couple ~$75–165",
-      "Family ~$110–260 / month"
-    ],
-    deltaNoWaitEligibility: [
-        "Adults 18+",
-        "Dependent children up to age 26"
-    ],
-    deltaNoWaitNotes: [
-        "❌ No orthodontic or cosmetic coverage",
-        "Reimbursement based on Delta Dental PPO / Premier / non-network contracted fees",
-        "Out-of-network dentists may result in higher out-of-pocket costs",
-        "Plan auto-renews unless cancelled"
-    ],
-    deltaNoWaitBestFor: "You need to start treatment immediately (including implants), do not qualify for Delta PPO 1500 (Elevate Wellness), or want to add this plan on top of another dental plan.",
+    juliaRecommendationNoWait: `⚠️ Things to Know: Missing tooth clause applies to implants (except CA). No orthodontic or cosmetic coverage.<br><br>💙 Julia's Recommendation<br>Best if you need to start treatment immediately (including implants), do not qualify for Delta PPO 1500 (Elevate Wellness), or want to add this plan on top of another dental plan.<br><a href="#" class="plan-summary-link">👉 Full Plan Description 📄</a>`,
 
     // Source 3
     source3Title: "✅ SOURCE 3 NCD Plans (Guardian & MetLife)",
     source3Desc: "Alternative, association-based dental options offered through NCD. Availability, pricing, and plan details vary by state, age, and ZIP code.",
 
-    // Guardian (Source 3)
-    guardianTitle: "🦷 Guardian Dental Plans (Ages 50+)",
-    guardianDesc: "Guardian offers individual dental plans designed for clients <strong>ages 50 and older</strong>.<br><strong>Not available in:</strong> AK, MA, MT, NM, NV, SD, VA, WY<br>⚠️ Missing tooth clause applies<br>❗ No family plans available",
+    // Guardian Dental Plans (50+) — Morgan White Benefits Association
+    guardianBlockTitle: "🔹 Guardian Dental Plans — For Clients Age 50+",
+    guardianBlockIntro: `These Guardian dental plans are offered through the Morgan White Benefits Association and are specifically designed for clients age 50 and older.<br>They provide predictable coverage, strong preventive benefits, and access to major dental care, with options with or without implant coverage.<br><br>Guardian plans for 50+ work well as primary dental insurance or as secondary coverage when clients want to supplement an existing plan.`,
+    guardianKeyFacts: [
+        "✔ No U.S. Citizenship Required",
+        "✔ No Green Card / Residency Requirement",
+        "👥 Eligibility: Clients age 50+ and their spouses",
+        "📍 Available in all states except: AK, MA, MO, NM, NV, NJ, VA, WY",
+        "⏱ No waiting period on major services",
+        "⚠️ Missing tooth clause applies",
+        "⚠️ No family plans available (individuals & couples only)"
+    ],
 
-    guardianAchieverTitle: "⭐ Guardian Select Achiever",
-    guardianAchieverHighlights: [
-        "Designed for clients 50+",
-        "No waiting period on major services",
-        "Implants included (up to $1,250 lifetime maximum; missing tooth clause applies)",
-        "Can be used as a standalone plan or secondary insurance"
+    // 🥇 Guardian Select Achiever — With Implant Coverage
+    guardianAchieverPlanTitle: "🥇 Guardian Select Achiever — With Implant Coverage",
+    guardianAchieverSubTitle: "⭐ $1,750 ANNUAL MAX — IMPLANTS INCLUDED — NO WAITING ON MAJOR — FOR CLIENTS 50+",
+    guardianAchieverFeatures: [
+        { text: "Coverage Overview", sub: [
+            "Preventive & Diagnostic: 100%",
+            "Basic Services: 70%",
+            "Major Services: 50%",
+            "Implants: up to $1,250 lifetime max (missing tooth clause applies)"
+        ]},
+        "Designed specifically for clients age 50+",
+        "Implants included from Day One",
+        "No waiting period on major procedures",
+        "Can be used as standalone plan or secondary insurance",
+        "Balanced coverage across preventive, basic, and major services",
+        "⚠️ Annual deductible: $50/person/year (may not apply to preventive in some states)",
+        "⚠️ Association enrollment fee: $35 one-time",
+        "⚠️ Missing tooth clause applies · No family plans available",
+        "Individual: ~$62/month · Couple: ~$124/month"
     ],
-    guardianAchieverLimits: [
-        "Annual Maximum: $1,750",
-        "Deductible: $50/person/year (does not apply to preventive in some states)"
-    ],
-    guardianAchieverCoverage: [
-        "✅ 100% Preventive & Diagnostic",
-        "✅ 70% Basic",
-        "✅ 50% Major"
-    ],
-    guardianAchieverPricing: [
-        "$62/month — Individual",
-        "$124/month — Couple"
-    ],
-    guardianAchieverRecommendation:
-        "💙 Julia’s Recommendation<br>Best Guardian option for clients 50+ who expect major dental work, including implants, or want the strongest overall coverage available in this age group.",
+    juliaRecommendationGuardianAchiever: `💙 Julia's Recommendation<br>Best for you if:<br>You are 50+, expect major dental work (including implants), or want the strongest Guardian dental coverage for your age group.<br>This plan works well as primary coverage or as secondary insurance.<br>👉 Follow the plan link for exact quotes and full explanations of benefits and plan limitations.`,
 
-    guardianCompleteTitle: "⭐ Guardian Select Complete",
-    guardianCompleteHighlights: [
-        "Designed for clients 50+",
+    // 🥈 Guardian Select Complete — No Implant Coverage
+    guardianCompletePlanTitle: "🥈 Guardian Select Complete — No Implant Coverage",
+    guardianCompleteSubTitle: "⭐ $1,000 ANNUAL MAX — NO WAITING ON MAJOR — STRONG PREVENTIVE — FOR CLIENTS 50+",
+    guardianCompleteFeatures: [
+        { text: "Coverage Overview", sub: [
+            "Preventive: 100%",
+            "Basic Services: 70%",
+            "Major Services: 40%"
+        ]},
+        "Designed specifically for clients age 50+",
         "No waiting period on major services",
-        "Best for preventive care with access to other procedures when needed",
-        "Suitable as primary or secondary coverage"
+        "Strong preventive coverage",
+        "Can be used as primary or secondary coverage",
+        "❌ Implants are not covered",
+        "⚠️ Association enrollment fee: $35 one-time",
+        "⚠️ Missing tooth clause applies · No family plans available",
+        "Individual: ~$46.70/month · Couple: ~$93.40/month (may vary by state)"
     ],
-    guardianCompleteLimits: [
-        "Annual Maximum: $1,000",
-        "❌ Implants not covered"
-    ],
-    guardianCompleteCoverage: [
-        "✅ 100% Preventive",
-        "✅ 70% Basic",
-        "✅ 40% Major"
-    ],
-    guardianCompletePricing: [
-        "$46.70/month — Individual",
-        "$93.40/month — Couple"
-    ],
-    guardianCompleteRecommendation:
-        "💙 Julia’s Recommendation<br>A good, budget-friendly choice for clients who primarily want preventive dental care, but value having coverage available for other procedures if needed.",
+    juliaRecommendationGuardianComplete: `💙 Julia's Recommendation<br>Best for you if:<br>You want excellent preventive dental coverage, are 50+, and prefer a lower monthly cost, while still having access to basic and major benefits if treatment becomes necessary.<br>👉 Follow the plan link for exact quotes and full explanations of benefits and plan limitations.`,
+
 
     // NCD
     ncdMetlifeTitle: "🔹 MetLife (NCD Plans)",
@@ -529,10 +419,7 @@ Our main requirement is immediate or near-immediate access to major services, wh
 
     },
         ru: {
-            // Hero section
-            // heroTitle: '🦷 СЧАСТЛИВАЯ УЛЫБКА СЕГОДНЯ: Стоматологическая страховка - всё покрыто с первого дня!',
-            // heroTitle: '🦷 Экономия с первой улыбки: уникальное покрытие без ожиданий!',
-            // heroTitle: '🦷 Стоматологическое покрытие «Все включено - улыбайся и экономь с первого дня!',
+            
             baner1: "ИМПЛАНТЫ, КОРОНКИ, КАНАЛЫ ПОКРЫТЫ с 1 дня",
             baner2: "БЕЗ ПЕРИОДА ОЖИДАНИЯ. ОТСУТСТВУЮЩИЙ ЗУБ-ОК",
             baner3: "от $55/мес",
@@ -560,7 +447,7 @@ Our main requirement is immediate or near-immediate access to major services, wh
             // Plans section
             planDiscussionTitle: "💬 Ваши проверенные стоматологи и хирурги рассказывают, почему они любят наши умные планы стоматологического страхования",
             plansTitle: "🦷 PLEASE REVIEW YOUR OPTIONS",
-            plansIntro: "Choosing dental insurance today depends on your status, location, and treatment needs. Below are carefully selected plans from different associations, each suited for specific situations.",
+            plansIntro: "Your Choice on dental solution will depent on imigrationt status, location and treatment needs. We carefully search and selected for you several distinct plan which suted for specific situation, pls carefully rewiev and make an educated Choice.",
             source1Title: "✅ ИСТОЧНИК 1 Elevate Wellness Association / Corenroll",
             source1Subtitle: "(Для граждан США и владельцев Green Card)",
             source1Desc: "Если вы гражданин США или обладатель Green Card, рекомендуем начать с наших проверенных планов через Elevate Wellness Association на платформе Corenroll.<br>Эти планы принимаются и рекомендуются сетью наших стоматологов в:<br>Нью-Йорке • Филадельфии • Майами • Сан-Франциско • Чикаго • и других городах<br>(Спросите нас о направлении к врачу в вашем регионе)",
@@ -574,62 +461,49 @@ Our main requirement is immediate or near-immediate access to major services, wh
                 "✔️ Минимум сюрпризов - можно заранее запросить оценку покрытия"
             ],
             
-            // MetLife section
-            metlifeWarning: "⚠️ <span class=\"attention-red\">ВНИМАНИЕ</span>: С 1 января план MetLife PPO 3000 (Platinum) вводит 12-месячный период ожидания для крупных процедур!",
             metlifeTitle: "🦷 MetLife PPO Platinum (PDP Network)",
-            metlifeNotAvailable: "🚫 Недоступен в: AK, ID, LA, ME, MD, MT, NH, NM, OR, SD, WA",
-            whyClientsLove: "Почему клиенты выбирают этот план:",
+            metlifeSubTitle: "⚠️ ПЕРИОД ОЖИДАНИЯ 12 МЕСЯЦЕВ ДЛЯ КРУПНЫХ ПРОЦЕДУР — ДО $3,000 ГОДОВОЙ МАКСИМУМ — НЕТ ИСКЛЮЧЕНИЯ ОТСУТСТВУЮЩИХ ЗУБОВ<br>🚫 Недоступен в: AK, ID, LA, ME, MD, MT, NH, NM, OR, SD, WA",
             metlifeFeatures: [
-                "Максимальное покрытие: $3,000 в год",
-                "Низкий ежегодный дедактибл: $25 на человека, $75 на семью",
-                // "Периода ожидания 12 месяцев для имплантов и коронок",
+                { text: "Покрытие: 100% Профилактика, 80% Базовые & 50% Major (после периода ожидания)", sub: [
+                    "100% Профилактика – чистка, рентген, осмотр, фтор",
+                    "80% Базовые – пломбы, удаление, лечение дёсен",
+                    "⏳ 50% Major – коронки, каналы, импланты, мосты (после 12-мес. ожидания)"
+                ]},
+                "Высокий годовой максимум – до $3,000",
+                "Низкий deductible – $25/чел (зависит от ZIP)",
                 "Покрытие отсутствующих зубов",
-                "Принимается широкой сетью (<a href='https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife' target='_blank' rel='noopener noreferrer'>MetLife PPO Dental – PDP Network</a>)",
-                "Детская ортодонтия до $2,000 lifetime (до 19 лет)"
-            ],
-	            metlifeWaitingPeriod: "Период ожидания 12 месяцев применяется к имплантам, коронкам, лечению каналов и другим крупным процедурам",
-	            coverage: "Покрытие:",
-	
-	            // Navigation
-	            navPlans: "Планы",
-	            navSource1: "Источник 1",
-		            navSource2: "Источник 2",
-		            navSource3: "Источник 3",
-		            navReviews: "Отзывы",
-		            navPartners: "Партнёры",
-		            navEducation: "Обучение",
-		            navCompare: "Сравнение",
-		            navEnroll: "Регистрация",
-		            navContact: "Контакты",
-	
-	            // Source 1 eligibility gate
-	            source1EligibilityTitle: "Проверка права (Источник 1)",
-	            source1EligibilityQuestion: "Вы гражданин США или постоянный резидент (Green Card)?",
-	            eligibilityYes: "Да",
-	            eligibilityNo: "Нет",
-		            source1BadgeAnswerRequired: "Нужен ответ",
-		            source1BadgeNotEligible: "Не подходит",
-		
-		            // Source 2 eligibility gate
-		            source2EligibilityTitle: "Проверка штата (Источник 2)",
-		            source2EligibilityQuestion: "Ваш штат: AL, CA, DC, DE, FL, GA, NV, PA, TX?",
-		            source2BadgeAnswerRequired: "Нужен ответ",
-		            source2BadgeNotEligible: "Недоступно",
-		            metlifeCoverage: [
-	                "✅ 100% – Профилактика (чистка, рентген, осмотр, фтор)",
-	                "✅ 80% – Базовые процедуры (пломбы, удаление, лечение дёсен)",
-                "✅ 50% – Крупные процедуры (импланты, коронки, каналы, мосты, протезы, хирургия)"
-            ],
-            monthlyPremiumsMetlife: "💰 Примерные ежемесячные стоимости, в зависимости от ZIP-кода (включая $5 членский взнос):",
-            monthlyPremiumsDelta: "💰 Примерные ежемесячные стоимости(включая $5 членский взнос):",
-            metlifePricing: [
-                "$96 – Пенсильвания, Огайо",
-                "$110 – Нью-Джерси, Стейтен-Айленд",
-                "$123 – Нью-Йорк, Чикаго, Майами",
-                "$133 – Сан-Франциско"
+                "Без периода ожидания для: глубокой чистки, удалений, базовых услуг",
+                "Широко принимаемая сеть MetLife PDP",
+                "Цены от $96 (PA/OH) до $133 (San Francisco) / месяц"
             ],
             juliaRecommendationMetlife: 'РЕКОМЕНДАЦИЯ ЮЛИИ: Подходит тем, кому нужно серьёзное стоматологическое лечение или у кого врач работает только с сетью MetLife. Обратите внимание - период ожидания 12 месяцев. <a href="/MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Полное описание плана 📄</a>',
-            
+
+            // Navigation
+            navPlans: "Планы",
+            navSource1: "Источник 1",
+            navSource2: "Источник 2",
+            navSource3: "Источник 3",
+            navReviews: "Отзывы",
+            navPartners: "Партнёры",
+            navEducation: "Обучение",
+            navCompare: "Сравнение",
+            navEnroll: "Регистрация",
+            navContact: "Контакты",
+
+            // Source 1 eligibility gate
+            source1EligibilityTitle: "Проверка права (Источник 1)",
+            source1EligibilityQuestion: "Вы гражданин США или постоянный резидент (Green Card)?",
+            eligibilityYes: "Да",
+            eligibilityNo: "Нет",
+            source1BadgeAnswerRequired: "Нужен ответ",
+            source1BadgeNotEligible: "Не подходит",
+
+            // Source 2 eligibility gate
+            source2EligibilityTitle: "Проверка штата (Источник 2)",
+            source2EligibilityQuestion: "Ваш штат: AL, CA, DC, DE, FL, GA, NV, PA, TX?",
+            source2BadgeAnswerRequired: "Нужен ответ",
+            source2BadgeNotEligible: "Недоступно",
+
             // Delta Dental section
             deltaTitle: "🔹 Delta Dental PPO 1500",
             deltaSubTitle: "⭐ БЕЗ ПЕРИОДА ОЖИДАНИЯ — ИМПЛАНТЫ ВКЛЮЧЕНЫ",
@@ -662,78 +536,48 @@ Our main requirement is immediate or near-immediate access to major services, wh
             source2Title: "✅ ИСТОЧНИК 2 Delta Dental планы — Morgan White / Benefits Association",
             source2Desc: "📍 Доступно ТОЛЬКО в: AL, CA, DC, DE, FL, GA, NV, PA, TX<br>🚫 Гражданство США или Green Card не требуется<br>✅ Оплата картой принимается",
 
-            deltaPremierTitle: "🥈 Delta dental immidiate coveraje",
+            deltaPremierSubTitle: "⭐ $3,000 ГОДОВОЙ МАКС — PPO + PREMIER СЕТИ — БЕЗ ОЖИДАНИЯ НА MAJOR — ❌ БЕЗ ИМПЛАНТОВ",
             deltaPremierFeatures: [
-                "Сети Delta Dental PPO + Premier (многие врачи предпочитают Premier)",
+                { text: "Покрытие увеличивается со временем", sub: [
+                    "Профилактика: Год 1: 80% → Год 2: 90% → Год 3: 100%",
+                    "Базовые: Год 1: 60% → Год 2: 70% → Год 3: 80%",
+                    "Major: 50% – коронки, каналы, хирургия, мосты, протезы",
+                    "🦷 Ортодонтия (дети): 12-мес. ожидание, $1,500 пожизненный лимит"
+                ]},
+                "PPO + Premier сети (многие врачи предпочитают Premier)",
                 "Годовой максимум до $3,000",
-                "Льготы увеличиваются со временем",
-                "Без периода ожидания для: лечения каналов, коронок, оральной хирургии, мостов и протезов",
-                "Ортодонтия для детей включена (как иждивенцы до 26 лет; период ожидания применяется)"
-            ],
-            deltaPremierCoverage: [
-                "✅ Профилактика: осмотры, чистки (Год 1: 80% → Год 2: 90% → Год 3: 100%)",
-                "✅ Базовые услуги: пломбы, space maintainers, фиксация коронок (Год 1: 60% → Год 2: 70% → Год 3: 80%)",
-                "✅ Major: 50% (удаления/оральная хирургия, коронки, каналы, мосты, протезы и ремонт)"
-            ],
-            deltaPremierLimitations: [
-                "❌ Импланты не покрываются",
-                "⚠️ Действует правило отсутствующего зуба (missing tooth clause)",
-                "Не во всех штатах",
-                "$100 deductible на человека в год",
-                "Единовременный сбор Morgan White: $35",
-                "Компенсация зависит от тарифов PPO / Premier / вне сети"
-            ],
-            deltaPremierPricing: [
-                "Индивидуально ~$55–130",
-                "Пара ~$100–260",
-                "Семья ~$155–380 / месяц"
+                "Без периода ожидания на: каналы, коронки, хирургию, мосты и протезы",
+                "Ортодонтия для детей включена (до 26 лет как иждивенец)",
+                "❌ Импланты не покрываются · Missing tooth clause",
+                "$100 deductible / чел / год · $35 регистрационный сбор",
+                "Цены от ~$55 (Индивидуально) до ~$380 (Семья) / месяц"
             ],
             juliaRecommendationDeltaPremier:
                 "💙 Рекомендация Юлии<br>Лучше всего, если вы:<br>живёте в доступном штате<br>не являетесь гражданином США/владельцем Green Card<br>вам нужно лечение, кроме имплантов",
 
-            deltaNoWaitTitle: "🥇 Delta dental no wait",
-            deltaNoWaitSubTitle: "Немедленное покрытие | Без периода ожидания",
+            deltaNoWaitSubTitle: "⭐ $2,000 ГОДОВОЙ МАКС — ИМПЛАНТЫ ВКЛЮЧЕНЫ — БЕЗ ОЖИДАНИЯ — DELTA DENTAL PPO",
             deltaNoWaitFeatures: [
-                "Delta Dental PPO",
+                { text: "Немедленное покрытие с первого дня", sub: [
+                    "Диагностика и профилактика: Год 1: 80% → Год 2: 90% → Год 3: 100%",
+                    "Базовые: Год 1: 50% → Год 2: 60% → Год 3: 80%",
+                    "Major (50%): каналы, пародонтология, хирургия, коронки, импланты, мосты"
+                ]},
                 "Без периода ожидания — покрытие начинается сразу",
-                "Импланты покрываются",
+                "Импланты покрываются с первого дня",
+                "Delta Dental PPO сеть",
                 "Missing tooth clause (кроме CA)",
-                "Групповой план через Benefits Association, Inc."
+                "$100 deductible / чел / год · $35 регистрационный сбор",
+                "Цены от ~$40 (Индивидуально) до ~$260 (Семья) / месяц"
             ],
-            deltaNoWaitLimits: [
-                "Годовой максимум: $2,000 на человека (календарный год)",
-                "Deductible: $100 на человека в год",
-                "Ортодонтия: ❌ не покрывается"
-            ],
-            deltaNoWaitCoverage: [
-                "✅ Диагностика и профилактика (Год 1: 80% → Год 2: 90% → Год 3: 100%)",
-                "🟡 Базовые услуги (Год 1: 50% → Год 2: 60% → Год 3: 80%)",
-                "🔴 Major услуги с первого дня (50% в годах 1–3): лечение каналов, пародонтология, хирургия/удаления, коронки, импланты, мосты/протезы и ремонт"
-            ],
-            deltaNoWaitPricing: [
-                "Индивидуально ~$40–85",
-                "Пара ~$75–165",
-                "Семья ~$110–260 / месяц"
-            ],
-            deltaNoWaitEligibility: [
-                "Взрослые 18+",
-                "Дети-иждивенцы до 26 лет"
-            ],
-            deltaNoWaitNotes: [
-                "❌ Ортодонтия и косметика не покрываются",
-                "Компенсация зависит от тарифов PPO / Premier / вне сети",
-                "Вне сети расходы могут быть выше",
-                "План продлевается автоматически, если не отменить"
-            ],
-            deltaNoWaitBestFor:
-                "Вам нужно начать лечение сразу (включая импланты), вы не подходите под Delta PPO 1500 (Elevate Wellness), или хотите добавить этот план поверх другого стоматологического плана.",
+            juliaRecommendationNoWait:
+                "⚠️ Обратите внимание: Missing tooth clause на импланты (кроме CA). Ортодонтия и косметика не покрываются.<br><br>💙 Рекомендация Юлии<br>Лучше всего, если вам нужно начать лечение сразу (включая импланты), вы не подходите под Delta PPO 1500 (Elevate Wellness), или хотите добавить этот план поверх другого.",
 
             source3Title: "✅ ИСТОЧНИК 3 NCD планы (Guardian & MetLife)",
             source3Desc:
                 "Альтернативные ассоциированные варианты стоматологического покрытия. Доступность, цена и детали зависят от штата, возраста и ZIP-кода.",
             guardianTitle: "🦷 Guardian Dental планы (50+)",
             guardianDesc:
-                "Индивидуальные планы для клиентов <strong>50+</strong>.<br><strong>Недоступно в:</strong> AK, MA, MT, NM, NV, SD, VA, WY<br>⚠️ Missing tooth clause применяется<br>❗ Семейные планы не доступны",
+                "Индивидуальные планы для клиентов <strong>50+</strong>.<br><strong>Недоступно в:</strong> AK, MA, MO, NM, NV, NJ, VA, WY<br>⚠️ Missing tooth clause применяется<br>❗ Семейные планы не доступны",
             guardianAchieverTitle: "⭐ Guardian Select Achiever",
             guardianAchieverHighlights: [
                 "Для клиентов 50+",
@@ -883,9 +727,7 @@ Our main requirement is immediate or near-immediate access to major services, wh
             ],
             browseOptions: "Просмотрите опции по ссылке <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong>. Выберите подходящую!",
             
-            // CTA Button
-            // cta: "ГОТОВЫ ПОСМОТРЕТЬ и ЗАРЕГИСТРИРОВАТЬСЯ - НАЖМИТЕ на кнопку",
-            // cta: "Get this plan ✅",
+            
             cta: "Получить этот план",
             cta2: "ГОТОВ ПОСМОТРЕТЬ И ЗАРЕГИСТРИРОВАТЬСЯ? ЖМИ ТУТ",
             ctaPaymentNote: "🔒 Безопасная регистрация. Способ оплаты зависит от выбранного плана.",
@@ -937,10 +779,7 @@ Our main requirement is immediate or near-immediate access to major services, wh
             <p>Вместе мы можем создать больше улыбок — с быстротой, экономией и удовлетворением!</p>
             <p> <a href="https://hihello.me/p/a92d8d05-9744-485f-97db-dd154c2b085b?preview" target="_blank" rel="noopener noreferrer">Свяжитесь с нами, чтобы узнать больше.</a></p>
             `,
-            // <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Свяжитесь с нами, чтобы узнать больше.</a></p>
             
-            // Disclaimer
-            // disclaimer: "⚠️ ДАННОЕ РЕЗЮМЕ ПОДГОТОВЛЕНО ИСКЛЮЧИТЕЛЬНО В ИНФОРМАЦИОННЫХ ЦЕЛЯХ ВАШИМ СТРАХОВЫМ БРОКЕРОМ ДЛЯ ОКАЗАНИЯ ПОМОЩИ В ПРОЦЕССЕ ВЫБОРА ПЛАНА. ПАЦИЕНТАМ НАСТОЯТЕЛЬНО РЕКОМЕНДУЕТСЯ ИЗУЧИТЬ ПОДРОБНЫЕ ДОКУМЕНТЫ ПЛАНА ДЛЯ ПОЛУЧЕНИЯ ИСЧЕРПЫВАЮЩЕЙ ИНФОРМАЦИИ О ПОКРЫТИИ, ОГРАНИЧЕНИЯХ И ИСКЛЮЧЕНИЯХ. ВСЕ ОБСУЖДЕНИЯ ПЛАНОВ ЛЕЧЕНИЯ, ОДОБРЕНИЯ ПОКРЫТИЯ И ОТВЕТСТВЕННОСТИ ЗА ОПЛАТУ ДОЛЖНЫ ПРОВОДИТЬСЯ НЕПОСРЕДСТВЕННО МЕЖДУ ВАМИ, ВАШИМ СТОМАТОЛОГОМ И СТРАХОВОЙ КОМПАНИЕЙ.",
             newDisclaimer: `<div class="rights-reserved">
             <h3>⚖️ Все права защищены</h3>
             <p>©️ 2025 Julia Barinova, Inc.</p>
@@ -1223,11 +1062,7 @@ Our main requirement is immediate or near-immediate access to major services, wh
           <p>Разом ми можемо створити більше посмішок — зі швидкістю, економією та задоволенням!</p>
           <p> <a href="https://hihello.me/p/a92d8d05-9744-485f-97db-dd154c2b085b?preview" target="_blank" rel="noopener noreferrer">Зв'яжіться з нами, щоб дізнатися більше.</a></p>
           `,
-          // <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Зв'яжіться з нами, щоб дізнатися більше.</a></p>
-              
-              // Disclaimer
-              // disclaimer: "⚠️ ЦЕ РЕЗЮМЕ ПІДГОТОВЛЕНО ВИКЛЮЧНО В ІНФОРМАЦІЙНИХ ЦІЛЯХ ВАШИМ СТРАХОВИМ БРОКЕРОМ ДЛЯ НАДАННЯ ДОПОМОГИ В ПРОЦЕСІ ВИБОРУ ПЛАНУ. ПАЦІЄНТАМ НАПОЛЕГЛИВО РЕКОМЕНДУЄТЬСЯ ВИВЧИТИ ДЕТАЛЬНІ ДОКУМЕНТИ ПЛАНУ ДЛЯ ОТРИМАННЯ ВИЧЕРПНОЇ ІНФОРМАЦІЇ ПРО ПОКРИТТЯ, ОБМЕЖЕННЯ ТА ВИКЛЮЧЕННЯ. УСІ ОБГОВОРЕННЯ ПЛАНІВ ЛІКУВАННЯ, СХВАЛЕННЯ ПОКРИТТЯ ТА ВІДПОВІДАЛЬНОСТІ ЗА ОПЛАТУ ПОВИННІ ПРОВОДИТИСЯ БЕЗПОСЕРЕДНЬО МІЖ ВАМИ, ВАШИМ СТОМАТОЛОГОМ ТА СТРАХОВОЮ КОМПАНІЄЮ.",
-                  // Disclaimer
+          
                    newDisclaimer: `<div class="rights-reserved">
                        <h3>⚖️ Всі права захищені</h3>
                        <p>©️ 2025 Julia Barinova, Inc.</p>
@@ -1262,39 +1097,7 @@ Our main requirement is immediate or near-immediate access to major services, wh
                        <p><strong>Ваша згода:</strong> Використовуючи наш сайт, ви погоджуєтесь з цим Повідомленням про конфіденційність.</p>
                        <p><strong>Зв'яжіться з нами:</strong> Якщо у вас є питання щодо цієї політики, будь ласка, зв'яжіться з Юлією Баріновою за телефоном <a href="tel:+13479228037">📞 347-922-8037</a> або електронною поштою <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
                    </div>`,
-              // newDisclaimer: `<div class="privacy-notice">
-              //     ⚠️ ЦЕ РЕЗЮМЕ ПІДГОТОВЛЕНО ВИКЛЮЧНО В ІНФОРМАЦІЙНИХ ЦІЛЯХ ВАШИМ СТРАХОВИМ БРОКЕРОМ ДЛЯ НАДАННЯ ДОПОМОГИ В ПРОЦЕСІ ВИБОРУ ПЛАНУ. ПАЦІЄНТАМ НАПОЛЕГЛИВО РЕКОМЕНДУЄТЬСЯ ВИВЧИТИ ДЕТАЛЬНІ ДОКУМЕНТИ ПЛАНУ ДЛЯ ОТРИМАННЯ ВИЧЕРПНОЇ ІНФОРМАЦІЇ ПРО ПОКРИТТЯ, ОБМЕЖЕННЯ ТА ВИКЛЮЧЕННЯ. УСІ ОБГОВОРЕННЯ ПЛАНІВ ЛІКУВАННЯ, СХВАЛЕННЯ ПОКРИТТЯ ТА ВІДПОВІДАЛЬНОСТІ ЗА ОПЛАТУ ПОВИННІ ПРОВОДИТИСЯ БЕЗПОСЕРЕДНЬО МІЖ ВАМИ, ВАШИМ СТОМАТОЛОГОМ ТА СТРАХОВОЮ КОМПАНІЄЮ.<br><br>
-                  
-              //     <h3>🛡️ Повідомлення про конфіденційність</h3>
-              //     <p><strong>Дата набрання чинності:</strong> 2025</p>
-              //     <p>Julia Barinova, Inc. («ми», «наш» або «нас») поважає вашу конфіденційність і зобов'язується захищати ваші особисті дані. Це Повідомлення про конфіденційність пояснює, як ми збираємо, використовуємо та захищаємо ваші дані, коли ви відвідуєте наш веб-сайт, надсилаєте форми або спілкуєтеся з нами.</p>
-              //     <h4>Що ми збираємо:</h4>
-              //     <p>Ми можемо збирати надані вами особисті дані, включаючи ваше ім'я, контактну інформацію та уподобання у страхуванні. Ми також збираємо неособисті дані, такі як тип браузера, IP-адреса та активність на сайті, в аналітичних цілях.</p>
-              //     <h4>Як ми використовуємо вашу інформацію:</h4>
-              //     <ul>
-              //         <li>Для відповіді на ваші запити</li>
-              //         <li>Для надання страхових пропозицій або допомоги в реєстрації</li>
-              //         <li>Для надсилання важливих оновлень та корисної інформації (ви можете відписатися в будь-який час)</li>
-              //         <li>Для покращення нашого веб-сайту та користувацького досвіту</li>
-              //     </ul>
-              //     <h4>Ми НЕ:</h4>
-              //     <ul>
-              //         <li>Продаємо або здаємо в оренду вашу особисту інформацію</li>
-              //         <li>Передаємо ваші дані третім особам без вашої згоди, за винятком випадків, передбачених законом або для виконання ваших запитів щодо страхування</li>
-              //     </ul>
-              //     <p><strong>Безпека даних:</strong> Ми застосовуємо стандартні галузеві заходи для захисту вашої інформації. Однак жодна передача даних через Інтернет не є на 100% безпечною.</p>
-              //     <p><strong>Файли cookie:</strong> Наш веб-сайт може використовувати файли cookie для більш зручного перегляду та базової аналітики.</p>
-              //     <p><strong>Ваша згода:</strong> Використовуючи наш сайт, ви погоджуєтесь з цим Повідомленням про конфіденційності.</p>
-              //     <p><strong>Зв'яжіться з нами:</strong> Якщо у вас є питання щодо цієї політики, будь ласка, зв'яжіться з Юлією Баріновою за телефоном  <a href="tel:+13479228037">📞 347-922-8037</a> або електронною поштою <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
-              // </div>
-              // <hr class="disclaimer-divider">
-              // <div class="rights-reserved">
-              //     <h3>⚖️ Всі права захищені</h3>
-              //     <p>©️ 2025 Julia Barinova, Inc.</p>
-              //     <p>Весь вміст цього веб-сайту, включаючи текст, графіку, логотипи, зображення та завантажувані матеріали, є власністю Julia Barinova, Inc. та захищений законами США та міжнародними законами про авторське право.</p>
-              //     <p>Несанкціоноване відтворення, розповсюдження або використання будь-якої частини цього веб-сайту суворо заборонено без попередньої письмової згоди.</p>
-              // </div>`,
-              // Partners section
+              
               partnersTitle: "🤝 Наші перевірені партнери - стоматологи",
               partnersTitle2: "Галерея стоматологічних фотографій",
               phoneLabel: "Тел:",
@@ -1304,11 +1107,10 @@ Our main requirement is immediate or near-immediate access to major services, wh
               saveContact: "Зберегти контакт"
           
           },
-          // Georgian (ka) and Uzbek (uz) translations to add to your existing translations object
+
 
           ka: {
-  // Hero section
-  // heroTitle: "🦷 ბედნიერი ღიმილი დღეს: «ყველაფერი შედის» - სტომატოლოგიური დაზღვევა, რომელიც მუშაობს: დაუყოვნებლივ! პირველ დღეს!",
+  
   heroTitle: "🦷 ბედნიერი ღიმილი დღეს: შეუერთდი სტომატოლოგიური დაზღვევის რევოლუციას - ლოდინის გარეშე, ზედმეტი სირთულეების გარეშე, მხოლოდ დაცვა.",
   baner1: "იმპლანტები, კრონები, არხები დაფარულია 1 დღიდან",
   baner2: "ლოდინის პერიოდის გარეშე. დაკარგული კბილი-კარგია",
@@ -1585,39 +1387,6 @@ Our main requirement is immediate or near-immediate access to major services, wh
           <p><strong>დაგვიკავშირდი:</strong> თუ კითხვები გაქვს ამ პოლიტიკის შესახებ, გთხოვ დაუკავშირდი იულია ბარინოვას <a href="tel:+13479228037">📞 347-922-8037</a> ან <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
       </div>`,
 
-  // newDisclaimer: `<div class="privacy-notice">
-  //     ეს რეზიუმე მომზადებულია მხოლოდ ინფორმაციული მიზნებისთვის შენი სადაზღვევო ბროკერის მიერ გეგმის არჩევის პროცესში დასახმარებლად. პაციენტებს მტკიცედ ურჩევთ გადახედონ დეტალურ გეგმის დოკუმენტებს ყოვლისმომცველი ინფორმაციისთვის დაფარვის, შეზღუდვებისა და გამონაკლისების შესახებ. ყველა განხილვა მკურნალობის გეგმების, დაფარვის მოწონებისა და გადახდის ვალდებულებების შესახებ უნდა მოხდეს უშუალოდ შენს, შენს სტომატოლოგ მომწოდებელსა და სადაზღვევო კომპანიას შორის.<br><br>
-      
-  //     <h3>🛡️ კონფიდენციალურობის შეტყობინება</h3>
-  //     <p><strong>ძალაში შესვლის თარიღი:</strong> 2025</p>
-  //     <p>Julia Barinova, Inc. («ჩვენ», «ჩვენი» ან «ნაცვლად») პატივს სცემს შენს კონფიდენციალურობას და ვალდებულია შენი პირადი ინფორმაციის დაცვაზე. ეს კონფიდენციალურობის შეტყობინება ახსნის, როგორ ვაგროვებთ, ვიყენებთ და ვიცავთ შენს მონაცემებს, როდესაც სტუმრობ ჩვენს ვებსაიტს, აგზავნი ფორმებს ან გვიკავშირდები.</p>
-  //     <h4>რას ვაგროვებთ:</h4>
-  //     <p>შეიძლება ვაგროვებდეთ პირად დეტალებს, რომლებსაც წარმოადგენ, მათ შორის შენს სახელს, საკონტაქტო ინფორმაციასა და სადაზღვევო პრეფერენციებს. ასევე ვაგროვებთ არაპირად მონაცემებს როგორიცაა ბრაუზერის ტიპი, IP მისამართი და საიტის აქტივობა ანალიტიკური მიზნებისთვის.</p>
-  //     <h4>როგორ ვიყენებთ შენს ინფორმაციას:</h4>
-  //     <ul>
-  //         <li>შენს კითხვებზე პასუხისთვის</li>
-  //         <li>სადაზღვევო კოტირებების ან რეგისტრაციის დახმარების მისაცემად</li>
-  //         <li>მნიშვნელოვანი განახლებებისა და სასარგებლო ინფორმაციის გასაგზავნად (შეიძლება ნებისმიერ დროს გამოიწერო)</li>
-  //         <li>ჩვენი ვებსაიტისა და მომხმარებლის გამოცდილების გასაუმჯობესებლად</li>
-  //     </ul>
-  //     <h4>ჩვენ არ ვაკეთებთ:</h4>
-  //     <ul>
-  //         <li>არ ვყიდით ან ვქირაობთ შენს პირად ინფორმაციას</li>
-  //         <li>არ ვუზიარებთ შენს მონაცემებს მესამე მხარეებს შენი თანხმობის გარეშე, გარდა იმ შემთხვევისა, როდესაც ეს კანონით იქნება მოთხოვნილი ან შენი სადაზღვევო მოთხოვნების შესრულებისთვის</li>
-  //     </ul>
-  //     <p><strong>მონაცემთა უსაფრთხოება:</strong> ვახორციელებთ ინდუსტრიის სტანდარტულ ღონისძიებებს შენი ინფორმაციის დასაცავად. თუმცა, ინტერნეტის მეშვეობით ვერცერთი გადაცემა 100% უსაფრთხო არ არის.</p>
-  //     <p><strong>ქუქიზ:</strong> ჩვენმა ვებსაიტმა შეიძლება გამოიყენოს ქუქიზ უფრო გლუვი დათვალიერების გამოცდილებისა და ბაზისური ანალიტიკისთვის.</p>
-  //     <p><strong>შენი თანხმობა:</strong> ჩვენი საიტის გამოყენებით, ეთანხმები ამ კონფიდენციალურობის შეტყობინებას.</p>
-  //     <p><strong>დაგვიკავშირდი:</strong> თუ კითხვები გაქვს ამ პოლიტიკის შესახებ, გთხოვ დაუკავშირდი იულია ბარინოვას <a href="tel:+13479228037">📞 347-922-8037</a> ან <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
-  // </div>
-  // <hr class="disclaimer-divider">
-  // <div class="rights-reserved">
-  //     <h3>⚖️ ყველა უფლება დაცულია</h3>
-  //     <p>©️ 2025 Julia Barinova, Inc.</p>
-  //     <p>ამ ვებსაიტზე არსებული ყველა მასალა — მათ შორის ტექსტი, გრაფიკა, ლოგოები, სურათები და ჩამოტვირთვადი მასალები — არის Julia Barinova, Inc.-ის საკუთრება და დაცულია ამერიკის და საერთაშორისო საავტორო უფლების კანონებით.</p>
-  //     <p>ამ ვებსაიტის ნებისმიერი ნაწილის უნებართვო რეპროდუქცია, განაწილება ან გამოყენება მკაცრად აკრძალულია წინასწარი წერილობითი თანხმობის გარეშე.</p>
-  // </div>`,
-  // Partners section
   partnersTitle: "ჩვენი სანდო სტრატეგიული სტომატოლოგი პარტნიორები",
   partnersTitle2: "სტომატოლოგიული ფოტოგალერია",
   phoneLabel: "ტელეფონი:",
@@ -1866,9 +1635,7 @@ Bizning asosiy talabimiz — mavjud bo‘lsa, major xizmatlarga darhol yoki deya
           <p>Birgalikda ko'proq tabassum yaratishimiz mumkin - tezlik, tejamkorlik va mamnunlik bilan!</p>
           <p> <a href="https://hihello.me/p/a92d8d05-9744-485f-97db-dd154c2b085b?preview" target="_blank" rel="noopener noreferrer">Ko'proq ma'lumot olish uchun bog'laning.</a></p>
           `,
-          // <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Ko'proq ma'lumot olish uchun bog'laning.</a></p>
-  
-  // Disclaimer
+          
       // Disclaimer
       newDisclaimer: `<div class="rights-reserved">
           <h3>⚖️ Barcha huquqlar himoyalangan</h3>
@@ -1905,39 +1672,6 @@ Bizning asosiy talabimiz — mavjud bo‘lsa, major xizmatlarga darhol yoki deya
           <p><strong>Biz bilan bog'laning:</strong> Agar bu siyosat haqida savollaringiz bo'lsa, iltimos Yuliya Barinova bilan bog'laning <a href="tel:+13479228037">📞 347-922-8037</a> yoki <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
       </div>`,
   
-  // newDisclaimer: `<div class="privacy-notice">
-  //     USHBU XULOSA FAQAT MA'LUMOT BERISH MAQSADLARI UCHUN SIZNING SUG'URTA BROKERINGIZ TOMONIDAN REJA TANLASH JARAYONIDA SIZGA YORDAM BERISH UCHUN TAYYORLANGAN. BEMORLARGA QOPLASH, CHEKLOVLAR VA ISTISNOLAR HAQIDA TO'LIQ MA'LUMOT OLISH UCHUN BATAFSIL REJA HUJJATLARINI KO'RIB CHIQISH TAVSIYA ETILADI. DAVOLASH REJALARI, QOPLASH TASDIQLARI VA TO'LOV MAS'ULIYATLARI HAQIDAGI BARCHA MUHOKAMALAR TO'G'RIDAN-TO'G'RI SIZ, SIZNING TISH DAVOLASH PROVAYDERINGIZ VA SUG'URTA KOMPANIYASI O'RTASIDA HAL QILINISHI KERAK.<br><br>
-      
-  //     <h3>🛡️ Maxfiylik haqida xabar</h3>
-  //     <p><strong>Kuchga kirish sanasi:</strong> 2025</p>
-  //     <p>Julia Barinova, Inc. ("biz," "bizning" yoki "bizni") sizning maxfiyligingizni hurmat qiladi va sizning shaxsiy ma'lumotlaringizni himoya qilishga majburdir. Ushbu maxfiylik haqida xabar biz sizning veb-saytimizga tashrif buyurganingizda, formalarni yuborgan yoki biz bilan muloqot qilganingizda ma'lumotlaringizni qanday yig'ishimiz, ishlatishimiz va himoya qilishimizni tushuntiradi.</p>
-  //     <h4>Biz nima yig'amiz:</h4>
-  //     <p>Biz siz bergan shaxsiy tafsilotlarni yig'ishimiz mumkin, shu jumladan sizning ismingiz, aloqa ma'lumotlari va sug'urta afzalliklari. Shuningdek, biz analitik maqsadlarda brauzer turi, IP manzili va sayt faolligi kabi shaxsiy bo'lmagan ma'lumotlarni yig'amiz.</p>
-  //     <h4>Ma'lumotlaringizni qanday ishlatamiz:</h4>
-  //     <ul>
-  //         <li>Sizning so'rovlaringizga javob berish uchun</li>
-  //         <li>Sug'urta takliflari yoki ro'yxatdan o'tish yordami berish uchun</li>
-  //         <li>Muhim yangilanishlar va foydali ma'lumotlarni yuborish uchun (istalgan vaqtda obunani bekor qilishingiz mumkin)</li>
-  //         <li>Veb-saytimiz va foydalanuvchi tajribasini yaxshilash uchun</li>
-  //     </ul>
-  //     <h4>Biz QILMAYMIZ:</h4>
-  //     <ul>
-  //         <li>Shaxsiy ma'lumotlaringizni sotmaymiz yoki ijaraga bermaymiz</li>
-  //         <li>Ma'lumotlaringizni uchinchi tomonlar bilan sizning roziligingiz holda bo'lmasdan baham ko'rmaymiz, qonun talablari yoki sizning sug'urta so'rovlaringizni bajarish uchun talab qilingan holatlar bundan mustasno</li>
-  //     </ul>
-  //     <p><strong>Ma'lumotlar xavfsizligi:</strong> Biz ma'lumotlaringizni himoya qilish uchun sanoat standartlaridagi chora-tadbirlarni amalga oshiramiz. Biroq, hech bir internet orqali uzatish 100% xavfsiz emas.</p>
-  //     <p><strong>Cookie-lar:</strong> Bizning veb-saytimiz silliqroq ko'rish tajribasi va asosiy tahlil uchun cookie-lardan foydalanishi mumkin.</p>
-  //     <p><strong>Sizning roziliringiz:</strong> Saytimizdan foydalanish orqali siz ushbu maxfiylik haqidagi xabarga rozi bo'lasiz.</p>
-  //     <p><strong>Biz bilan bog'laning:</strong> Agar bu siyosat haqida savollaringiz bo'lsa, iltimos Yuliya Barinova bilan bog'laning <a href="tel:+13479228037">📞 347-922-8037</a> yoki <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
-  // </div>
-  // <hr class="disclaimer-divider">
-  // <div class="rights-reserved">
-  //     <h3>⚖️ Barcha huquqlar himoyalangan</h3>
-  //     <p>©️ 2025 Julia Barinova, Inc.</p>
-  //     <p>Ushbu veb-saytdagi barcha kontent — shu jumladan matn, grafika, logotiplar, rasmlar va yuklab olish mumkin bo'lgan materiallar — Julia Barinova, Inc. mulki hisoblanadi va AQSh va xalqaro mualliflik huquqi qonunlari bilan himoyalangan.</p>
-  //     <p>Ushbu veb-saytning biron bir qismini ruxsatsiz ko'paytirish, tarqatish yoki foydalanish oldindan yozma rozilik holda qat'iyan taqiqlanadi.</p>
-  // </div>`,
-  // Partners section
   partnersTitle: "Bizning ishonchli strategik tish davolash hamkorlari",
   partnersTitle2: "Tish davolash rasmlari galeriyasi",
   phoneLabel: "Telefon:",
@@ -2185,8 +1919,7 @@ Nuestro requisito principal es acceso inmediato o casi inmediato a servicios May
           <p>¡Juntos, podemos hacer que más sonrisas sucedan — con velocidad, ahorros, y satisfacción!</p>
           <p> <a href="https://hihello.me/p/a92d8d05-9744-485f-97db-dd154c2b085b?preview" target="_blank" rel="noopener noreferrer">Contáctanos para saber más.</a></p>
           `,
-          // <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Contáctanos para saber más.</a></p>
-  // Disclaimer
+          
       // Disclaimer
       newDisclaimer: `<div class="rights-reserved">
           <h3>⚖️ Todos los Derechos Reservados</h3>
@@ -2223,40 +1956,6 @@ Nuestro requisito principal es acceso inmediato o casi inmediato a servicios May
           <p><strong>Contáctanos:</strong> Si tienes preguntas sobre esta política, por favor contacta a Julia Barinova al <a href="tel:+13479228037">📞 347-922-8037</a> o <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
       </div>`,
   
-  // newDisclaimer: `<div class="privacy-notice">
-  //     ESTE RESUMEN HA SIDO PREPARADO ÚNICAMENTE PARA PROPÓSITOS INFORMATIVOS POR TU CORREDOR DE SEGUROS PARA ASISTIRTE EN EL PROCESO DE SELECCIÓN DE PLAN. SE RECOMIENDA FUERTEMENTE A LOS PACIENTES QUE REVISEN LOS DOCUMENTOS DETALLADOS DEL PLAN PARA INFORMACIÓN COMPRENSIVA SOBRE COBERTURA, LIMITACIONES, Y EXCLUSIONES. TODAS LAS DISCUSIONES REFERENTES A PLANES DE TRATAMIENTO, APROBACIONES DE COBERTURA, Y RESPONSABILIDADES DE PAGO DEBEN SER MANEJADAS DIRECTAMENTE ENTRE TÚ, TU PROVEEDOR DENTAL, Y LA COMPAÑÍA DE SEGUROS.<br><br>
-      
-  //     <h3>🛡️ Aviso de Privacidad</h3>
-  //     <p><strong>Fecha Efectiva:</strong> 2025</p>
-  //     <p>Julia Barinova, Inc. ("nosotros," "nuestro," o "nos") respeta tu privacidad y está comprometida a proteger tu información personal. Este Aviso de Privacidad explica cómo recolectamos, usamos, y protegemos tus datos cuando visitas nuestro sitio web, envías formularios, o te comunicas con nosotros.</p>
-  //     <h4>Lo que Recolectamos:</h4>
-  //     <p>Podemos recolectar detalles personales que proporciones, incluyendo tu nombre, información de contacto, y preferencias de seguros. También recolectamos datos no personales como tipo de navegador, dirección IP, y actividad del sitio para propósitos analíticos.</p>
-  //     <h4>Cómo Usamos tu Información:</h4>
-  //     <ul>
-  //         <li>Para responder a tus consultas</li>
-  //         <li>Para proporcionar cotizaciones de seguros o asistencia de inscripción</li>
-  //         <li>Para enviar actualizaciones importantes e información útil (puedes cancelar suscripción en cualquier momento)</li>
-  //         <li>Para mejorar nuestro sitio web y experiencia del usuario</li>
-  //     </ul>
-  //     <h4>NO hacemos:</h4>
-  //     <ul>
-  //         <li>Vender o rentar tu información personal</li>
-  //         <li>Compartir tus datos con terceros sin tu consentimiento, excepto donde sea requerido por ley o para cumplir tus solicitudes de seguros</li>
-  //     </ul>
-  //     <p><strong>Seguridad de Datos:</strong> Implementamos medidas estándar de la industria para proteger tu información. Sin embargo, ninguna transmisión de internet es 100% segura.</p>
-  //     <p><strong>Cookies:</strong> Nuestro sitio web puede usar cookies para una experiencia de navegación más fluida y analíticos básicos.</p>
-  //     <p><strong>Tu Consentimiento:</strong> Al usar nuestro sitio, consientes a este Aviso de Privacidad.</p>
-  //     <p><strong>Contáctanos:</strong> Si tienes preguntas sobre esta política, por favor contacta a Julia Barinova al <a href="tel:+13479228037">📞 347-922-8037</a> o <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
-  // </div>
-  // <hr class="disclaimer-divider">
-  // <div class="rights-reserved">
-  //     <h3>⚖️ Todos los Derechos Reservados</h3>
-  //     <p>©️ 2025 Julia Barinova, Inc.</p>
-  //     <p>Todo el contenido en este sitio web — incluyendo texto, gráficos, logos, imágenes, y materiales descargables — es propiedad de Julia Barinova, Inc. y protegido por leyes de derechos de autor de EE.UU. e internacionales.</p>
-  //     <p>La reproducción, distribución, o uso no autorizado de cualquier parte de este sitio web está estrictamente prohibido sin consentimiento escrito previo.</p>
-  // </div>`,
-
-  // Partners section
   partnersTitle: "Nuestros socios dentales estratégicos de confianza",
   partnersTitle2: "Galería de Fotos de Odontología",
   phoneLabel: "Teléfono:",
@@ -2268,3 +1967,50 @@ Nuestro requisito principal es acceso inmediato o casi inmediato a servicios May
       };
 
 export const SUPPORTED_LANGUAGES = Object.freeze(Object.keys(translations));
+
+
+
+    // --- NCD / Source 3 (commented out) ---
+    // source3BlockTitle: "✅ NCD Plans",
+    // source3BlockIntro: "NCD Plans (MetLife association options): two plan tracks for straightforward self-service enrollment.",
+    // source3BlockAvailability: [
+    //   "Available in most states (state restrictions apply)",
+    //   "Two options: Elite and Complete",
+    //   "Exact benefits and pricing depend on ZIP, age, and state"
+    // ],
+    // source3EliteTitle: "🔹 NCD Elite",
+    // source3EliteHighlights: [
+    //   "Higher annual maximum compared to Complete",
+    //   "Designed for clients expecting broader major-service usage",
+    //   "Strong option when you want fuller protection beyond preventive-only needs"
+    // ],
+    // source3EliteCoverage: [
+    //   "✅ Preventive services included",
+    //   "✅ Basic services included",
+    //   "✅ Major services included (per plan terms)"
+    // ],
+    // source3ElitePricing: [
+    //   "Pricing starts around ~$62/month (individual)",
+    //   "Couple pricing typically starts around ~$124/month",
+    //   "Final premium is ZIP- and age-based"
+    // ],
+    // source3EliteBestFor: "Best for clients who expect larger treatment plans and want stronger overall annual protection.",
+    // source3CompleteTitle: "🔹 NCD Complete",
+    // source3CompleteHighlights: [
+    //   "Lower monthly premium than Elite",
+    //   "Balanced option for preventive + routine treatment needs",
+    //   "Good entry-level option for clients who still want major-service access"
+    // ],
+    // source3CompleteCoverage: [
+    //   "✅ Preventive services included",
+    //   "✅ Basic services included",
+    //   "✅ Major services included (per plan terms)"
+    // ],
+    // source3CompletePricing: [
+    //   "Pricing starts around ~$46.70/month (individual)",
+    //   "Couple pricing typically starts around ~$93.40/month",
+    //   "Final premium is ZIP- and age-based"
+    // ],
+    // source3CompleteBestFor: "Best for clients who want broader coverage at a lower starting premium than Elite.",
+    // source3GetPlanNote: "Source 3 enrollment link (NCD): enrollment.ncd.com/939946",
+    // --- end NCD ---
