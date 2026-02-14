@@ -11,7 +11,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vite": "^7.0.5"
+    "vite": "^7.0.5",
+    "vite-plugin-html": "^3.2.2"
   },
   "dependencies": {
     "embla-carousel": "^8.6.0",

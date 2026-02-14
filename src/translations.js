@@ -37,12 +37,38 @@ export const translations = {
     source1MetlifeTitle: "🔹 MetLife PPO Platinum (PDP Network)",
     source1GetPlanNote: "Source 1 enrollment link (EWA / Corenroll): brokerexchanges.com/jbarinova",
 
+    // After Enrollment — Source 1 (CorEnroll / EWA)
+    source1AfterEnrollTitle: "📋 After Enrollment — What to Expect (CorEnroll / EWA Plans)",
+    source1AfterEnrollCarrier: `These plans are serviced by <strong>Delta Dental of Connecticut</strong> and <strong>MetLife</strong>. Regardless of where you live, the plan sponsor state is Connecticut — this does not affect your coverage or network access nationwide.`,
+    source1AfterEnrollSteps: [
+        "Once enrolled through CorEnroll, you can create your personal account at <a href='https://corenroll.com' target='_blank' rel='noopener noreferrer'>corenroll.com</a> or in the CorEnroll mobile app to: view plan documents, explore additional benefits, and contact your representative.",
+        "Coverage starts on the 1st of the month (if enrolled by the 20th of the prior month).",
+        "Your information may appear in the carrier system by mid-month — schedule your first visit after that for smooth verification.",
+    ],
+    source1AfterEnrollTracking: `To track claims and EOBs, create an account with <strong>MetLife</strong> (<a href='https://metlife.com' target='_blank' rel='noopener noreferrer'>metlife.com</a>) or <strong>Delta Dental</strong> once your enrollment is active (usually by the 10th–15th of the month).`,
+    source1AfterEnrollNote: `<strong>Important:</strong> We are not in a position to discuss your specific benefits with dental providers on your behalf. Below are the carrier contact numbers — they will be able to assist you directly with any coverage or claims questions.
+<br>🔹 <strong>Delta Dental of Connecticut:</strong> 1-800-452-9310
+<br>🔹 <strong>MetLife Dental:</strong> 1-800-275-4638`,
+
     source2BlockTitle: "✅ Morgan White Group plans",
     source2BlockIntro: "Morgan White 2 Delta dental plans availible",
     source2NoWaitTitle: "🔹 Delta Dental No Wait",
     source2PremierTitle: "🔹 Delta Dental Immediate Coverage (PPO / Premier)",
     source2GetPlanNote: "Source 2 enrollment link (Morgan White): brokers.insuranceforeveryone.com",
 
+    // After Enrollment — Source 2 (Morgan White)
+    source2AfterEnrollTitle: "📋 After Enrollment — What to Expect (Morgan White Plans)",
+    source2AfterEnrollCarrier: `These Delta Dental plans are serviced by <strong>Delta Dental of Georgia</strong>. Guardian plans are serviced by <strong>Guardian</strong>. Regardless of where you live, the plan sponsor state is Georgia — this does not affect your coverage or network access in your state.`,
+    source2AfterEnrollSteps: [
+        "You will receive your enrollment package upon completion of enrollment and payment of applicable premiums/enrollment fees, or a few days prior to the selected effective date.",
+        "The enrollment package will include your Certificate of Coverage and I.D. cards, sent via email from <strong>noreply@morganwhite.com</strong>.",
+        "The one-time non-refundable enrollment fee, plus your first month's premium, is due at time of enrollment. Bank/Savings account — please allow up to 3 business days to process. Credit/Debit Card — will be taken immediately.",
+        "On your bank/credit card statement, the charge will appear as: <strong>Insurance 8888593795</strong>.",
+    ],
+    source2AfterEnrollBilling: `<strong>Key Contacts:</strong>
+<br>🔹 <strong>Billing questions & plan changes:</strong> Call Morgan White Group at <strong>1-877-759-5726</strong>, or log into the Client Portal at <a href='https://my.mwadmin.com' target='_blank' rel='noopener noreferrer'>my.mwadmin.com</a>. You may also email <a href='mailto:individualchanges@morganwhite.com'>individualchanges@morganwhite.com</a>.
+<br>🔹 <strong>Eligibility & benefits:</strong> Contact Delta Dental at <strong>1-877-759-5726</strong>.`,
+    source2AfterEnrollNote: `<strong>Important:</strong> We are not in a position to discuss your specific benefits with dental providers on your behalf. Please use the contact numbers above — the carrier and administrator will assist you directly with coverage, claims, and any plan changes.`,
 
     plansKeyFacts: [
       "✔ No U.S. citizenship or residency requirement, no SSN number",
