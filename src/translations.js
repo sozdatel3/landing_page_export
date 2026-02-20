@@ -27,14 +27,14 @@ export const translations = {
 
     planSelectionNote: "We specialize in choosing plans with no waiting period only. These are the plans that made the most sense for most of our clients and dentists over years of real-world interactions. You are welcome to browse other available plans if they better fit your needs.",
 
-    source1BlockTitle: "✅ Option 1: Elevate Wellness Association",
-    source1BlockSubtitle: "Availible For U.S. Citizens & Permanent Residents only",
-    source1BlockIntro: "If you are a U.S. Citizen or Green Card holder, this is usually the best place to start. This source includes Delta Dental PPO options with broad nationwide access, plus MetLife PPO Platinum (with a major-services waiting period).",
+    source1BlockTitle: "ELEVATE WELLNESS ASSOCIATION",
+    source1BlockSubtitle: "(U.S. Citizens & Green Card Holders Only)",
+    source1BlockIntro: "Nationwide PPO dental coverage plus access to Vision, Life, Critical Illness, Accident, and supplemental health benefits.<br>Association membership required: $5 per month.",
     source1BlockCities: [
     
     ],
-    source1DeltaTitle: "🔹 Delta Dental PPO 1500",
-    source1MetlifeTitle: "🔹 MetLife PPO Platinum (PDP Network)",
+    source1DeltaTitle: "Delta Dental PPO 1500",
+    source1MetlifeTitle: "MetLife PPO Platinum",
     source1GetPlanNote: "Source 1 enrollment link (EWA / Corenroll): brokerexchanges.com/jbarinova",
 
     // After Enrollment — Source 1 (CorEnroll / EWA)
@@ -50,10 +50,10 @@ export const translations = {
 <br>🔹 <strong>Delta Dental of Connecticut:</strong> 1-800-452-9310
 <br>🔹 <strong>MetLife Dental:</strong> 1-800-275-4638`,
 
-    source2BlockTitle: "✅ Morgan White Group plans",
-    source2BlockIntro: "Morgan White 2 Delta dental plans availible",
-    source2NoWaitTitle: "🔹 Delta Dental No Wait",
-    source2PremierTitle: "🔹 Delta Dental Immediate Coverage (PPO / Premier)",
+    source2BlockTitle: "MORGAN WHITE PLANS",
+    source2BlockIntro: "Open to everyone (no citizenship or Green Card requirement). Vision plans available. State eligibility applies.",
+    source2NoWaitTitle: "Delta Dental PPO No Wait",
+    source2PremierTitle: "Delta Dental PPO Plus Premier",
     source2GetPlanNote: "Source 2 enrollment link (Morgan White): brokers.insuranceforeveryone.com",
 
     // After Enrollment — Source 2 (Morgan White)
@@ -129,137 +129,130 @@ export const translations = {
 
     // Delta Dental PPO 1500 (Source 1)
     deltaTitle: "🔹 Delta Dental PPO 1500",
-    deltaSubTitle: "⭐ $1500 ANNUAL MAXIMUM — AVAILABLE IN ALL 50 STATES — NO WAITING PERIOD — IMPLANTS INCLUDED",
+    deltaSubTitle: "$1,500 calendar year maximum. All 50 states. No waiting on major. Implants included. No missing tooth clause.",
     deltaFeatures: [
-        { text: "Immediate coverage for 100% Preventive, 80% Basic & 50% Major services", sub: [
-            "100% Preventive – cleanings, exams, X-rays, fluoride",
-            "80% Basic – fillings, extractions, root canals (📌 Root canals are covered under Basic at 80% (in-network))",
-            "50% Major – crowns, implants, bridges, oral surgery"
+        { text: "Coverage", sub: [
+            "100% Preventive - cleanings, exams, X-rays, fluoride",
+            "80% Basic - fillings, extractions, root canals",
+            "50% Major - crowns, bridges, implants, oral surgery"
         ]},
-        "Implants covered: no waiting periods, no missing tooth exclusion",
-        "Prices from $59.50 - Individual to $161.25 - Full Family",
-        "Large national Delta Dental PPO network"
+        "States: all 50 U.S. states",
+        "Plan sponsor: Delta Dental of NJ & CT (nationwide coverage regardless of residence)",
+        "Member portal: DeltaDentalCT.com",
+        "Implants included from day one",
+        "Waiting period: none",
+        "Missing tooth clause: none",
+        "Cost: from about $59/month single to about $161/month family"
     ],
     
-    juliaRecommendationDelta: `⚠️ Things to Know: Not every dentist participates in the Delta PPO network. Out-of-network care may cost more.<br><br>💙 Julia’s Recommendation<br>A reliable, budget-friendly plan covering most essential dental needs — from cleanings to implants.<br>Excellent choice for individuals and families.<br><a href="/Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">👉 Full Plan Description 📄</a>`,
+    juliaRecommendationDelta: `PDF: <a href="/Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Full Plan Description</a><br><br>Best for immediate coverage for virtually all dental needs, including implants. Ideal if your dentist is in-network and the $1,500 annual maximum fits expected treatment needs.`,
 
     // MetLife PPO Platinum (Source 1)
-    metlifeTitle: "🔹 MetLife PPO Platinum (PDP Network)",
-    metlifeSubTitle: "⚠️ 12-MONTH WAITING PERIOD FOR MAJOR SERVICES — UP TO $3,000 ANNUAL MAX — NO MISSING TOOTH CLAUSE<br>🚫 Not available in: AK, ID, LA, ME, MD, MT, NH, NM, OR, SD, WA",
+    metlifeTitle: "MetLife PPO Platinum",
+    metlifeSubTitle: "Up to $3,000 calendar year maximum. 12-month waiting period on major. No missing tooth clause.<br>Not available in: AK, ID, LA, ME, MD, MT, NH, NM, OR, SD, WA.",
     metlifeFeatures: [
-        { text: "Coverage: 100% Preventive, 80% Basic & 50% Major (after waiting period)", sub: [
-            "100% Preventive – cleanings, exams, X-rays",
-            "80% Basic – fillings, extractions, deep cleaning, gum treatment",
-            "⏳ 50% Major – crowns, root canals, implants, bridges (after 12-month waiting period)"
+        { text: "Coverage", sub: [
+            "100% Preventive - cleanings, exams, X-rays",
+            "80% Basic - fillings, extractions, periodontal treatment",
+            "50% Major (after 12 months) - crowns, root canals, oral surgery, implants"
         ]},
-        "High annual maximum – up to $3,000",
-        "Low deductible – $25/person (ZIP-based)",
-        "No missing tooth clause",
-        "No waiting period for: deep cleanings, simple & surgical extractions, basic services",
-        "Widely accepted MetLife PDP network",
-        "Prices from $96 (PA/OH) to $133 (San Francisco) / month"
+        "ZIP-based eligibility and pricing",
+        "Member portal: MetLife.com (typically available 7-15 days after effective date)",
+        "Missing tooth clause: none",
+        "Cost: about $96-$133/month",
+        "Low deductible"
     ],
-    juliaRecommendationMetlife: `⚠️ Things to Know: 12-month waiting period on implants & crowns. Implant approvals can be more complex.<br><br>💙 Julia's Recommendation<br>Best if you:<br>need major work and plan to keep coverage long-term<br>need cleanings, deep cleanings, extractions now<br>your dentist accepts MetLife only (being in this plan will save you money)<br><a href="/MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">👉 Full Plan Description 📄</a>`,
+    juliaRecommendationMetlife: `PDF: <a href="/MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Full Plan Description</a><br><br>Best for strong preventive and periodontal coverage from day one and a higher annual maximum for long-term major treatment planning.`,
 
     // Source 2
     source2Title: "✅ SOURCE 2 Delta Dental Plans — Morgan White / Benefits Association",
     source2Desc: "📍 Available ONLY in: AL, CA, DC, DE, FL, GA, NV, PA, TX<br>🚫 No U.S. Citizenship or Green Card required<br>Credit cards accepted",
 
     // Delta Dental PPO / Premier (Source 2)
-    deltaPremierSubTitle: "⭐ $3,000 ANNUAL MAX — PPO plus PREMIER NETWORKS — NO WAITING ON MAJOR — ❌ NO IMPLANTS",
+    deltaPremierSubTitle: "$3,000 annual maximum. No waiting on major. No implant coverage.<br>Available in: AL, CA, DC, DE, FL, GA, NV, PA, TX.",
     deltaPremierFeatures: [
-        { text: "Coverage increases over time", sub: [
-            "Preventive: Year 1: 80% → Year 2: 90% → Year 3: 100%",
-            "Basic: Year 1: 60% → Year 2: 70% → Year 3: 80%",
-            "Major: 50% – crowns, root canals, oral surgery, bridges, dentures",
-            "🦷 Orthodontia (children only): 12-month wait, $1,500 lifetime max"
+        { text: "Coverage", sub: [
+            "Up to 100% Preventive - cleanings, exams, X-rays",
+            "Up to 80% Basic - fillings, simple extractions",
+            "50% Major - crowns, bridges, dentures, oral surgery"
         ]},
-        "PPO + Premier networks (many dentists prefer Premier network)",
-        "Annual max up to $3,000",
-        "Benefits increase over time",
-        "No waiting period on: root canals, crowns, oral surgery, bridges & dentures",
-        "Children's orthodontia included (to age 26, as a dependent)",
-        "❌ No implant coverage · Missing tooth clause applies",
-        "$100 deductible / person / year · $35 one-time enrollment fee",
-        "Prices from ~$55 (Individual) to ~$380 (Family) / month"
+        "Implants: not covered",
+        "Waiting period: none",
+        "Missing tooth clause: applies (California exempt)",
+        "Cost: from about $55+/month",
+        "$100 deductible per year per person",
+        "$35 enrollment fee (non-refundable)",
+        "30-day cancellation required"
     ],
-    juliaRecommendationDeltaPremier: `💙 Julia's Recommendation<br>Best if you:<br>live in a covered state<br>are not a U.S. citizen or Green Card holder<br>need dental care other than implants<br><a href="#" class="plan-summary-link">👉 Full Plan Description 📄</a>`,
+    juliaRecommendationDeltaPremier: `PDF: <a href="/Delta Dental PPO Plus Premier Plan Limitations EN RU.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Full Plan Description</a><br><br>Best for immediate coverage for major procedures such as root canals, crowns, extractions, and bridges. Does not include implant coverage.`,
 
     // Delta Dental PPO — No Wait Plan (Source 2)
-    deltaNoWaitSubTitle: "⭐ $2,000 ANNUAL MAX — IMPLANTS INCLUDED — NO WAITING PERIOD — DELTA DENTAL PPO",
+    deltaNoWaitSubTitle: "$2,000 annual maximum. Implants included. No waiting.<br>Available in: AL, CA, DC, DE, FL, GA, NV, PA, TX.",
     deltaNoWaitFeatures: [
-        { text: "Immediate coverage from Day One", sub: [
-            "Diagnostic & Preventive: Year 1: 80% → Year 2: 90% → Year 3: 100%",
-            "Basic: Year 1: 50% → Year 2: 60% → Year 3: 80%",
-            "Major (50%): root canals, periodontal, oral surgery, crowns, implants, bridges"
+        { text: "Coverage", sub: [
+            "80-100% Preventive - cleanings, exams, X-rays",
+            "50-80% Basic - fillings, extractions",
+            "50% Major - root canals, crowns, implants, bridges, oral surgery"
         ]},
-        "No waiting periods — coverage starts right away",
-        "Implants covered from Day One",
-        "Delta Dental PPO network",
-        "Missing tooth clause applies (except CA)",
-        "$100 deductible / person / year · $35 one-time enrollment fee",
-        "Prices from ~$40 (Individual) to ~$260 (Family) / month"
+        "Implants: included",
+        "Waiting period: none",
+        "Missing tooth clause: applies (California exempt)",
+        "Cost varies by state",
+        "$100 deductible per year per person",
+        "$35 enrollment fee (non-refundable)",
+        "30-day cancellation required"
     ],
-    juliaRecommendationNoWait: `⚠️ Things to Know: Missing tooth clause applies to implants (except CA). No orthodontic or cosmetic coverage.<br><br>💙 Julia's Recommendation<br>Best if you need to start treatment immediately (including implants), do not qualify for Delta PPO 1500 (Elevate Wellness), or want to add this plan on top of another dental plan.<br><a href="#" class="plan-summary-link">👉 Full Plan Description 📄</a>`,
+    juliaRecommendationNoWait: `PDF: <a href="/No_Wait_Plan_PPO_Limitation_EN.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Full Plan Description</a><br><br>Best for immediate implant coverage and comprehensive dental treatment. Review the Missing Tooth Clause if outside California.`,
 
     // Source 3
     source3Title: "✅ SOURCE 3 NCD Plans (Guardian & MetLife)",
     source3Desc: "Alternative, association-based dental options offered through NCD. Availability, pricing, and plan details vary by state, age, and ZIP code.",
 
     // Guardian Dental Plans (50+) — Morgan White Benefits Association
-    guardianBlockTitle: "🔹 Guardian Dental Plans — For Clients Age 50+",
-    guardianBlockIntro: `These Guardian dental plans are offered through the Morgan White Benefits Association and are specifically designed for clients age 50 and older.<br>They provide predictable coverage, strong preventive benefits, and access to major dental care, with options with or without implant coverage.<br><br>Guardian plans for 50+ work well as primary dental insurance or as secondary coverage when clients want to supplement an existing plan.`,
+    guardianBlockTitle: "Guardian Plans (Age 50+)",
+    guardianBlockIntro: "Available in all states except: AK, MA, MD, NM, NV, NJ, VA, WY.",
     guardianKeyFacts: [
-        "✔ No U.S. Citizenship Required",
-        "✔ No Green Card / Residency Requirement",
-        "👥 Eligibility: Clients age 50+ and their spouses",
-        "📍 Available in all states except: AK, MA, MO, NM, NV, NJ, VA, WY",
-        "⏱ No waiting period on major services",
-        "⚠️ Missing tooth clause applies",
-        "⚠️ No family plans available (individuals & couples only)"
+        "Open to clients age 50+",
+        "No U.S. citizenship or Green Card requirement",
+        "No waiting period on major services",
+        "Missing tooth clause applies",
+        "No family plans (individual and couple enrollment only)"
     ],
 
     // 🥇 Guardian Select Achiever — With Implant Coverage
-    guardianAchieverPlanTitle: "🥇 Guardian Select Achiever — With Implant Coverage",
-    guardianAchieverSubTitle: "⭐ $1,750 ANNUAL MAX — IMPLANTS INCLUDED — NO WAITING ON MAJOR — FOR CLIENTS 50+",
+    guardianAchieverPlanTitle: "Guardian Select Achiever",
+    guardianAchieverSubTitle: "$1,750 annual maximum. Implants included. No waiting.",
     guardianAchieverFeatures: [
-        { text: "Coverage Overview", sub: [
-            "Preventive & Diagnostic: 100%",
-            "Basic Services: 70%",
-            "Major Services: 50%",
-            "Implants: up to $1,250 lifetime max (missing tooth clause applies)"
+        { text: "Coverage", sub: [
+            "100% Preventive - cleanings, exams, X-rays",
+            "70% Basic - fillings, extractions",
+            "50% Major - crowns, oral surgery, implants"
         ]},
-        "Designed specifically for clients age 50+",
-        "Implants included from Day One",
-        "No waiting period on major procedures",
-        "Can be used as standalone plan or secondary insurance",
-        "Balanced coverage across preventive, basic, and major services",
-        "⚠️ Annual deductible: $50/person/year (may not apply to preventive in some states)",
-        "⚠️ Association enrollment fee: $35 one-time",
-        "⚠️ Missing tooth clause applies · No family plans available",
-        "Individual: ~$62/month · Couple: ~$124/month"
+        "Implants: included",
+        "$1,250 lifetime implant cap",
+        "Missing tooth clause: applies",
+        "Cost varies by state",
+        "$50 deductible",
+        "$35 enrollment fee (non-refundable)"
     ],
-    juliaRecommendationGuardianAchiever: `💙 Julia's Recommendation<br>Best for you if:<br>You are 50+, expect major dental work (including implants), or want the strongest Guardian dental coverage for your age group.<br>This plan works well as primary coverage or as secondary insurance.<br>👉 Follow the plan link for exact quotes and full explanations of benefits and plan limitations.`,
+    juliaRecommendationGuardianAchiever: `PDF: <a href="/Guardian_Select_Achiever.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Full Plan Description</a><br><br>Best for clients 50+ seeking broad coverage including implants. Strong option as a secondary plan for major procedures.`,
 
     // 🥈 Guardian Select Complete — No Implant Coverage
-    guardianCompletePlanTitle: "🥈 Guardian Select Complete — No Implant Coverage",
-    guardianCompleteSubTitle: "⭐ $1,000 ANNUAL MAX — NO WAITING ON MAJOR — STRONG PREVENTIVE — FOR CLIENTS 50+",
+    guardianCompletePlanTitle: "Guardian Select Complete",
+    guardianCompleteSubTitle: "$1,250 annual maximum. No waiting. No implant coverage.",
     guardianCompleteFeatures: [
-        { text: "Coverage Overview", sub: [
-            "Preventive: 100%",
-            "Basic Services: 70%",
-            "Major Services: 40%"
+        { text: "Coverage", sub: [
+            "100% Preventive - cleanings, exams, X-rays",
+            "70% Basic - fillings, extractions",
+            "40% Major - crowns, oral surgery"
         ]},
-        "Designed specifically for clients age 50+",
-        "No waiting period on major services",
-        "Strong preventive coverage",
-        "Can be used as primary or secondary coverage",
-        "❌ Implants are not covered",
-        "⚠️ Association enrollment fee: $35 one-time",
-        "⚠️ Missing tooth clause applies · No family plans available",
-        "Individual: ~$46.70/month · Couple: ~$93.40/month (may vary by state)"
+        "Implants: not included",
+        "Waiting period: none",
+        "Cost: from about $46/month",
+        "$50 deductible",
+        "$35 enrollment fee (non-refundable)"
     ],
-    juliaRecommendationGuardianComplete: `💙 Julia's Recommendation<br>Best for you if:<br>You want excellent preventive dental coverage, are 50+, and prefer a lower monthly cost, while still having access to basic and major benefits if treatment becomes necessary.<br>👉 Follow the plan link for exact quotes and full explanations of benefits and plan limitations.`,
+    juliaRecommendationGuardianComplete: `PDF: <a href="/Guardian_FAQ.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Plan PDF</a><br><br>Best for affordable overall coverage for age 50+ with strong preventive and basic benefits, and 40% major coverage. Does not include implant coverage.`,
 
 
     // NCD
