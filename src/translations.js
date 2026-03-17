@@ -166,7 +166,7 @@ export const translations = {
     juliaRecommendationMetlife: `PDF: <a href="/MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Full Plan Description</a><br><br>Best for strong preventive and periodontal coverage from day one and a higher annual maximum for long-term major treatment planning.`,
 
     // Ameritas Dental Plans
-    ameritasTitle: "AMERITAS DENTAL PLANS",
+    ameritasTitle: "OTHER OPTIONS",
     ameritasIntro: `We’re working on adding more strong dental insurance options for you.
           
 Detailed reviews of Ameritas plans and NCD plans using the MetLife network are coming soon.
