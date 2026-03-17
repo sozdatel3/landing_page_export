@@ -167,8 +167,16 @@ export const translations = {
 
     // Ameritas Dental Plans
     ameritasTitle: "AMERITAS DENTAL PLANS",
-    ameritasIntro: `Ameritas offers one of the largest nationwide dental networks, with coverage available right away. While we continue updating and perfecting this page, you can explore their plan options through the link below.`,
-    ameritasCta: "Explore Ameritas Plans",
+    ameritasIntro: `We’re working on adding more strong dental insurance options for you.
+          
+Detailed reviews of Ameritas plans and NCD plans using the MetLife network are coming soon.
+          
+Meanwhile, feel free to browse these plans through the links below—and contact us if you’d like help choosing the right one. 
+          
+You will be able to study, chose and enroll into plans with these links.`,
+    ameritasCta: "Ameritas plans",
+    ncdLink: "NCD plans",
+    andSymbol: " and: ",
 
     // Source 2
     source2Title: "✅ SOURCE 2 Delta Dental Plans — Morgan White / Benefits Association",
@@ -558,6 +566,11 @@ export const translations = {
             juliaRecommendationDelta: 'РЕКОМЕНДАЦИЯ ЮЛИИ: Надёжный и доступный план для всей семьи. Поможет сохранить здоровье зубов по минимальной цене. <a href="/Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Полное описание плана 📄</a>',
 
             // Source 2 & 3 + Compare (new)
+            ameritasIntro: `Мы работаем над добавлением новых надежных вариантов стоматологического страхования для вас.\n\nПодробные обзоры планов Ameritas и NCD с использованием сети MetLife скоро появятся.\n\nА пока вы можете ознакомиться с этими планами по ссылкам ниже и связаться с нами, если вам нужна помощь в выборе подходящего плана.\n\nВы сможете изучить, выбрать и зарегистрироваться в планах по этим ссылкам.`,
+            ameritasCta: "планы Ameritas",
+            ncdLink: "планы NCD",
+            andSymbol: " и: ",
+
             source2Title: "✅ ИСТОЧНИК 2 Delta Dental планы — Morgan White / Benefits Association",
             source2Desc: "📍 Доступно ТОЛЬКО в: AL, CA, DC, DE, FL, GA, NV, PA, TX<br>🚫 Гражданство США или Green Card не требуется<br>✅ Оплата картой принимается",
 
@@ -901,7 +914,12 @@ export const translations = {
 	              coverage: "Покриття:",
 	
 	              // Navigation
-	              navPlans: "Плани",
+	              ameritasIntro: `Ми працюємо над додаванням нових надійних варіантів стоматологічного страхування для вас.\n\nДетальні огляди планів Ameritas та NCD з використанням мережі MetLife скоро з'являться.\n\nА поки ви можете ознайомитися з цими планами за посиланнями нижче і зв'язатися з нами, якщо вам потрібна допомога у виборі відповідного плану.\n\nВи зможете вивчити, вибрати та зареєструватися в планах за цими посиланнями.`,
+            ameritasCta: "плани Ameritas",
+            ncdLink: "плани NCD",
+            andSymbol: " та: ",
+
+            navPlans: "Плани",
 	              navSource1: "Джерело 1",
 		              navSource2: "Джерело 2",
 		              navSource3: "Джерело 3",
@@ -1187,7 +1205,12 @@ export const translations = {
 	  coverage: "დაფარვა:",
 	
 	  // Navigation
-	  navPlans: "პლანები",
+	  ameritasIntro: `ჩვენ ვმუშაობთ თქვენთვის უფრო ძლიერი სტომატოლოგიური დაზღვევის ვარიანტების დამატებაზე.\n\nAmeritas-ის გეგმების და NCD-ის გეგმების დეტალური მიმოხილვები MetLife-ის ქსელის გამოყენებით მალე იქნება ხელმისაწვდომი.\n\nმანამდე კი შეგიძლიათ გაეცნოთ ამ გეგმებს ქვემოთ მოცემული ბმულების საშუალებით და დაგვიკავშირდეთ, თუ გჭირდებათ დახმარება სწორი გეგმის არჩევაში.\n\nთქვენ შეძლებთ შეისწავლოთ, აირჩიოთ და დარეგისტრირდეთ გეგმებში ამ ბმულების საშუალებით.`,
+  ameritasCta: "Ameritas გეგმები",
+  ncdLink: "NCD გეგმები",
+  andSymbol: " და: ",
+
+  navPlans: "პლანები",
 	  navSource1: "წყარო 1",
 	  navSource2: "წყარო 2",
 	  navSource3: "წყარო 3",
@@ -1474,7 +1497,12 @@ Bizning asosiy talabimiz — mavjud bo‘lsa, major xizmatlarga darhol yoki deya
 	  coverage: "Qoplash:",
 	
 	  // Navigation
-	  navPlans: "Rejalar",
+	  ameritasIntro: `Biz siz uchun yanada kuchli stomatologik sug'urta variantlarini qo'shish ustida ishlayapmiz.\n\nAmeritas rejalari va MetLife tarmog'idan foydalanadigan NCD rejalari haqida batafsil ma'lumotlar yaqin orada e'lon qilinadi.\n\nXozircha quyidagi havolalar orqali ushbu rejalar bilan tanishishingiz va to'g'ri rejani tanlashda yordam kerak bo'lsa, biz bilan bog'lanishingiz mumkin.\n\nUshbu havolalar orqali rejalarni o'rganishingiz, tanlashingiz va ro'yxatdan o'tishingiz mumkin.`,
+  ameritasCta: "Ameritas rejalari",
+  ncdLink: "NCD rejalari",
+  andSymbol: " va: ",
+
+  navPlans: "Rejalar",
 	  navSource1: "Manba 1",
 	  navSource2: "Manba 2",
 	  navSource3: "Manba 3",
@@ -1758,7 +1786,12 @@ Nuestro requisito principal es acceso inmediato o casi inmediato a servicios May
 	  coverage: "Cobertura:",
 	
 	  // Navigation
-	  navPlans: "Planes",
+	  ameritasIntro: `Estamos trabajando en agregar más opciones de seguro dental sólidas para usted.\n\nPronto estarán disponibles revisiones detalladas de los planes de Ameritas y los planes de NCD que utilizan la red de MetLife.\n\nMientras tanto, no dude en consultar estos planes a través de los enlaces a continuación y contáctenos si desea ayuda para elegir el adecuado.\n\npodrá estudiar, elegir e inscribirse en los planes con estos enlaces.`,
+  ameritasCta: "planes Ameritas",
+  ncdLink: "planes NCD",
+  andSymbol: " y: ",
+
+  navPlans: "Planes",
 	  navSource1: "Fuente 1",
 	  navSource2: "Fuente 2",
 	  navSource3: "Fuente 3",

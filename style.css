@@ -670,6 +670,37 @@ ul[data-translate="sharedList"] {
 .center-button {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 25px 0;
+}
+
+.center-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 15px 0 25px 0;
+}
+
+.center-links a {
+    color: #0178d3;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 17px;
+    transition: color 0.3s ease;
+}
+
+.center-links a:hover {
+    color: #0e4f87;
+}
+
+.center-links span {
+    color: #333;
+    font-size: 17px;
+    font-weight: 500;
 }
 
 .cta-block {
