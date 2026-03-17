@@ -176,14 +176,15 @@ Meanwhile, feel free to browse these plans through the links below—and contact
 You will be able to study, chose and enroll into plans with these links.`,
     ameritasCta: "Ameritas plans",
     ncdLink: "NCD plans",
-    andSymbol: " and: ",
+    andSymbol: " and ",
 
     // Source 2
     source2Title: "✅ SOURCE 2 Delta Dental Plans — Morgan White / Benefits Association",
     source2Desc: "📍 Available ONLY in: AL, CA, DC, DE, FL, GA, NV, PA, TX<br>🚫 No U.S. Citizenship or Green Card required<br>Credit cards accepted",
 
     // Delta Dental PPO / Premier (Source 2)
-    deltaPremierSubTitle: "$3,000 annual maximum. No waiting on major. No implant coverage.<br>Available in: AL, CA, DC, DE, FL, GA, NV, PA, TX.",
+    deltaPremierSubTitle: `$3,000 annual maximum. No waiting on major. No implant coverage.
+Available in: AL, CA, DC, DE, FL, GA, NV, PA, TX.`,
     deltaPremierFeatures: [
         { text: "Coverage", sub: [
             "Up to 100% Preventive - cleanings, exams, X-rays",
@@ -201,7 +202,8 @@ You will be able to study, chose and enroll into plans with these links.`,
     juliaRecommendationDeltaPremier: `PDF: <a href="/Delta Dental PPO Plus Premier Plan Limitations EN RU.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Full Plan Description</a><br><br>Best for immediate coverage for major procedures such as root canals, crowns, extractions, and bridges. Does not include implant coverage.`,
 
     // Delta Dental PPO — No Wait Plan (Source 2)
-    deltaNoWaitSubTitle: "$2,000 annual maximum. Implants included. No waiting.<br>Available in: AL, CA, DC, DE, FL, GA, NV, PA, TX.",
+    deltaNoWaitSubTitle: `$2,000 annual maximum. Implants included. No waiting.
+Available in: AL, CA, DC, DE, FL, GA, NV, PA, TX.`,
     deltaNoWaitFeatures: [
         { text: "Coverage", sub: [
             "80-100% Preventive - cleanings, exams, X-rays",
