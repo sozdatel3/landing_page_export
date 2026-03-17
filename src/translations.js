@@ -165,6 +165,11 @@ export const translations = {
     ],
     juliaRecommendationMetlife: `PDF: <a href="/MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Full Plan Description</a><br><br>Best for strong preventive and periodontal coverage from day one and a higher annual maximum for long-term major treatment planning.`,
 
+    // Ameritas Dental Plans
+    ameritasTitle: "AMERITAS DENTAL PLANS",
+    ameritasIntro: `Ameritas offers one of the largest nationwide dental networks, with coverage available right away. While we continue updating and perfecting this page, you can explore their plan options through the link below.`,
+    ameritasCta: "Explore Ameritas Plans",
+
     // Source 2
     source2Title: "✅ SOURCE 2 Delta Dental Plans — Morgan White / Benefits Association",
     source2Desc: "📍 Available ONLY in: AL, CA, DC, DE, FL, GA, NV, PA, TX<br>🚫 No U.S. Citizenship or Green Card required<br>Credit cards accepted",
