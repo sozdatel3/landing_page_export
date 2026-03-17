@@ -3,7 +3,7 @@ export const DEFAULT_LANGUAGE = 'en';
 export const translations = {
   en: {
     // Hero section
-    heroTitle: "🦷 No-Waiting Dental Insurance — Why This Page Exists",
+    heroTitle: "🦷 No-Waiting Dental Insurance",
     baner1: "IMPLANTS, CROWNS, CANALS COVERED day 1",
     baner2: "NO WAITING PERIOD. MISSING TOOTH-OK",
     baner3: "from $55/mo",
