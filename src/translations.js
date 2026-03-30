@@ -20,10 +20,10 @@ export const translations = {
     plansIntro: "Your choice of dental solution will depend on immigration status, location and treatment needs. We carefully searched and selected several distinct plans for you which are suited for specific situations. Please review carefully and make an educated choice.",
     compareShortTitle: "🔍 Options availible on this site",
     compareShortList: [
-    "Ameritas Dental Plans",
-    "EWA/Corenroll: for U.S. citizens and permanent residents only; Delta Dental PPO 1500 + MetLife PPO Platinum.",
-    "Morgan White: no U.S. citizenship requirement; Delta Dental PPO no wait plan (covers implants) + Delta Dental immediate coverage PPO plus premier network + Guardian PPO (ages 50+). State restrictions applied - see below.",
-    "NCD Dental plans powered by MetLife"
+        "EWA/Corenroll: for U.S. citizens and permanent residents only; Delta Dental PPO 1500 + MetLife PPO Platinum.",
+        "Morgan White: no U.S. citizenship requirement; Delta Dental PPO no wait plan (covers implants) + Delta Dental immediate coverage PPO plus premier network + Guardian PPO (ages 50+). State restrictions applied - see below.",
+        "NCD Dental plans powered by MetLife no citizenship requirement",
+        "Ameritas Dental Plans no citizenship or SSN requirement",
     //   "NCD: two plan options, Elite and Complete, with broad state availability."
     ],
     planSelectionTitle: "How These Plans Were Selected",
