@@ -189,9 +189,10 @@ You will be able to study, chose and enroll into plans with these links:`,
 Available in: AL, CA, DC, DE, FL, GA, NV, PA, TX.`,
     deltaPremierFeatures: [
         { text: "Coverage", sub: [
-            "Up to 100% Preventive - cleanings, exams, X-rays",
-            "Up to 80% Basic - fillings, simple extractions",
-            "50% Major - crowns, bridges, dentures, oral surgery"
+            "Preventive: 80% year 1 / 90% year 2 / 100% year 3 - cleanings, exams, X-rays",
+            "Basic: 60% year 1 / 70% year 2 / 80% year 3 - fillings, simple extractions",
+            "Major: 50% year 1 / 50% year 2 / 50% year 3 - crowns, bridges, dentures, oral surgery",
+            "Orthodontia: 0% year 1 / 50% year 2 / 50% year 3"
         ]},
         "Implants: not covered",
         "Waiting period: none",
@@ -619,9 +620,10 @@ Available in: AL, CA, DC, DE, FL, GA, NV, PA, TX.`,
 Доступно в: AL, CA, DC, DE, FL, GA, NV, PA, TX.`,
             deltaPremierFeatures: [
                 { text: "Покрытие", sub: [
-                    "До 100% Профилактика — чистки, осмотры, рентген",
-                    "До 80% Базовые услуги — пломбы, простые удаления",
-                    "50% Major — коронки, мосты, протезы, хирургия"
+                    "Профилактика: 80% в 1-й год / 90% во 2-й год / 100% в 3-й год — чистки, осмотры, рентген",
+                    "Базовые услуги: 60% в 1-й год / 70% во 2-й год / 80% в 3-й год — пломбы, простые удаления",
+                    "Major: 50% в 1-й год / 50% во 2-й год / 50% в 3-й год — коронки, мосты, протезы, хирургия",
+                    "Ортодонтия: 0% в 1-й год / 50% во 2-й год / 50% в 3-й год"
                 ]},
                 "Импланты: не покрываются",
                 "Период ожидания: отсутствует",
